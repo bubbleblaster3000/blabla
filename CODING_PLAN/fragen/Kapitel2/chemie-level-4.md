@@ -1,4 +1,0 @@
-# �� Kapitel 2 - Level 4
-
----
-
