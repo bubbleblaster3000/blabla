@@ -23,7 +23,8 @@ Die Studierenden erwerben:
 - Verständnis der Arten chemischer Bindung
 - Zusammenhang zwischen Formel, Struktur und Eigenschaften
 - Sicherheit in quantitativer Anwendung chemischer Konzepte
-- Grundkenntnisse in: Thermochemie, Elektrochemie, Phasendiagramme, Lösungen, Reaktionskinetik, chemisches Gleichgewicht
+- Grundkenntnisse in: Thermochemie, Elektrochemie, Phasendiagramme,
+  Lösungen, Reaktionskinetik, chemisches Gleichgewicht
 
 ---
 
@@ -53,63 +54,79 @@ Die Studierenden erwerben:
 
 ### Kapitel 1: Aufbau der Atome & Periodensystem
 
-Protonen, Neutronen, Elektronen, Atomkern, Ordnungszahl, Massenzahl, Isotope, Perioden, Gruppen, Hauptgruppen, Nebengruppen, Metalle, Nichtmetalle, Halbmetalle
+Protonen, Neutronen, Elektronen, Atomkern, Ordnungszahl, Massenzahl,
+Isotope, Perioden, Gruppen, Hauptgruppen, Nebengruppen, Metalle,
+Nichtmetalle, Halbmetalle
 
 ### Kapitel 2: Elemente, Ionen & Mol-Konzept
 
-Elementnamen, Elementsymbole, Kationen, Anionen, Ionenladung, Mol, Avogadro-Zahl, molare Masse, Stoffmenge
+Elementnamen, Elementsymbole, Kationen, Anionen, Ionenladung, Mol,
+Avogadro-Zahl, molare Masse, Stoffmenge
 
 ### Kapitel 3: Chemische Gleichungen & Stöchiometrie
 
-Reaktionsgleichungen, Ausgleichen, Edukte, Produkte, Koeffizienten, Stoffmengenverhältnisse, Massenerhaltung
+Reaktionsgleichungen, Ausgleichen, Edukte, Produkte, Koeffizienten,
+Stoffmengenverhältnisse, Massenerhaltung
 
 ### Kapitel 4: Chemische Reaktionen & Empirische Formeln
 
-Reaktionstypen, Synthese, Analyse, Umsetzung, Summenformel, Molekülformel, Prozentuale Zusammensetzung
+Reaktionstypen, Synthese, Analyse, Umsetzung, Summenformel,
+Molekülformel, Prozentuale Zusammensetzung
 
 ### Kapitel 5: Lösungen & Konzentrationen
 
-Lösungsmittel, gelöster Stoff, Molarität, Massenanteil, Verdünnung, Sättigung, Löslichkeit
+Lösungsmittel, gelöster Stoff, Molarität, Massenanteil, Verdünnung,
+Sättigung, Löslichkeit
 
 ### Kapitel 6: Säuren & Basen (Grundlagen)
 
-Arrhenius-Definition, H⁺-Ionen, OH⁻-Ionen, Neutralisation, starke/schwache Säuren, starke/schwache Basen
+Arrhenius-Definition, H⁺-Ionen, OH⁻-Ionen, Neutralisation,
+starke/schwache Säuren, starke/schwache Basen
 
 ### Kapitel 7: Bohr-Modell & Elektronenkonfigurationen
 
-Energieniveaus, Schalen, Orbitale, Aufbauprinzip, Hund'sche Regel, Pauli-Prinzip, Valenzelektronen
+Energieniveaus, Schalen, Orbitale, Aufbauprinzip, Hund'sche Regel,
+Pauli-Prinzip, Valenzelektronen
 
 ### Kapitel 8: Ionische Bindung & Lewis-Strukturen
 
-Elektronenübertragung, Kationen, Anionen, Ionengitter, Gitterenergie, Elektronenpunkte, Oktettregel, Bindende/freie Elektronenpaare
+Elektronenübertragung, Kationen, Anionen, Ionengitter, Gitterenergie,
+Elektronenpunkte, Oktettregel, Bindende/freie Elektronenpaare
 
 ### Kapitel 9: Polarität & VSEPR-Modell
 
-Elektronegativität, polare Bindung, Dipolmoment, Molekülgeometrie, Elektronenpaar-Abstoßung, linear, trigonal, tetraedrisch
+Elektronegativität, polare Bindung, Dipolmoment, Molekülgeometrie,
+Elektronenpaar-Abstoßung, linear, trigonal, tetraedrisch
 
 ### Kapitel 10: Valenzbindung, Hybridisierung & MO-Theorie
 
-σ-Bindung, π-Bindung, sp³, sp², sp-Hybridisierung, bindende/antibindende MOs, Bindungsordnung
+σ-Bindung, π-Bindung, sp³, sp², sp-Hybridisierung,
+bindende/antibindende MOs, Bindungsordnung
 
 ### Kapitel 11: Thermodynamik & Reaktionsenthalpie
 
-Enthalpie ΔH, exotherm, endotherm, Hess'scher Satz, Bildungsenthalpie, Kalorimetrie, Gibbs-Energie, Entropie
+Enthalpie ΔH, exotherm, endotherm, Hess'scher Satz, Bildungsenthalpie,
+Kalorimetrie, Gibbs-Energie, Entropie
 
 ### Kapitel 12: Aggregatszustände & Phasendiagramme
 
-Fest, flüssig, gasförmig, Schmelzen, Sieden, Sublimation, Tripelpunkt, kritischer Punkt, Dampfdruckkurve
+Fest, flüssig, gasförmig, Schmelzen, Sieden, Sublimation, Tripelpunkt,
+kritischer Punkt, Dampfdruckkurve
 
 ### Kapitel 13: Kolligative Eigenschaften
 
-Siedepunktserhöhung, Gefrierpunktserniedrigung, osmotischer Druck, van't-Hoff-Faktor, Raoult'sches Gesetz
+Siedepunktserhöhung, Gefrierpunktserniedrigung, osmotischer Druck,
+van't-Hoff-Faktor, Raoult'sches Gesetz
 
 ### Kapitel 14: Säuren & Basen (Fortgeschritten)
 
-Brønsted-Lowry, Lewis-Säuren/Basen, pH-Wert, pOH, pKs, pKb, Puffersysteme, Henderson-Hasselbalch, Titrationskurven, Äquivalenzpunkt
+Brønsted-Lowry, Lewis-Säuren/Basen, pH-Wert, pOH, pKs, pKb,
+Puffersysteme, Henderson-Hasselbalch, Titrationskurven, Äquivalenzpunkt
 
 ### Kapitel 15: Elektrochemie, Redox & Elektrolyse
 
-Oxidation, Reduktion, Oxidationszahlen, galvanische Zelle, Elektrolysezelle, Standardpotential, Nernst-Gleichung, Faraday-Gesetze
+Oxidation, Reduktion, Oxidationszahlen, galvanische Zelle,
+Elektrolysezelle, Standardpotential, Nernst-Gleichung, Faraday-Gesetze
 
 ---
 
