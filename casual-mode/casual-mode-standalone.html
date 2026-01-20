@@ -925,33 +925,54 @@ class QuestionManager {
     return this.questions.length;
   }
 
-  filterByDifficulty(questions, targetDifficulty) {
-    const minDiff = Math.max(1, targetDifficulty - 1);
-    const maxDiff = Math.min(5, targetDifficulty + 1);
-    let filtered = questions.filter(q => 
-      q.difficulty >= minDiff && q.difficulty <= maxDiff
-    );
-    if (filtered.length === 0) {
-      filtered = questions.sort((a, b) => {
-        const diffA = Math.abs(a.difficulty - targetDifficulty);
-        const diffB = Math.abs(b.difficulty - targetDifficulty);
-        return diffA - diffB;
-      });
-    }
-    return filtered;
-  }
-
-  getRandomQuestion(excludeIds = [], targetDifficulty = 1) {
-    let availableQuestions = this.questions.filter(
-      q => !excludeIds.includes(q.id)
-    );
-    if (availableQuestions.length === 0) {
+  /**
+   * Holt die nächste Frage in sequentieller Reihenfolge
+   * Fragen sind bereits sortiert: Level 1 (1-150), Level 2 (151-300), etc.
+   * Gibt die erste noch nicht korrekt beantwortete Frage zurück
+   */
+  getNextQuestion(excludeIds = []) {
+    // Finde die erste Frage, die noch nicht korrekt beantwortet wurde
+    const nextQuestion = this.questions.find(q => !excludeIds.includes(q.id));
+    
+    if (!nextQuestion) {
       return null;
     }
-    let filteredQuestions = this.filterByDifficulty(availableQuestions, targetDifficulty);
-    const randomIndex = Math.floor(Math.random() * filteredQuestions.length);
-    this.currentQuestion = filteredQuestions[randomIndex];
+    
+    this.currentQuestion = nextQuestion;
     return this.currentQuestion;
+  }
+
+  /**
+   * Holt das aktuelle Level basierend auf der Fragen-ID
+   */
+  getCurrentLevel() {
+    if (!this.currentQuestion) return 1;
+    return this.currentQuestion.difficulty;
+  }
+
+  /**
+   * Gibt Informationen über den aktuellen Fortschritt zurück
+   */
+  getProgressInfo(excludeIds = []) {
+    const totalQuestions = this.questions.length;
+    const answeredCount = excludeIds.length;
+    const currentQuestion = this.questions.find(q => !excludeIds.includes(q.id));
+    
+    return {
+      totalQuestions,
+      answeredCount,
+      currentLevel: currentQuestion ? currentQuestion.difficulty : 5,
+      currentChapter: currentQuestion ? currentQuestion.chapter : null,
+      currentChapterName: currentQuestion ? currentQuestion.chapterName : null,
+      // Level-Fortschritt (150 Fragen pro Level)
+      levelProgress: {
+        level1: { total: 150, done: Math.min(answeredCount, 150) },
+        level2: { total: 150, done: Math.max(0, Math.min(answeredCount - 150, 150)) },
+        level3: { total: 150, done: Math.max(0, Math.min(answeredCount - 300, 150)) },
+        level4: { total: 150, done: Math.max(0, Math.min(answeredCount - 450, 150)) },
+        level5: { total: 150, done: Math.max(0, Math.min(answeredCount - 600, 150)) }
+      }
+    };
   }
 
   validateAnswer(selectedAnswers) {
@@ -1026,8 +1047,14 @@ class UI {
   }
 
   renderQuestion(question, questionNum, total) {
-    this.elements.questionNumber.textContent = 
-      `Frage ${questionNum} von ${total} verbleibenden`;
+    // Zeige Kapitel-Info wenn verfügbar
+    const chapterInfo = question.chapterName 
+      ? `Kapitel ${question.chapter}: ${question.chapterName}` 
+      : '';
+    
+    this.elements.questionNumber.innerHTML = 
+      `<span style="display:block;font-size:0.75rem;color:#888;margin-bottom:5px;">${chapterInfo}</span>` +
+      `Frage ${question.id} von 750 | Level ${question.difficulty}`;
     this.elements.questionText.textContent = question.text;
     this.elements.optionsContainer.innerHTML = '';
     
@@ -1232,9 +1259,8 @@ class CasualModeApp {
   }
 
   nextQuestion() {
-    const difficulty = this.progressTracker.calculateDifficulty();
     const excludeIds = this.progressTracker.getCorrectlyAnswered();
-    const question = this.questionManager.getRandomQuestion(excludeIds, difficulty);
+    const question = this.questionManager.getNextQuestion(excludeIds);
 
     if (!question) {
       this.ui.showCompleteScreen();
@@ -1242,7 +1268,9 @@ class CasualModeApp {
     }
 
     this.questionCounter++;
-    this.ui.updateDifficulty(difficulty);
+    // Zeige das tatsächliche Level der aktuellen Frage an
+    const currentLevel = this.questionManager.getCurrentLevel();
+    this.ui.updateDifficulty(currentLevel);
     this.ui.renderQuestion(
       question, 
       this.questionCounter, 
