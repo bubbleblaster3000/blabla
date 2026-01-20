@@ -364,7 +364,7 @@ npx markdownlint-cli2 "CODING_PLAN/fragen/**/*.md"
 
 ## 📋 Checkliste vor Deployment
 
-Vor dem Release prüfen:
+### 1. Scripts ausführen
 
 - [ ] `node scripts/analyzeQuestions.js` ausführen
 - [ ] 0 KRITISCHE Probleme
@@ -372,9 +372,48 @@ Vor dem Release prüfen:
 - [ ] `npx markdownlint-cli2 "CODING_PLAN/fragen/**/*.md"` - 0 Errors
 - [ ] `node scripts/convertQuestions.js` ausführen
 - [ ] Ausgabe zeigt 750 Fragen
-- [ ] Stichproben-Test im Browser
-- [ ] Level 1 Fragen sind wirklich einfach
-- [ ] Level 5 Fragen sind wirklich schwer
+
+### 2. Qualitätsprüfung
+
+- [ ] Keine "Alle 4 korrekt" (A, B, C, D) in Level 1-2 (zu verwirrend für Anfänger)
+- [ ] Chemische Formeln konsistent (H₂O vs H2O nicht mischen)
+- [ ] Keine unescapten `<` `>` Zeichen in kritischen Stellen
+- [ ] Level 1 Fragen sind wirklich einfach (Definitionen)
+- [ ] Level 5 Fragen sind wirklich schwer (Berechnungen, Analyse)
+
+### 3. Daten-Integrität
+
+- [ ] Genau 750 Fragen vorhanden
+- [ ] Alle IDs eindeutig (1-750)
+- [ ] Alle 15 Kapitel vertreten (je 50 Fragen)
+- [ ] Jedes Level hat 150 Fragen (L1: 1-150, L2: 151-300, etc.)
+- [ ] Keine doppelten Fragen zwischen Kapiteln
+
+### 4. Funktionale Tests im Browser
+
+- [ ] App lädt ohne Fehler (Console prüfen)
+- [ ] Erste Frage wird angezeigt (Level 1, Kapitel 1)
+- [ ] Multi-Select funktioniert (A, B, C Auswahl wird korrekt gewertet)
+- [ ] Einzelne Antwort wird korrekt gewertet
+- [ ] Fortschritt wird gespeichert (LocalStorage)
+- [ ] Level-Wechsel bei Frage 150 → 151 (Level 1 → Level 2)
+- [ ] Zurück-Navigation funktioniert
+
+### 5. Kompatibilität
+
+- [ ] Desktop-Browser (Chrome, Firefox, Safari)
+- [ ] Mobile Darstellung (lange Optionen umbrechen korrekt)
+- [ ] Unicode-Zeichen werden angezeigt (₂, ₃, ⁺, ⁻, →)
+- [ ] Offline-Fähigkeit (Standalone-HTML funktioniert ohne Server)
+- [ ] Dark Mode (falls implementiert)
+
+### 6. Edge Cases testen
+
+- [ ] Frage mit 4 korrekten Antworten (A, B, C, D)
+- [ ] Frage mit nur 1 korrekten Antwort
+- [ ] Längste Frage wird korrekt dargestellt
+- [ ] Frage mit chemischen Formeln (Subscripts)
+- [ ] Letzte Frage (750) erreichbar
 
 ---
 
