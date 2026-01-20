@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casual Mode - Chemie Quiz</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    .container { max-width: 700px; margin: 0 auto; }
+    
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #00d9ff, #00ff88);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .subtitle {
+      text-align: center;
+      color: #888;
+      margin-bottom: 25px;
+    }
+    
+    /* Progress */
+    .progress-box {
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      padding: 15px 20px;
+      margin-bottom: 25px;
+    }
+    
+    .progress-top {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      font-size: 0.9rem;
+    }
+    
+    .progress-track {
+      background: rgba(255,255,255,0.1);
+      border-radius: 8px;
+      height: 16px;
+      overflow: hidden;
+    }
+    
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #00d9ff, #00ff88);
+      width: 0%;
+      transition: width 0.4s ease;
+    }
+    
+    .progress-info {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8px;
+      font-size: 0.8rem;
+      color: #666;
+    }
+    
+    /* Screens */
+    .screen { display: none; }
+    .screen.active { display: block; }
+    
+    /* Start Screen */
+    .start-box {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    
+    .start-box h2 {
+      color: #00d9ff;
+      margin-bottom: 15px;
+    }
+    
+    .start-box p {
+      color: #888;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+    
+    /* Buttons */
+    .btn {
+      padding: 14px 35px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: bold;
+      margin: 5px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .btn:hover { transform: translateY(-2px); }
+    
+    .btn-main {
+      background: linear-gradient(90deg, #00d9ff, #00ff88);
+      color: #1a1a2e;
+    }
+    
+    .btn-main:hover {
+      box-shadow: 0 8px 25px rgba(0, 217, 255, 0.3);
+    }
+    
+    .btn-main:disabled {
+      background: #444;
+      color: #888;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+    
+    .btn-outline {
+      background: transparent;
+      border: 2px solid #00d9ff;
+      color: #00d9ff;
+    }
+    
+    /* Question Card */
+    .question-box {
+      background: rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 25px;
+      margin-bottom: 20px;
+    }
+    
+    .q-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 0.85rem;
+      color: #00d9ff;
+    }
+    
+    .stars span {
+      color: #333;
+      font-size: 1.1rem;
+    }
+    
+    .stars span.on { color: #ffd700; }
+    
+    .q-text {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    
+    /* Options */
+    .option {
+      display: flex;
+      align-items: center;
+      padding: 14px 18px;
+      background: rgba(255,255,255,0.05);
+      border: 2px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .option:hover {
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(0, 217, 255, 0.3);
+    }
+    
+    .option.selected {
+      background: rgba(0, 217, 255, 0.15);
+      border-color: #00d9ff;
+    }
+    
+    .option.correct {
+      background: rgba(0, 255, 136, 0.2);
+      border-color: #00ff88;
+    }
+    
+    .option.wrong {
+      background: rgba(255, 68, 68, 0.2);
+      border-color: #ff4444;
+    }
+    
+    .option.missed {
+      background: rgba(255, 200, 0, 0.2);
+      border-color: #ffc800;
+    }
+    
+    .checkbox {
+      width: 22px;
+      height: 22px;
+      border: 2px solid #555;
+      border-radius: 5px;
+      margin-right: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 14px;
+    }
+    
+    .option.selected .checkbox {
+      background: #00d9ff;
+      border-color: #00d9ff;
+      color: #1a1a2e;
+    }
+    
+    .option.correct .checkbox { background: #00ff88; border-color: #00ff88; }
+    .option.wrong .checkbox { background: #ff4444; border-color: #ff4444; }
+    .option.missed .checkbox { background: #ffc800; border-color: #ffc800; }
+    
+    .option-text { line-height: 1.4; }
+    
+    /* Feedback */
+    .feedback {
+      text-align: center;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      display: none;
+    }
+    
+    .feedback.show { display: block; }
+    
+    .feedback.ok {
+      background: rgba(0, 255, 136, 0.15);
+      border: 2px solid #00ff88;
+    }
+    
+    .feedback.fail {
+      background: rgba(255, 68, 68, 0.15);
+      border: 2px solid #ff4444;
+    }
+    
+    .feedback-icon { font-size: 2.5rem; margin-bottom: 8px; }
+    .feedback-msg { font-size: 1.1rem; }
+    .feedback-detail { font-size: 0.85rem; color: #888; margin-top: 5px; }
+    
+    /* Complete */
+    .complete-box {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    
+    .complete-box .icon { font-size: 4rem; margin-bottom: 15px; }
+    
+    .complete-box h2 {
+      background: linear-gradient(90deg, #00d9ff, #00ff88);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 10px;
+    }
+    
+    .complete-box p { color: #888; margin-bottom: 25px; }
+    
+    .btn-row { text-align: center; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 CASUAL MODE</h1>
+    <p class="subtitle">Chemie Quiz</p>
+    
+    <!-- Progress -->
+    <div class="progress-box">
+      <div class="progress-top">
+        <span>Fortschritt</span>
+        <span id="pct">0%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="bar"></div>
+      </div>
+      <div class="progress-info">
+        <span>✅ <span id="done">0</span> richtig</span>
+        <span>📝 <span id="left">20</span> übrig</span>
+      </div>
+    </div>
+    
+    <!-- START SCREEN -->
+    <div class="screen active" id="startScreen">
+      <div class="start-box">
+        <h2>Bereit für die Challenge?</h2>
+        <p>Beantworte alle 20 Fragen korrekt.<br>Die Schwierigkeit steigt mit deinem Fortschritt!</p>
+        <button class="btn btn-main" id="startBtn">🚀 Start</button>
+        <button class="btn btn-outline" id="resetBtn">🔄 Reset</button>
+      </div>
+    </div>
+    
+    <!-- GAME SCREEN -->
+    <div class="screen" id="gameScreen">
+      <div class="question-box">
+        <div class="q-header">
+          <span id="qNum">Frage 1</span>
+          <div class="stars" id="stars">
+            <span class="on">★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+        </div>
+        <div class="q-text" id="qText">Lädt...</div>
+        <div id="options"></div>
+      </div>
+      
+      <div class="feedback" id="feedback">
+        <div class="feedback-icon" id="fbIcon">🎉</div>
+        <div class="feedback-msg" id="fbMsg">Richtig!</div>
+        <div class="feedback-detail" id="fbDetail"></div>
+      </div>
+      
+      <div class="btn-row">
+        <button class="btn btn-main" id="checkBtn" disabled>✓ Prüfen</button>
+        <button class="btn btn-main" id="nextBtn" style="display:none;">→ Weiter</button>
+      </div>
+    </div>
+    
+    <!-- COMPLETE SCREEN -->
+    <div class="screen" id="completeScreen">
+      <div class="complete-box">
+        <div class="icon">🏆</div>
+        <h2>Geschafft!</h2>
+        <p>Du hast alle Fragen richtig beantwortet!</p>
+        <button class="btn btn-main" id="againBtn">🔄 Nochmal</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+// === FRAGEN ===
+const FRAGEN = [
+  { id:1, text:"Welche Aussagen zum Atomaufbau sind korrekt?", opts:["Protonen befinden sich im Atomkern","Elektronen haben eine positive Ladung","Neutronen sind elektrisch neutral","Die Elektronenhülle ist viel größer als der Atomkern"], correct:[0,2,3], diff:1 },
+  { id:2, text:"Welche Elemente sind Halogene?", opts:["Fluor (F)","Natrium (Na)","Chlor (Cl)","Brom (Br)","Kalium (K)"], correct:[0,2,3], diff:1 },
+  { id:3, text:"Welche Aussagen über kovalente Bindungen sind richtig?", opts:["Elektronen werden zwischen Atomen geteilt","Sie entstehen durch vollständige Elektronenübertragung","Sie kommen häufig zwischen Nichtmetallen vor","Die Bindung ist gerichtet"], correct:[0,2,3], diff:1 },
+  { id:4, text:"Welche Eigenschaften treffen auf Säuren zu?", opts:["pH-Wert kleiner als 7","Können Protonen abgeben (Brønsted)","Reagieren mit Basen zu Salz und Wasser","Haben immer pH-Wert 0"], correct:[0,1,2], diff:1 },
+  { id:5, text:"Welche Aussagen zur Elektronegativität sind korrekt?", opts:["Fluor hat die höchste Elektronegativität","EN nimmt von links nach rechts zu","Metalle haben hohe EN","EN nimmt von oben nach unten ab"], correct:[0,1,3], diff:2 },
+  { id:6, text:"Welche Faktoren beeinflussen die Reaktionsgeschwindigkeit?", opts:["Temperatur","Konzentration","Katalysator","Farbe der Lösung","Oberfläche"], correct:[0,1,2,4], diff:2 },
+  { id:7, text:"Welche Aussagen zum chemischen Gleichgewicht sind richtig?", opts:["Hin- und Rückreaktion gleich schnell","Konzentrationen ändern sich nicht mehr","Dynamischer Zustand","Kann durch Temperatur verschoben werden"], correct:[0,1,2,3], diff:2 },
+  { id:8, text:"Welche Hybridisierungen gibt es beim Kohlenstoff?", opts:["sp³ (Tetraeder)","sp² (trigonal-planar)","sp (linear)","sp⁴ (pentagonal)"], correct:[0,1,2], diff:2 },
+  { id:9, text:"Welche Aussagen über Redoxreaktionen sind korrekt?", opts:["Oxidation = Elektronenabgabe","Reduktion = Elektronenaufnahme","Oxidationsmittel wird reduziert","Oxidationszahlen ändern sich"], correct:[0,1,2,3], diff:2 },
+  { id:10, text:"Welche Aussagen zur Thermodynamik sind richtig?", opts:["Exotherm: ΔH < 0","ΔG < 0 bedeutet spontan","Entropie = Maß für Unordnung","Alle exothermen Reaktionen sind spontan"], correct:[0,1,2], diff:3 },
+  { id:11, text:"Welche Aussagen zur VSEPR-Theorie sind korrekt?", opts:["Elektronenpaare stoßen sich ab","Freie EP brauchen mehr Raum","Geometrie hängt von EP-Anzahl ab","Erklärt Farbe von Molekülen"], correct:[0,1,2], diff:3 },
+  { id:12, text:"Welche Aussagen zur MO-Theorie sind richtig?", opts:["Bindende MO haben niedrigere Energie","Antibindende mit * gekennzeichnet","Bindungsordnung = (bindend-antibindend)/2","O₂ ist paramagnetisch"], correct:[0,1,2,3], diff:3 },
+  { id:13, text:"Welche Aussagen zu Pufferlösungen sind korrekt?", opts:["Schwache Säure + konjugierte Base","Halten pH bei kleinen Zugaben konstant","Henderson-Hasselbalch beschreibt pH","Funktionieren bei beliebig großen Zugaben"], correct:[0,1,2], diff:3 },
+  { id:14, text:"Welche Aussagen zur Kinetik sind korrekt?", opts:["Reaktionsordnung nur experimentell bestimmbar","Katalysator senkt Aktivierungsenergie","Arrhenius beschreibt Temperaturabhängigkeit","Reaktionsordnung = stöchiometrische Koeffizienten"], correct:[0,1,2], diff:3 },
+  { id:15, text:"Welche Aussagen zur Kristallfeldtheorie sind richtig?", opts:["d-Orbitale spalten in t₂g und eg","eg liegt energetisch höher","Δ hängt vom Liganden ab","Starke Liganden → High-Spin"], correct:[0,1,2], diff:4 },
+  { id:16, text:"Welche Aussagen zur spektrochemischen Reihe sind korrekt?", opts:["I⁻ ist schwacher Feldligand","CN⁻ ist starker Feldligand","CO verursacht große Aufspaltung","H₂O stärker als NH₃"], correct:[0,1,2], diff:4 },
+  { id:17, text:"Welche Aussagen zur Stereochemie sind korrekt?", opts:["Enantiomere = Bild und Spiegelbild","Diastereomere haben unterschiedliche phys. Eigenschaften","n Stereozentren → max 2ⁿ Isomere","Meso-Verbindungen sind achiral"], correct:[0,1,2,3], diff:4 },
+  { id:18, text:"Welche Prinzipien sind für die Elektronenkonfiguration relevant?", opts:["Pauli-Prinzip","Hundsche Regel","Aufbauprinzip","Heisenberg bestimmt Orbitalform"], correct:[0,1,2], diff:4 },
+  { id:19, text:"Oktaedrischer d⁷-High-Spin-Komplex zeigt magnetisches Moment über Spin-Only-Wert. Welche Erklärung ist korrekt?", opts:["Jahn-Teller löscht Bahndrehimpuls","⁴T₁g Grundterm hat Bahndrehimpuls → Spin-Bahn-Kopplung erhöht Moment","Nephelauxetischer Effekt reduziert Racah-Parameter","Thermisches Gleichgewicht High-Spin/Low-Spin"], correct:[1], diff:5 },
+  { id:20, text:"Welche Aussagen zur Marcus-Theorie sind korrekt?", opts:["Reorganisationsenergie λ beeinflusst Aktivierungsbarriere","Im invertierten Bereich sinkt Geschwindigkeit bei steigender Triebkraft","Erklärt Elektronentransfer über große Distanzen","Nur auf organische Moleküle anwendbar"], correct:[0,1,2], diff:5 }
+];
+
+// === VARIABLEN ===
+let richtig = [];
+let aktuelleFrage = null;
+let frageNr = 0;
+
+// === HELPER ===
+function speichern() {
+  localStorage.setItem('casualChemie', JSON.stringify(richtig));
+}
+
+function laden() {
+  const d = localStorage.getItem('casualChemie');
+  if (d) richtig = JSON.parse(d);
+}
+
+function updateProgress() {
+  const pct = Math.round((richtig.length / FRAGEN.length) * 100);
+  document.getElementById('pct').textContent = pct + '%';
+  document.getElementById('bar').style.width = pct + '%';
+  document.getElementById('done').textContent = richtig.length;
+  document.getElementById('left').textContent = FRAGEN.length - richtig.length;
+}
+
+function getDiff() {
+  const pct = (richtig.length / FRAGEN.length) * 100;
+  if (pct < 20) return 1;
+  if (pct < 40) return 2;
+  if (pct < 60) return 3;
+  if (pct < 80) return 4;
+  return 5;
+}
+
+function showStars(d) {
+  let html = '';
+  for (let i = 1; i <= 5; i++) {
+    html += '<span class="' + (i <= d ? 'on' : '') + '">★</span>';
+  }
+  document.getElementById('stars').innerHTML = html;
+}
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+
+function getRandomFrage() {
+  const pool = FRAGEN.filter(f => !richtig.includes(f.id));
+  if (pool.length === 0) return null;
+  
+  const diff = getDiff();
+  // Versuche passende Schwierigkeit
+  let filtered = pool.filter(f => f.diff >= diff - 1 && f.diff <= diff + 1);
+  if (filtered.length === 0) filtered = pool;
+  
+  return filtered[Math.floor(Math.random() * filtered.length)];
+}
+
+function renderFrage(f) {
+  aktuelleFrage = f;
+  frageNr++;
+  
+  document.getElementById('qNum').textContent = 'Frage ' + frageNr + ' (' + (FRAGEN.length - richtig.length) + ' übrig)';
+  document.getElementById('qText').textContent = f.text;
+  showStars(f.diff);
+  
+  const container = document.getElementById('options');
+  container.innerHTML = '';
+  
+  f.opts.forEach((opt, i) => {
+    const div = document.createElement('div');
+    div.className = 'option';
+    div.dataset.idx = i;
+    div.innerHTML = '<div class="checkbox"></div><div class="option-text">' + String.fromCharCode(65 + i) + '. ' + opt + '</div>';
+    div.onclick = function() {
+      this.classList.toggle('selected');
+      this.querySelector('.checkbox').textContent = this.classList.contains('selected') ? '✓' : '';
+      updateCheckBtn();
+    };
+    container.appendChild(div);
+  });
+  
+  document.getElementById('checkBtn').disabled = true;
+  document.getElementById('checkBtn').style.display = '';
+  document.getElementById('nextBtn').style.display = 'none';
+  document.getElementById('feedback').className = 'feedback';
+}
+
+function updateCheckBtn() {
+  const selected = document.querySelectorAll('.option.selected').length;
+  document.getElementById('checkBtn').disabled = selected === 0;
+}
+
+function pruefenAntwort() {
+  const selected = [];
+  document.querySelectorAll('.option.selected').forEach(o => {
+    selected.push(parseInt(o.dataset.idx));
+  });
+  
+  const korrekt = aktuelleFrage.correct;
+  const sorted1 = [...selected].sort();
+  const sorted2 = [...korrekt].sort();
+  const istRichtig = sorted1.length === sorted2.length && sorted1.every((v, i) => v === sorted2[i]);
+  
+  // Highlight
+  document.querySelectorAll('.option').forEach(o => {
+    const idx = parseInt(o.dataset.idx);
+    const istKorrekt = korrekt.includes(idx);
+    const wurdeGewählt = selected.includes(idx);
+    
+    o.onclick = null; // Deaktivieren
+    
+    if (istKorrekt && wurdeGewählt) {
+      o.className = 'option correct';
+    } else if (!istKorrekt && wurdeGewählt) {
+      o.className = 'option wrong';
+    } else if (istKorrekt && !wurdeGewählt) {
+      o.className = 'option missed';
+    }
+  });
+  
+  // Feedback
+  const fb = document.getElementById('feedback');
+  if (istRichtig) {
+    fb.className = 'feedback show ok';
+    document.getElementById('fbIcon').textContent = '🎉';
+    document.getElementById('fbMsg').textContent = 'Richtig!';
+    document.getElementById('fbDetail').textContent = 'Sehr gut!';
+    richtig.push(aktuelleFrage.id);
+    speichern();
+  } else {
+    fb.className = 'feedback show fail';
+    document.getElementById('fbIcon').textContent = '😕';
+    document.getElementById('fbMsg').textContent = 'Leider falsch';
+    const missed = korrekt.filter(k => !selected.includes(k)).length;
+    const wrong = selected.filter(s => !korrekt.includes(s)).length;
+    let detail = '';
+    if (missed > 0) detail += missed + ' übersehen. ';
+    if (wrong > 0) detail += wrong + ' falsch.';
+    document.getElementById('fbDetail').textContent = detail;
+  }
+  
+  updateProgress();
+  document.getElementById('checkBtn').style.display = 'none';
+  document.getElementById('nextBtn').style.display = '';
+}
+
+function naechsteFrage() {
+  const f = getRandomFrage();
+  if (!f) {
+    showScreen('completeScreen');
+  } else {
+    renderFrage(f);
+  }
+}
+
+function startGame() {
+  frageNr = 0;
+  showScreen('gameScreen');
+  naechsteFrage();
+}
+
+function resetGame() {
+  richtig = [];
+  speichern();
+  frageNr = 0;
+  updateProgress();
+  startGame();
+}
+
+// === INIT ===
+window.onload = function() {
+  laden();
+  updateProgress();
+  
+  if (richtig.length >= FRAGEN.length) {
+    showScreen('completeScreen');
+  } else {
+    showScreen('startScreen');
+  }
+  
+  document.getElementById('startBtn').onclick = startGame;
+  document.getElementById('resetBtn').onclick = resetGame;
+  document.getElementById('checkBtn').onclick = pruefenAntwort;
+  document.getElementById('nextBtn').onclick = naechsteFrage;
+  document.getElementById('againBtn').onclick = resetGame;
+};
+</script>
+</body>
+</html>

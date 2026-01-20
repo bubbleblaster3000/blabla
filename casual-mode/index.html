@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casual Training Mode - Demo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Header -->
+    <header class="header">
+      <h1>🎯 CASUAL MODE</h1>
+      <p>Teste dein Wissen - Frage für Frage</p>
+    </header>
+
+    <!-- Fach-Auswahl -->
+    <div class="subject-selector">
+      <button class="subject-btn active" data-subject="chemie">🧪 Chemie</button>
+      <button class="subject-btn" data-subject="biologie" disabled title="Kommt bald!">🧬 Biologie</button>
+      <button class="subject-btn" data-subject="physik" disabled title="Kommt bald!">⚛️ Physik</button>
+    </div>
+
+    <!-- Progress Section -->
+    <div class="progress-section">
+      <div class="progress-header">
+        <span class="progress-label">Fortschritt</span>
+        <span class="progress-percent" id="progressPercent">0%</span>
+      </div>
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <div class="progress-stats">
+        <span>✅ <span id="correctCount">0</span> richtig</span>
+        <span>📝 <span id="remainingCount">0</span> verbleibend</span>
+      </div>
+    </div>
+
+    <!-- Start Screen -->
+    <div class="start-screen" id="startScreen">
+      <h2>Bereit für die Challenge?</h2>
+      <p>Beantworte alle Fragen korrekt, um den Casual Mode abzuschließen.<br>
+         Die Schwierigkeit steigt mit deinem Fortschritt!</p>
+      <div class="buttons-container">
+        <button class="btn btn-primary" id="startBtn">🚀 Start</button>
+        <button class="btn btn-secondary" id="resetBtn">🔄 Fortschritt zurücksetzen</button>
+      </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div class="game-screen hidden" id="gameScreen">
+      
+      <!-- Difficulty Indicator -->
+      <div class="difficulty-indicator">
+        <div class="difficulty-label">Schwierigkeit</div>
+        <div class="difficulty-stars" id="difficultyStars">
+          <span class="star active">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+      </div>
+
+      <!-- Question Card -->
+      <div class="question-card" id="questionCard">
+        <div class="question-number" id="questionNumber">Frage 1 von 20</div>
+        <div class="question-text" id="questionText">
+          Lädt Frage...
+        </div>
+        
+        <!-- Options -->
+        <div class="options-container" id="optionsContainer">
+          <!-- Options werden dynamisch eingefügt -->
+        </div>
+      </div>
+
+      <!-- Feedback -->
+      <div class="feedback" id="feedback">
+        <div class="feedback-icon" id="feedbackIcon">🎉</div>
+        <div class="feedback-text" id="feedbackText">Richtig!</div>
+        <div class="feedback-detail" id="feedbackDetail">Sehr gut!</div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="buttons-container">
+        <button class="btn btn-primary" id="checkBtn" disabled>✓ Antwort prüfen</button>
+        <button class="btn btn-primary hidden" id="nextBtn">→ Nächste Frage</button>
+      </div>
+    </div>
+
+    <!-- Complete Screen -->
+    <div class="complete-screen" id="completeScreen">
+      <div class="complete-icon">🏆</div>
+      <h2>Glückwunsch!</h2>
+      <p>Du hast alle Fragen im Casual Mode erfolgreich abgeschlossen!</p>
+      <div class="buttons-container">
+        <button class="btn btn-primary" id="playAgainBtn">🔄 Nochmal spielen</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JavaScript Module -->
+  <script src="js/questionsData.js"></script>
+  <script src="js/progressTracker.js"></script>
+  <script src="js/questionManager.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
