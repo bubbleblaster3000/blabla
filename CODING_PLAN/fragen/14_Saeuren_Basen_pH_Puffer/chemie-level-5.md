@@ -10,9 +10,9 @@
 - [ ] A. Der pH steigt (respiratorische Alkalose)
 - [ ] B. Weniger H₂CO₃ bedeutet weniger H⁺-Ionen
 - [ ] C. Das Gleichgewicht H₂CO₃ ⇌ H⁺ + HCO₃⁻ verschiebt sich nach links
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Hyperventilation führt zu respiratorischer Acidose
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -22,9 +22,9 @@
 - [ ] A. Wenn der Dissoziationsgrad α << 1 (α < 5%)
 - [ ] B. Wenn c >> Ks
 - [ ] C. Für nicht zu verdünnte Lösungen
-- [ ] D. Alle genannten Bedingungen
+- [ ] D. Die Näherungsformel gilt auch bei starker Dissoziation
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -34,9 +34,9 @@
 - [ ] A. Schwer zu bestimmen, da die Titrationskurve flach verläuft
 - [ ] B. Der pH hängt von den relativen pK-Werten ab
 - [ ] C. Kein scharfer Farbumschlag mit Indikatoren
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Titration schwacher Säure mit schwacher Base zeigt scharfen Äquivalenzpunkt
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -70,9 +70,9 @@
 - [ ] A. Außerhalb dieses Bereichs ist das Verhältnis [HA]/[A⁻] zu extrem (>10:1 oder <1:10)
 - [ ] B. Die Pufferkapazität sinkt stark
 - [ ] C. Eine Komponente ist nahezu erschöpft
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Pufferkapazität ist bei pH ≠ pKs am höchsten
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -82,9 +82,9 @@
 - [ ] A. Der pH sinkt bei Temperaturerhöhung (ΔpKa/ΔT ≈ -0,03/°C)
 - [ ] B. TRIS-Puffer sollten bei der Arbeitstemperatur eingestellt werden
 - [ ] C. Bei 37°C hat TRIS einen niedrigeren pKa als bei 25°C
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Der pH von TRIS ist temperaturunabhängig
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -94,9 +94,9 @@
 - [ ] A. Linearisierung der Titrationskurve vor und nach dem Äquivalenzpunkt
 - [ ] B. Extrapolation zum Schnittpunkt mit der x-Achse
 - [ ] C. Verbesserung der Genauigkeit gegenüber visueller Bestimmung
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Der Gran-Plot basiert auf visueller Farbbestimmung
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -106,9 +106,9 @@
 - [ ] A. pKs3 ist so hoch, dass die Titrationskurve flach verläuft
 - [ ] B. OH⁻-Ionen aus dem Lösungsmittel konkurrieren
 - [ ] C. Die Dissoziation von HPO₄²⁻ ist gering
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Der dritte Äquivalenzpunkt von H₃PO₄ ist leicht erkennbar
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -118,8 +118,8 @@
 - [ ] A. Sie sind milliardenfach stärker als 100%ige Schwefelsäure
 - [ ] B. Sie können selbst schwache Basen wie Alkane protonieren
 - [ ] C. Der pH-Begriff ist hier nicht mehr anwendbar
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Superacids sind nur wenig stärker als Schwefelsäure
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---

@@ -1151,12 +1151,12 @@ const QUESTIONS_DATA = {
       },
       {
             id: 72,
-            text: "Was ist ein Kation?",
+            text: "Was passiert bei der Bildung einer Ionenbindung?",
             options: [
-                  "Ein negativ geladenes Ion",
-                  "Ein positiv geladenes Ion",
-                  "Ein neutrales Atom",
-                  "Ein Elektronenpaar"
+                  "Elektronen werden zwischen Atomen geteilt",
+                  "Elektronen werden von einem Atom auf ein anderes übertragen",
+                  "Protonen werden ausgetauscht",
+                  "Neutronen werden geteilt"
             ],
             correctAnswers: [
                   1
@@ -1167,15 +1167,15 @@ const QUESTIONS_DATA = {
       },
       {
             id: 73,
-            text: "Was ist ein Anion?",
+            text: "Was zeigt eine Lewis-Struktur?",
             options: [
-                  "Ein positiv geladenes Ion",
-                  "Ein neutrales Teilchen",
-                  "Ein negativ geladenes Ion",
-                  "Ein Proton"
+                  "Nur die Protonen eines Atoms",
+                  "Die Valenzelektronen und Bindungen eines Moleküls",
+                  "Die Masse eines Moleküls",
+                  "Die Kernladung eines Atoms"
             ],
             correctAnswers: [
-                  2
+                  1
             ],
             difficulty: 1,
             chapter: 8,
@@ -1183,12 +1183,12 @@ const QUESTIONS_DATA = {
       },
       {
             id: 74,
-            text: "Was zeigt eine Lewis-Struktur?",
+            text: "Welches Element gibt bei einer Ionenbindung mit Chlor ein Elektron ab?",
             options: [
-                  "Die räumliche Anordnung der Atome",
-                  "Die Valenzelektronen als Punkte oder Striche",
-                  "Die Masse der Atome",
-                  "Die Kernladung"
+                  "Sauerstoff",
+                  "Natrium",
+                  "Stickstoff",
+                  "Kohlenstoff"
             ],
             correctAnswers: [
                   1
@@ -1252,10 +1252,12 @@ const QUESTIONS_DATA = {
                   "Die Energie, die beim Bilden eines Ionengitters freigesetzt wird",
                   "Die Energie, die zur Trennung aller Ionen im Gitter benötigt wird",
                   "Die kinetische Energie der Ionen",
-                  "Sowohl A als auch B sind korrekte Beschreibungen"
+                  "Die Gitterenergie ist unabhängig von den Ionenladungen"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 1,
             chapter: 8,
@@ -2127,12 +2129,12 @@ const QUESTIONS_DATA = {
       },
       {
             id: 133,
-            text: "Was ist eine schwache Säure?",
+            text: "Was ist ein Puffer?",
             options: [
-                  "Eine Säure, die nur teilweise dissoziiert",
-                  "Eine Säure mit niedriger Konzentration",
-                  "Eine Säure, die vollständig dissoziiert",
-                  "Eine Säure ohne Wasserstoff"
+                  "Eine Lösung, die den pH-Wert bei Zugabe von Säure oder Base stabilisiert",
+                  "Eine konzentrierte Säure",
+                  "Eine Lösung ohne Ionen",
+                  "Reines Wasser"
             ],
             correctAnswers: [
                   0
@@ -2175,12 +2177,12 @@ const QUESTIONS_DATA = {
       },
       {
             id: 136,
-            text: "Was ist ein Puffer?",
+            text: "Woraus besteht ein typischer Puffer?",
             options: [
-                  "Eine Lösung, die ihren pH-Wert bei Zugabe von Säure oder Base kaum ändert",
-                  "Eine stark saure Lösung",
-                  "Reines Wasser",
-                  "Eine Lösung ohne Ionen"
+                  "Aus einer schwachen Säure und ihrem konjugierten Salz",
+                  "Aus zwei starken Säuren",
+                  "Nur aus reinem Wasser",
+                  "Aus einer starken Base und einer starken Säure"
             ],
             correctAnswers: [
                   0
@@ -4263,10 +4265,12 @@ const QUESTIONS_DATA = {
                   "Van-der-Waals-Kräfte",
                   "Wasserstoffbrücken",
                   "Dipol-Dipol-Wechselwirkungen",
-                  "Alle genannten"
+                  "Nur ionische Bindungen"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 2,
             chapter: 12,
@@ -4423,10 +4427,12 @@ const QUESTIONS_DATA = {
                   "Der gelöste Stoff blockiert Lösungsmittelmoleküle an der Oberfläche",
                   "Der Molenbruch des Lösungsmittels sinkt",
                   "Weniger Lösungsmittelmoleküle können verdampfen",
-                  "Alle genannten sind korrekt"
+                  "Der gelöste Stoff erhöht den Dampfdruck"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 2,
             chapter: 13,
@@ -4439,7 +4445,7 @@ const QUESTIONS_DATA = {
                   "π = osmotischer Druck, M = Molarität, R = Gaskonstante, T = Temperatur",
                   "π = Dampfdruck, M = Masse, R = Radius, T = Zeit",
                   "π = Pi, M = Molmasse, R = Reaktionsgeschwindigkeit, T = Temperatur",
-                  "Keine der genannten"
+                  "π = Partialdruck, M = Molalität, R = Rydberg-Konstante, T = Tripelpunkt"
             ],
             correctAnswers: [
                   0
@@ -4562,15 +4568,15 @@ const QUESTIONS_DATA = {
       },
       {
             id: 284,
-            text: "Welche der folgenden ist eine starke Säure?",
+            text: "Was ist der pH-Wert einer 0,01 M HCl-Lösung?",
             options: [
-                  "HCl",
-                  "CH₃COOH",
-                  "H₂CO₃",
-                  "HF"
+                  "1",
+                  "2",
+                  "3",
+                  "4"
             ],
             correctAnswers: [
-                  0
+                  1
             ],
             difficulty: 2,
             chapter: 14,
@@ -6046,10 +6052,12 @@ const QUESTIONS_DATA = {
                   "Mg²⁺ und O²⁻ haben höhere Ladungen als Na⁺ und Cl⁻",
                   "Die Ionenradien sind kleiner",
                   "Die elektrostatische Anziehung ist stärker",
-                  "Alle genannten Gründe"
+                  "Die Ionenradien haben keinen Einfluss auf die Gitterenergie"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 8,
@@ -6129,10 +6137,11 @@ const QUESTIONS_DATA = {
                   "Eine Dreifachbindung mit einem freien Elektronenpaar am C und einem am O",
                   "Eine dative (koordinative) Bindung vom O zum C",
                   "Kohlenstoff hat nur 6 Elektronen (Oktettunterschreitung)",
-                  "A und B sind beide korrekt"
+                  "CO hat eine reine Doppelbindung wie O₂"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1
             ],
             difficulty: 3,
             chapter: 8,
@@ -6500,10 +6509,12 @@ const QUESTIONS_DATA = {
                   "Kombination von Teilreaktionen",
                   "Verwendung von Standardbildungsenthalpien",
                   "Verwendung von Bindungsenergien",
-                  "Alle genannten Methoden"
+                  "ΔH kann nur kalorimetrisch gemessen werden"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 11,
@@ -6612,10 +6623,12 @@ const QUESTIONS_DATA = {
                   "Die Enthalpie des direkten Übergangs von fest zu gasförmig",
                   "Gleich der Summe aus Schmelz- und Verdampfungsenthalpie",
                   "Immer positiv (endotherm)",
-                  "Alle genannten sind korrekt"
+                  "Die Enthalpie der Sublimation ist immer negativ (exotherm)"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 11,
@@ -6644,10 +6657,12 @@ const QUESTIONS_DATA = {
                   "Eis kann unter Druck schmelzen",
                   "Der Schmelzpunkt sinkt mit steigendem Druck",
                   "Wasser ist im festen Zustand weniger dicht als im flüssigen",
-                  "Alle genannten sind korrekt"
+                  "Eis ist dichter als flüssiges Wasser"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 12,
@@ -6676,10 +6691,12 @@ const QUESTIONS_DATA = {
                   "Bei Normaldruck sublimiert festes CO₂ direkt",
                   "Flüssiges CO₂ existiert nur unter Druck",
                   "Trockeneis wird industriell genutzt",
-                  "Alle genannten sind korrekt"
+                  "Der Tripelpunkt liegt oberhalb von 1 atm für CO₂"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 12,
@@ -6692,10 +6709,12 @@ const QUESTIONS_DATA = {
                   "Die Clausius-Clapeyron-Gleichung zeigt eine exponentielle Beziehung",
                   "Mehr Moleküle haben genügend Energie, um die Flüssigkeit zu verlassen",
                   "Die Verdampfungsenthalpie wird überwunden",
-                  "Alle genannten sind korrekt"
+                  "Der Dampfdruck steigt linear mit der Temperatur"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 12,
@@ -6708,10 +6727,12 @@ const QUESTIONS_DATA = {
                   "Die Energie, die benötigt wird, um 1 mol einer Flüssigkeit zu verdampfen",
                   "Sie ist immer positiv (endotherm)",
                   "Sie ist ein Maß für die Stärke der intermolekularen Kräfte",
-                  "Alle genannten sind korrekt"
+                  "Die Verdampfungsenthalpie ist immer negativ"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 12,
@@ -6724,10 +6745,12 @@ const QUESTIONS_DATA = {
                   "Beim Schmelzen werden nur einige Wasserstoffbrücken gebrochen",
                   "Beim Verdampfen werden alle intermolekularen Kräfte überwunden",
                   "Der Übergang flüssig → gas erfordert mehr Energie",
-                  "Alle genannten sind korrekt"
+                  "Beim Schmelzen werden alle intermolekularen Kräfte gebrochen"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 12,
@@ -6740,10 +6763,12 @@ const QUESTIONS_DATA = {
                   "Ein Zustand oberhalb des kritischen Punktes",
                   "Eigenschaften zwischen Flüssigkeit und Gas",
                   "Gutes Lösungsmittel mit einstellbaren Eigenschaften",
-                  "Alle genannten sind korrekt"
+                  "Ein überkritisches Fluid existiert nur theoretisch"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 12,
@@ -6756,10 +6781,12 @@ const QUESTIONS_DATA = {
                   "Koffeinentfernung aus Kaffee",
                   "Extraktion von Aromastoffen",
                   "Reinigung von Elektronik",
-                  "Alle genannten"
+                  "Herstellung von Diamanten unter hohem Druck"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 12,
@@ -6772,10 +6799,12 @@ const QUESTIONS_DATA = {
                   "Höhere Temperatur bedeutet höheren Dampfdruck",
                   "Die Verdampfung ist endotherm",
                   "Das Gleichgewicht verschiebt sich zur Gasphase",
-                  "Alle genannten sind korrekt"
+                  "Überkritisches CO₂ ist nur für Koffein geeignet"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 12,
@@ -6788,10 +6817,12 @@ const QUESTIONS_DATA = {
                   "Sublimation unter vermindertem Druck",
                   "Das Wasser geht direkt von fest zu gasförmig",
                   "Der Tripelpunkt wird unterschritten",
-                  "Alle genannten sind korrekt"
+                  "Die Dampfdruckkurve zeigt nach unten links"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 12,
@@ -6820,10 +6851,12 @@ const QUESTIONS_DATA = {
                   "Ionenpaare bilden sich in konzentrierten Lösungen",
                   "Nicht alle Ionen dissoziieren vollständig",
                   "Elektrostatische Wechselwirkungen zwischen Ionen",
-                  "Alle genannten sind korrekt"
+                  "Ionenpaare erhöhen den van't Hoff-Faktor"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 13,
@@ -6852,10 +6885,12 @@ const QUESTIONS_DATA = {
                   "Die Dampfdruckerniedrigung bewirkt beides",
                   "Beim Sieden muss ein höherer Dampfdruck erreicht werden",
                   "Beim Gefrieren stört der gelöste Stoff die Kristallbildung",
-                  "Alle genannten sind korrekt"
+                  "Die Dampfdruckerniedrigung bewirkt eine Gefrierpunkterhöhung"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 13,
@@ -6868,10 +6903,12 @@ const QUESTIONS_DATA = {
                   "Einen höheren osmotischen Druck",
                   "Wasser fließt aus der Zelle heraus",
                   "Die Zelle schrumpft (Plasmolyse)",
-                  "Alle genannten sind korrekt"
+                  "Bei hypertoner Lösung nimmt die Zelle Wasser auf"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 13,
@@ -6884,10 +6921,12 @@ const QUESTIONS_DATA = {
                   "Osmose wird durch Druckanwendung umgekehrt",
                   "Lösungsmittel wird durch die Membran von der konzentrierten zur verdünnten Seite gedrückt",
                   "Wird zur Meerwasserentsalzung genutzt",
-                  "Alle genannten sind korrekt"
+                  "Bei Umkehrosmose fließt Wasser zur konzentrierten Seite"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 13,
@@ -6900,10 +6939,12 @@ const QUESTIONS_DATA = {
                   "MgCl₂ hat den größten Effekt (i ≈ 3)",
                   "NaCl hat einen mittleren Effekt (i ≈ 2)",
                   "Glucose hat den kleinsten Effekt (i = 1)",
-                  "Alle genannten sind korrekt"
+                  "Alle Lösungen haben den gleichen kolligativen Effekt"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 13,
@@ -6916,10 +6957,12 @@ const QUESTIONS_DATA = {
                   "Es senkt den Gefrierpunkt des Wassers",
                   "Es erhöht den Siedepunkt des Wassers",
                   "Es ist nicht flüchtig und nicht korrosiv",
-                  "Alle genannten sind korrekt"
+                  "Ethylenglykol erhöht den Gefrierpunkt"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 13,
@@ -6932,10 +6975,12 @@ const QUESTIONS_DATA = {
                   "Sie hat den gleichen osmotischen Druck wie Blut",
                   "Rote Blutkörperchen platzen nicht und schrumpfen nicht",
                   "Sie ist verträglich für den Körper",
-                  "Alle genannten sind korrekt"
+                  "Isotonische Lösung unterscheidet sich stark vom Blutdruck"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 13,
@@ -6948,10 +6993,12 @@ const QUESTIONS_DATA = {
                   "Sehr verdünnte Lösungen",
                   "Lösungen mit ähnlichen intermolekularen Kräften",
                   "Nicht-flüchtige gelöste Stoffe",
-                  "Alle genannten Bedingungen"
+                  "Das Raoult'sche Gesetz gilt für alle Konzentrationen"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 13,
@@ -7108,10 +7155,12 @@ const QUESTIONS_DATA = {
                   "Jedes Proton hat eine andere Dissoziationskonstante",
                   "Die Abgabe jedes weiteren Protons wird schwieriger",
                   "pKs1 < pKs2 < pKs3",
-                  "Alle genannten sind korrekt"
+                  "Jedes Proton hat die gleiche Dissoziationskonstante"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 14,
@@ -7252,10 +7301,12 @@ const QUESTIONS_DATA = {
                   "Das zu beschichtende Objekt ist die Kathode",
                   "Metallionen werden reduziert und auf dem Objekt abgeschieden",
                   "Die Anode besteht aus dem Beschichtungsmetall",
-                  "Alle genannten sind korrekt"
+                  "Kalium gibt weniger leicht Elektronen ab als Zink"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 15,
@@ -7268,10 +7319,12 @@ const QUESTIONS_DATA = {
                   "Kalium gibt leichter Elektronen ab",
                   "Kalium hat ein niedrigeres Standardpotential",
                   "Kalium ist ein stärkeres Reduktionsmittel",
-                  "Alle genannten sind korrekt"
+                  "Das zu beschichtende Objekt ist die Anode"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 3,
             chapter: 15,
@@ -8755,10 +8808,11 @@ const QUESTIONS_DATA = {
                   "Die N-F-Bindungsdipolmomente und das Dipolmoment des freien Paares zeigen in entgegengesetzte Richtungen",
                   "In NH₃ verstärken sich Bindungsdipole und freies Paar gegenseitig",
                   "Fluor ist zu elektronegativ",
-                  "A und B sind beide korrekt"
+                  "NF₃ ist ein lineares Molekül ohne Dipolmoment"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1
             ],
             difficulty: 4,
             chapter: 9,
@@ -9001,10 +9055,12 @@ const QUESTIONS_DATA = {
                   "Die Gesamtenergie zum Brechen aller 4 C-H-Bindungen ist ~1652 kJ/mol",
                   "Die Bindungsenergien sind Durchschnittswerte",
                   "Die erste C-H-Bindung erfordert mehr Energie als die nachfolgenden",
-                  "Alle genannten sind korrekt"
+                  "Die Bindungsenergie ist unabhängig von der molekularen Umgebung"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 11,
@@ -9033,10 +9089,12 @@ const QUESTIONS_DATA = {
                   "Mg²⁺ und O²⁻ haben höhere Ladungen als Na⁺ und Cl⁻",
                   "Der Ionenabstand in MgO ist kleiner",
                   "Die Gitterenergie ist proportional zu q₁×q₂/r",
-                  "Alle genannten sind korrekt"
+                  "Der Ionenabstand hat keinen Einfluss auf die Gitterenergie"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 11,
@@ -9113,10 +9171,12 @@ const QUESTIONS_DATA = {
                   "Logarithmisch-linear",
                   "Ein Plot von ln(P) gegen 1/T ergibt eine Gerade",
                   "Die Steigung ist -ΔHvap/R",
-                  "Alle genannten sind korrekt"
+                  "Die Clausius-Clapeyron-Gleichung gilt nur für ideale Gase"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 12,
@@ -9145,10 +9205,12 @@ const QUESTIONS_DATA = {
                   "Oberhalb dieser Werte existiert nur überkritisches Wasser",
                   "Die Dichte von Flüssigkeit und Dampf werden am kritischen Punkt gleich",
                   "Die Oberflächenspannung verschwindet am kritischen Punkt",
-                  "Alle genannten sind korrekt"
+                  "Am kritischen Punkt ist die Oberflächenspannung maximal"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 12,
@@ -9161,10 +9223,12 @@ const QUESTIONS_DATA = {
                   "Schmilzt das Eis, da die Schmelzkurve negative Steigung hat",
                   "Der Schmelzpunkt sinkt auf etwa -4°C",
                   "Die Dichteanomalie des Wassers ist verantwortlich",
-                  "Alle genannten sind korrekt"
+                  "Erhöhter Druck verhindert das Schmelzen von Eis"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 12,
@@ -9225,10 +9289,12 @@ const QUESTIONS_DATA = {
                   "Sie nimmt ab",
                   "Thermische Bewegung schwächt die intermolekularen Kräfte",
                   "Am kritischen Punkt wird sie null",
-                  "Alle genannten sind korrekt"
+                  "Die Oberflächenspannung steigt mit der Temperatur"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 12,
@@ -9337,10 +9403,12 @@ const QUESTIONS_DATA = {
                   "Der Dampfdruck ist höher als nach Raoult erwartet",
                   "Die Wechselwirkungen A-B sind schwächer als A-A und B-B",
                   "Ein azeotropes Gemisch mit Minimum im Siedepunkt ist möglich",
-                  "Alle genannten sind korrekt"
+                  "Der Dampfdruck ist unabhängig von der Wechselwirkung zwischen Komponenten"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 13,
@@ -9369,10 +9437,12 @@ const QUESTIONS_DATA = {
                   "Kb ist kleiner als Kf für die meisten Lösungsmittel",
                   "Die Siedepunkterhöhung ist kleiner als die Gefrierpunktserniedrigung",
                   "Verdampfung des Lösungsmittels kann die Konzentration ändern",
-                  "Alle genannten sind korrekt"
+                  "Die Ebullioskopie ist genauer als die Kryoskopie"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 13,
@@ -9465,10 +9535,12 @@ const QUESTIONS_DATA = {
                   "Die Gesamtkonzentration des Puffers (höher = bessere Kapazität)",
                   "Das Verhältnis [HA]/[A⁻] (optimal bei 1:1)",
                   "Der pKs-Wert sollte nahe am gewünschten pH liegen",
-                  "Alle genannten sind korrekt"
+                  "Die Pufferkapazität ist unabhängig von der Konzentration"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 14,
@@ -9513,10 +9585,12 @@ const QUESTIONS_DATA = {
                   "H₂CO₃/HCO₃⁻ (Kohlensäure/Hydrogencarbonat)",
                   "H₂PO₄⁻/HPO₄²⁻ (Phosphatpuffer)",
                   "Proteine (Histidin-Reste)",
-                  "Alle genannten tragen bei"
+                  "Der Blutpuffer besteht nur aus H₂CO₃/HCO₃⁻"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 14,
@@ -9593,10 +9667,12 @@ const QUESTIONS_DATA = {
                   "Überspannung bei der O₂-Entwicklung ist hoch",
                   "Die Kinetik der Cl₂-Bildung ist schneller",
                   "Bei hoher Cl⁻-Konzentration verschiebt sich das Potential",
-                  "Alle genannten sind korrekt"
+                  "Bei hoher Cl⁻-Konzentration entsteht bevorzugt O₂"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 15,
@@ -9625,10 +9701,12 @@ const QUESTIONS_DATA = {
                   "Direkte Umwandlung chemischer in elektrische Energie",
                   "Keine Carnot-Limitierung",
                   "ΔG/ΔH kann über 80% betragen",
-                  "Alle genannten sind korrekt"
+                  "Der Wirkungsgrad von Brennstoffzellen ist durch Carnot limitiert"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 15,
@@ -9721,10 +9799,12 @@ const QUESTIONS_DATA = {
                   "Lithium hat ein sehr negatives Standardpotential (-3,04 V)",
                   "Der große Potentialunterschied zwischen Anode und Kathode",
                   "Organische Elektrolyte ermöglichen höhere Spannungen",
-                  "Alle genannten sind korrekt"
+                  "Die Lithium-Ionen-Batterie hat niedrigere Spannung als der Bleiakku"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 4,
             chapter: 15,
@@ -10937,10 +11017,12 @@ const QUESTIONS_DATA = {
                   "Born-Haber ist experimentell, Born-Landé ist theoretisch",
                   "Born-Haber nutzt Hess'schen Satz, Born-Landé nutzt elektrostatische Berechnungen",
                   "Abweichungen zwischen beiden deuten auf kovalente Anteile hin",
-                  "Alle Aussagen sind korrekt"
+                  "Beide Methoden liefern immer identische Werte"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 8,
@@ -11096,10 +11178,12 @@ const QUESTIONS_DATA = {
                   "Äquatoriale Positionen haben nur zwei 90°-Nachbarn",
                   "Axiale Positionen haben drei 90°-Nachbarn",
                   "Die Abstoßung ist in äquatorialer Position geringer",
-                  "Alle genannten Gründe"
+                  "Die Abstoßung ist in axialer Position geringer"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 9,
@@ -11162,10 +11246,12 @@ const QUESTIONS_DATA = {
                   "O hat 2 freie Paare, Be hat keine",
                   "Be hat nur 2 Valenzelektronen und bildet 2 Bindungen ohne freie Paare",
                   "O hat 6 Valenzelektronen, 2 für Bindungen, 4 als freie Paare",
-                  "Alle genannten Gründe"
+                  "Axiale Positionen haben nur einen 90°-Nachbarn"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 9,
@@ -11210,10 +11296,12 @@ const QUESTIONS_DATA = {
                   "SO₄²⁻ ist symmetrisch, die Dipole heben sich auf",
                   "H₂SO₄ hat eine unsymmetrische Struktur durch die O-H-Bindungen",
                   "Die Ladungen im SO₄²⁻ sind gleichmäßig verteilt",
-                  "Alle genannten Gründe"
+                  "Freie Elektronenpaare bevorzugen immer axiale Positionen"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 9,
@@ -11290,10 +11378,12 @@ const QUESTIONS_DATA = {
                   "HOMO = Highest Occupied Molecular Orbital",
                   "LUMO = Lowest Unoccupied Molecular Orbital",
                   "Eine kleine HOMO-LUMO-Lücke bedeutet höhere Reaktivität",
-                  "Alle genannten sind korrekt"
+                  "Die HOMO-LUMO-Lücke ist irrelevant für die Reaktivität"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 10,
@@ -11322,10 +11412,12 @@ const QUESTIONS_DATA = {
                   "O₂⁺ hat eine kürzere Bindung als O₂",
                   "O₂⁺ hat eine höhere Bindungsordnung als O₂",
                   "O₂⁺ ist paramagnetisch mit 1 ungepaarten Elektron",
-                  "Alle genannten sind korrekt"
+                  "LUMO bezeichnet das niedrigste besetzte Orbital"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 10,
@@ -11338,10 +11430,12 @@ const QUESTIONS_DATA = {
                   "Konjugation der π-Elektronen über alle 4 C-Atome",
                   "Delokalisierung führt zu einer Bindungsordnung > 1 zwischen C2-C3",
                   "Das Molekül hat Resonanzstrukturen",
-                  "Alle genannten sind korrekt"
+                  "O₂⁺ hat eine niedrigere Bindungsordnung als O₂"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 10,
@@ -11370,10 +11464,12 @@ const QUESTIONS_DATA = {
                   "Ein Elektronenpaar wird von drei Atomen geteilt",
                   "Es gibt Brücken-Wasserstoffatome zwischen den Boratomen",
                   "Normale VB-Theorie kann diese Bindung nicht erklären",
-                  "Alle genannten sind korrekt"
+                  "Konjugation führt zu lokalisierten π-Elektronen"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 10,
@@ -11402,10 +11498,12 @@ const QUESTIONS_DATA = {
                   "Bindungsenergien sind Durchschnittswerte und hängen von der molekularen Umgebung ab",
                   "Die C-C-Bindung in Propan ist von mehr H-Atomen umgeben",
                   "Hyperkonjugation beeinflusst die Bindungsstärke",
-                  "Alle genannten Faktoren spielen eine Rolle"
+                  "Bindungsenergien sind in allen Molekülen identisch"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 11,
@@ -11418,10 +11516,12 @@ const QUESTIONS_DATA = {
                   "Graphit ist thermodynamisch stabiler als Diamant",
                   "Diamant wandelt sich spontan in Graphit um (wenn kinetisch möglich)",
                   "Die Umwandlung Diamant → Graphit ist exotherm",
-                  "Alle genannten sind korrekt"
+                  "Diamant ist thermodynamisch stabiler als Graphit"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 11,
@@ -11434,10 +11534,12 @@ const QUESTIONS_DATA = {
                   "Niedrige Temperatur begünstigt die exotherme Reaktion",
                   "Hoher Druck begünstigt die Seite mit weniger Gasteilchen",
                   "Kompromiss zwischen Thermodynamik (niedrige T) und Kinetik (hohe T für Geschwindigkeit)",
-                  "Alle genannten sind korrekt"
+                  "Hohe Temperatur begünstigt immer höhere Ausbeute"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 11,
@@ -11498,10 +11600,12 @@ const QUESTIONS_DATA = {
                   "d(ΔH)/dT = ΔCp",
                   "Die Änderung der Reaktionsenthalpie mit der Temperatur hängt von der Differenz der Wärmekapazitäten ab",
                   "Bei konstantem ΔCp gilt: ΔH(T₂) = ΔH(T₁) + ΔCp(T₂ - T₁)",
-                  "Alle genannten sind korrekt"
+                  "Die Kirchhoff-Gleichung gilt nur bei konstantem ΔCp"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 11,
@@ -11514,10 +11618,12 @@ const QUESTIONS_DATA = {
                   "O-H-Bindungen sind sehr stark (464 kJ/mol)",
                   "Die gebrochenen Bindungen (H-H, O=O) sind schwächer als die gebildeten O-H-Bindungen",
                   "Die Energie der gebildeten Bindungen übersteigt die der gebrochenen Bindungen",
-                  "Alle genannten sind korrekt"
+                  "O-H-Bindungen sind relativ schwach (~200 kJ/mol)"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 11,
@@ -11546,10 +11652,12 @@ const QUESTIONS_DATA = {
                   "Sie beschreibt die geometrische Anordnung der Ionen im Gitter",
                   "Sie erhöht die berechnete Gitterenergie gegenüber einer einfachen Ionen-Paar-Wechselwirkung",
                   "Sie berücksichtigt alle anziehenden und abstoßenden Wechselwirkungen im Kristall",
-                  "Alle genannten sind korrekt"
+                  "Die Madelung-Konstante ist für alle Kristalle identisch"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 11,
@@ -11562,10 +11670,12 @@ const QUESTIONS_DATA = {
                   "Verschiedene kristalline Strukturen sind bei unterschiedlichen P und T stabil",
                   "Eis VI, VII, etc. sind dichter als normales Eis I",
                   "Polymorphie ist bei hohem Druck relevant",
-                  "Alle genannten sind korrekt"
+                  "Wasser existiert nur in einer Eismodifikation"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 12,
@@ -11578,10 +11688,12 @@ const QUESTIONS_DATA = {
                   "Sie berücksichtigt die Temperaturabhängigkeit von ΔHvap",
                   "Die Parameter A, B, C werden empirisch angepasst",
                   "Sie gilt über einen größeren Temperaturbereich",
-                  "Alle genannten sind korrekt"
+                  "Die Antoine-Gleichung ist weniger genau als Clausius-Clapeyron"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 12,
@@ -11594,10 +11706,12 @@ const QUESTIONS_DATA = {
                   "Eis schmilzt unter Druck und gefriert wieder, wenn der Druck nachlässt",
                   "Ein Draht kann durch einen Eisblock “schneiden” ohne ihn zu teilen",
                   "Die negative Steigung der Schmelzkurve ermöglicht dies",
-                  "Alle genannten sind korrekt"
+                  "Regelation ist bei allen Festkörpern beobachtbar"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 12,
@@ -11610,10 +11724,12 @@ const QUESTIONS_DATA = {
                   "Es kann unpolare organische Verbindungen lösen",
                   "Die Dielektrizitätskonstante sinkt stark",
                   "Es ist korrosiv und reaktiv",
-                  "Alle genannten sind korrekt"
+                  "Überkritisches Wasser kann keine unpolaren Stoffe lösen"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 12,
@@ -11626,10 +11742,12 @@ const QUESTIONS_DATA = {
                   "Helium fließt ohne Viskosität",
                   "Quanteneffekte dominieren das Verhalten",
                   "Es gibt keinen normalen Tripelpunkt mit fester Phase unter Normaldruck",
-                  "Alle genannten sind korrekt"
+                  "Helium-4 hat einen normalen Tripelpunkt"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 12,
@@ -11642,10 +11760,12 @@ const QUESTIONS_DATA = {
                   "Der Dampfdruck steigt",
                   "Mehr Flüssigkeit verdampft",
                   "Das Volumen der Flüssigkeit nimmt ab, das des Dampfes zu",
-                  "Alle genannten sind korrekt"
+                  "Bei Erhitzung nimmt das Dampfvolumen ab"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 12,
@@ -11658,10 +11778,12 @@ const QUESTIONS_DATA = {
                   "Starke Wasserstoffbrücken in der flüssigen Phase",
                   "Mehr Ordnung in der flüssigen Phase als bei anderen Flüssigkeiten",
                   "Der Übergang zur Gasphase bringt mehr Unordnung",
-                  "Alle genannten sind korrekt"
+                  "Wasser befolgt die Trouton-Regel exakt"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 12,
@@ -11690,10 +11812,12 @@ const QUESTIONS_DATA = {
                   "Kleine Tröpfchen haben einen höheren Dampfdruck",
                   "Sie verdampfen schneller als große Tröpfchen",
                   "Dieses Prinzip erklärt Übersättigung bei der Wolkenbildung",
-                  "Alle genannten sind korrekt"
+                  "Bei kleinen Tröpfchen sinkt der Dampfdruck"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 12,
@@ -11706,10 +11830,12 @@ const QUESTIONS_DATA = {
                   "Bei 0,1 mbar liegt man unter dem Tripelpunkt von Wasser",
                   "Das gefrorene Wasser sublimiert direkt",
                   "Wärme muss zugeführt werden (ΔHsub = ΔHfus + ΔHvap ≈ 51 kJ/mol)",
-                  "Alle genannten sind korrekt"
+                  "Sublimation erfordert Temperaturen über 100°C"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 12,
@@ -11722,10 +11848,12 @@ const QUESTIONS_DATA = {
                   "Gelöste Gase tragen zur Dampfdruckerniedrigung bei",
                   "Der Partialdruck des gelösten Gases folgt c = kH × p",
                   "Bei Tauchern kann schneller Druckabfall zur Dekompressionskrankheit führen",
-                  "Alle genannten sind korrekt"
+                  "Gelöste Gase haben keinen Einfluss auf kolligative Eigenschaften"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 13,
@@ -11738,10 +11866,12 @@ const QUESTIONS_DATA = {
                   "a = γ × x, wobei γ der Aktivitätskoeffizient ist",
                   "Sie berücksichtigt nicht-ideale Wechselwirkungen",
                   "In sehr verdünnten Lösungen nähert sich γ → 1",
-                  "Alle genannten sind korrekt"
+                  "Die Aktivität entspricht immer dem Molenbruch"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 13,
@@ -11754,10 +11884,12 @@ const QUESTIONS_DATA = {
                   "Dampf und Flüssigkeit haben die gleiche Zusammensetzung",
                   "Positive Abweichung vom Raoult'schen Gesetz führt zu einem Siedepunktminimum",
                   "Das Azeotrop siedet bei niedrigerer Temperatur als beide reinen Komponenten",
-                  "Alle genannten sind korrekt"
+                  "Azeotrope können durch einfache Destillation getrennt werden"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 13,
@@ -11770,10 +11902,12 @@ const QUESTIONS_DATA = {
                   "Ionen sind von einer \"Ionenwolke\" entgegengesetzter Ladung umgeben",
                   "Der Aktivitätskoeffizient sinkt mit steigender Ionenstärke",
                   "Bei sehr hohen Konzentrationen versagt die Theorie",
-                  "Alle genannten sind korrekt"
+                  "Die Debye-Hückel-Theorie gilt für alle Konzentrationen"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 13,
@@ -11786,10 +11920,12 @@ const QUESTIONS_DATA = {
                   "Der osmotische Druck, der durch Proteine im Blutplasma erzeugt wird",
                   "Er hält Flüssigkeit in den Blutgefäßen",
                   "Bei Proteinmangel kommt es zu Ödemen",
-                  "Alle genannten sind korrekt"
+                  "Der onkotische Druck wird durch kleine Moleküle erzeugt"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 13,
@@ -11802,10 +11938,12 @@ const QUESTIONS_DATA = {
                   "Meerwasser ist hyperton zu den Körperflüssigkeiten der Fische",
                   "Süßwasserfische müssen überschüssiges Wasser ausscheiden",
                   "Salzwasserfische müssen aktiv Wasser aufnehmen und Salz ausscheiden",
-                  "Alle genannten sind korrekt"
+                  "Süß- und Salzwasserfische haben identische Osmoregulation"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 13,
@@ -11850,10 +11988,12 @@ const QUESTIONS_DATA = {
                   "Semipermeable Membranen sind selektiv für bestimmte Ionen",
                   "Unterschiedliche Ionenkonzentrationen erzeugen ein elektrisches Potential",
                   "Dies ist fundamental für Nervenimpulse",
-                  "Alle genannten sind korrekt"
+                  "Osmose hat keinen Zusammenhang mit dem Membranpotential"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 13,
@@ -11866,10 +12006,12 @@ const QUESTIONS_DATA = {
                   "Osmose treibt Wasser in Richtung höherer Konzentration gelöster Stoffe",
                   "Die Dialyselösung muss isoosmotisch zum Blut sein, um Zellschäden zu vermeiden",
                   "Harnstoff und andere kleine Moleküle diffundieren durch die Membran",
-                  "Alle genannten sind korrekt"
+                  "Die Dialyselösung muss hyperton zum Blut sein"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 13,
@@ -11882,10 +12024,12 @@ const QUESTIONS_DATA = {
                   "Der pH steigt (respiratorische Alkalose)",
                   "Weniger H₂CO₃ bedeutet weniger H⁺-Ionen",
                   "Das Gleichgewicht H₂CO₃ ⇌ H⁺ + HCO₃⁻ verschiebt sich nach links",
-                  "Alle genannten sind korrekt"
+                  "Hyperventilation führt zu respiratorischer Acidose"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 14,
@@ -11898,10 +12042,12 @@ const QUESTIONS_DATA = {
                   "Wenn der Dissoziationsgrad α << 1 (α < 5%)",
                   "Wenn c >> Ks",
                   "Für nicht zu verdünnte Lösungen",
-                  "Alle genannten Bedingungen"
+                  "Die Näherungsformel gilt auch bei starker Dissoziation"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 14,
@@ -11914,10 +12060,12 @@ const QUESTIONS_DATA = {
                   "Schwer zu bestimmen, da die Titrationskurve flach verläuft",
                   "Der pH hängt von den relativen pK-Werten ab",
                   "Kein scharfer Farbumschlag mit Indikatoren",
-                  "Alle genannten sind korrekt"
+                  "Die Titration schwacher Säure mit schwacher Base zeigt scharfen Äquivalenzpunkt"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 14,
@@ -11962,10 +12110,12 @@ const QUESTIONS_DATA = {
                   "Außerhalb dieses Bereichs ist das Verhältnis [HA]/[A⁻] zu extrem (>10:1 oder <1:10)",
                   "Die Pufferkapazität sinkt stark",
                   "Eine Komponente ist nahezu erschöpft",
-                  "Alle genannten sind korrekt"
+                  "Die Pufferkapazität ist bei pH ≠ pKs am höchsten"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 14,
@@ -11978,10 +12128,12 @@ const QUESTIONS_DATA = {
                   "Der pH sinkt bei Temperaturerhöhung (ΔpKa/ΔT ≈ -0,03/°C)",
                   "TRIS-Puffer sollten bei der Arbeitstemperatur eingestellt werden",
                   "Bei 37°C hat TRIS einen niedrigeren pKa als bei 25°C",
-                  "Alle genannten sind korrekt"
+                  "Der pH von TRIS ist temperaturunabhängig"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 14,
@@ -11994,10 +12146,12 @@ const QUESTIONS_DATA = {
                   "Linearisierung der Titrationskurve vor und nach dem Äquivalenzpunkt",
                   "Extrapolation zum Schnittpunkt mit der x-Achse",
                   "Verbesserung der Genauigkeit gegenüber visueller Bestimmung",
-                  "Alle genannten sind korrekt"
+                  "Der Gran-Plot basiert auf visueller Farbbestimmung"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 14,
@@ -12010,10 +12164,12 @@ const QUESTIONS_DATA = {
                   "pKs3 ist so hoch, dass die Titrationskurve flach verläuft",
                   "OH⁻-Ionen aus dem Lösungsmittel konkurrieren",
                   "Die Dissoziation von HPO₄²⁻ ist gering",
-                  "Alle genannten sind korrekt"
+                  "Der dritte Äquivalenzpunkt von H₃PO₄ ist leicht erkennbar"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 14,
@@ -12026,10 +12182,12 @@ const QUESTIONS_DATA = {
                   "Sie sind milliardenfach stärker als 100%ige Schwefelsäure",
                   "Sie können selbst schwache Basen wie Alkane protonieren",
                   "Der pH-Begriff ist hier nicht mehr anwendbar",
-                  "Alle genannten sind korrekt"
+                  "Superacids sind nur wenig stärker als Schwefelsäure"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 14,
@@ -12042,10 +12200,12 @@ const QUESTIONS_DATA = {
                   "Bereiche, in denen Fe, Fe²⁺, Fe³⁺, Fe(OH)₂ und Fe(OH)₃ stabil sind",
                   "Die Korrosionsbedingungen können abgelesen werden",
                   "Passivierung durch Oxidschichten ist bei bestimmten pH/E erkennbar",
-                  "Alle genannten sind korrekt"
+                  "Das Pourbaix-Diagramm zeigt nur die Stabilität von reinem Metall"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 15,
@@ -12058,10 +12218,12 @@ const QUESTIONS_DATA = {
                   "Austauschstromdichte i₀",
                   "Überspannung η",
                   "Durchtrittsfaktor α",
-                  "Alle genannten"
+                  "Die Temperatur hat keinen Einfluss auf die Reaktionskinetik"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 15,
@@ -12074,10 +12236,12 @@ const QUESTIONS_DATA = {
                   "Die Eigenschaften von Elektroden und Elektrolyten zu charakterisieren",
                   "Korrosionsprozesse zu untersuchen",
                   "Batteriegesundheit zu überwachen",
-                  "Alle genannten Anwendungen"
+                  "Bei der Butler-Volmer-Gleichung ist nur die Überspannung relevant"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 15,
@@ -12090,10 +12254,12 @@ const QUESTIONS_DATA = {
                   "Ionenaustausch-Membran trennt Anoden- und Kathodenraum",
                   "Verhindert Vermischung von Cl₂ und NaOH",
                   "Hohe Reinheit der Produkte",
-                  "Alle genannten sind korrekt"
+                  "EIS wird nur für Korrosionsuntersuchungen verwendet"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 15,
@@ -12106,10 +12272,12 @@ const QUESTIONS_DATA = {
                   "Kapazität und Leistung können unabhängig skaliert werden",
                   "Lange Lebensdauer (über 20.000 Zyklen)",
                   "Keine Degradation der aktiven Materialien",
-                  "Alle genannten sind korrekt"
+                  "Das Membranverfahren vermischt Cl₂ und NaOH"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 15,
@@ -12122,10 +12290,12 @@ const QUESTIONS_DATA = {
                   "Hohe Überspannung bei der Sauerstoffentwicklung (OER)",
                   "Teure Katalysatoren (Pt, Ir, Ru)",
                   "Stabilität unter Betriebsbedingungen",
-                  "Alle genannten sind korrekt"
+                  "Redox-Flow-Batterien haben kürzere Lebensdauer als Li-Ion"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 15,
@@ -12138,10 +12308,12 @@ const QUESTIONS_DATA = {
                   "Das Katalysatormaterial (Cu für Kohlenwasserstoffe)",
                   "Das angelegte Potential",
                   "Der pH und die CO₂-Konzentration",
-                  "Alle genannten sind korrekt"
+                  "Bei der Wasserspaltung ist die HER die größere Herausforderung"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 15,
@@ -12154,10 +12326,12 @@ const QUESTIONS_DATA = {
                   "Hoher Wirkungsgrad (bis 60%)",
                   "Keine teuren Edelmetallkatalysatoren nötig",
                   "Brennstoffflexibilität (H₂, CH₄, CO)",
-                  "Alle genannten sind korrekt"
+                  "Cu-Katalysatoren produzieren selektiv CO"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 15,
@@ -12170,10 +12344,12 @@ const QUESTIONS_DATA = {
                   "Sie schützt die Graphit-Anode vor weiterer Zersetzung des Elektrolyten",
                   "Sie ist ionenleitend aber elektronenisolierend",
                   "Ihre Bildung verbraucht Lithium (irreversibler Kapazitätsverlust)",
-                  "Alle genannten sind korrekt"
+                  "SOFCs erfordern teure Edelmetallkatalysatoren"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 15,
@@ -12186,10 +12362,12 @@ const QUESTIONS_DATA = {
                   "Höhere Energiedichte durch Lithium-Metall-Anoden",
                   "Verbesserte Sicherheit (kein flüssiger Elektrolyt)",
                   "Breiteres Temperaturfenster",
-                  "Alle genannten sind korrekt"
+                  "Die SEI-Schicht ist elektronenleitend"
             ],
             correctAnswers: [
-                  3
+                  0,
+                  1,
+                  2
             ],
             difficulty: 5,
             chapter: 15,

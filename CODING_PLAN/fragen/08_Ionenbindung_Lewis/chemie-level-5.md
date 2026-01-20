@@ -34,9 +34,9 @@
 - [ ] A. Born-Haber ist experimentell, Born-Landé ist theoretisch
 - [ ] B. Born-Haber nutzt Hess'schen Satz, Born-Landé nutzt elektrostatische Berechnungen
 - [ ] C. Abweichungen zwischen beiden deuten auf kovalente Anteile hin
-- [ ] D. Alle Aussagen sind korrekt
+- [ ] D. Beide Methoden liefern immer identische Werte
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 

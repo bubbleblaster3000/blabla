@@ -106,9 +106,9 @@
 - [ ] A. Das zu beschichtende Objekt ist die Kathode
 - [ ] B. Metallionen werden reduziert und auf dem Objekt abgeschieden
 - [ ] C. Die Anode besteht aus dem Beschichtungsmetall
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Kalium gibt weniger leicht Elektronen ab als Zink
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -118,8 +118,8 @@
 - [ ] A. Kalium gibt leichter Elektronen ab
 - [ ] B. Kalium hat ein niedrigeres Standardpotential
 - [ ] C. Kalium ist ein stärkeres Reduktionsmittel
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Das zu beschichtende Objekt ist die Anode
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---

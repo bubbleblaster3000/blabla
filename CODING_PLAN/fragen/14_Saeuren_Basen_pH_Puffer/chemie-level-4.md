@@ -46,9 +46,9 @@
 - [ ] A. Die Gesamtkonzentration des Puffers (höher = bessere Kapazität)
 - [ ] B. Das Verhältnis [HA]/[A⁻] (optimal bei 1:1)
 - [ ] C. Der pKs-Wert sollte nahe am gewünschten pH liegen
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Pufferkapazität ist unabhängig von der Konzentration
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -82,9 +82,9 @@
 - [ ] A. H₂CO₃/HCO₃⁻ (Kohlensäure/Hydrogencarbonat)
 - [ ] B. H₂PO₄⁻/HPO₄²⁻ (Phosphatpuffer)
 - [ ] C. Proteine (Histidin-Reste)
-- [ ] D. Alle genannten tragen bei
+- [ ] D. Der Blutpuffer besteht nur aus H₂CO₃/HCO₃⁻
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 

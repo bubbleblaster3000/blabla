@@ -22,9 +22,9 @@
 - [ ] A. Ionenpaare bilden sich in konzentrierten Lösungen
 - [ ] B. Nicht alle Ionen dissoziieren vollständig
 - [ ] C. Elektrostatische Wechselwirkungen zwischen Ionen
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Ionenpaare erhöhen den van't Hoff-Faktor
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -46,9 +46,9 @@
 - [ ] A. Die Dampfdruckerniedrigung bewirkt beides
 - [ ] B. Beim Sieden muss ein höherer Dampfdruck erreicht werden
 - [ ] C. Beim Gefrieren stört der gelöste Stoff die Kristallbildung
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Dampfdruckerniedrigung bewirkt eine Gefrierpunkterhöhung
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -58,9 +58,9 @@
 - [ ] A. Einen höheren osmotischen Druck
 - [ ] B. Wasser fließt aus der Zelle heraus
 - [ ] C. Die Zelle schrumpft (Plasmolyse)
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Bei hypertoner Lösung nimmt die Zelle Wasser auf
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -70,9 +70,9 @@
 - [ ] A. Osmose wird durch Druckanwendung umgekehrt
 - [ ] B. Lösungsmittel wird durch die Membran von der konzentrierten zur verdünnten Seite gedrückt
 - [ ] C. Wird zur Meerwasserentsalzung genutzt
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Bei Umkehrosmose fließt Wasser zur konzentrierten Seite
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -82,9 +82,9 @@
 - [ ] A. MgCl₂ hat den größten Effekt (i ≈ 3)
 - [ ] B. NaCl hat einen mittleren Effekt (i ≈ 2)
 - [ ] C. Glucose hat den kleinsten Effekt (i = 1)
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Alle Lösungen haben den gleichen kolligativen Effekt
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -94,9 +94,9 @@
 - [ ] A. Es senkt den Gefrierpunkt des Wassers
 - [ ] B. Es erhöht den Siedepunkt des Wassers
 - [ ] C. Es ist nicht flüchtig und nicht korrosiv
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Ethylenglykol erhöht den Gefrierpunkt
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -106,9 +106,9 @@
 - [ ] A. Sie hat den gleichen osmotischen Druck wie Blut
 - [ ] B. Rote Blutkörperchen platzen nicht und schrumpfen nicht
 - [ ] C. Sie ist verträglich für den Körper
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Isotonische Lösung unterscheidet sich stark vom Blutdruck
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -118,8 +118,8 @@
 - [ ] A. Sehr verdünnte Lösungen
 - [ ] B. Lösungen mit ähnlichen intermolekularen Kräften
 - [ ] C. Nicht-flüchtige gelöste Stoffe
-- [ ] D. Alle genannten Bedingungen
+- [ ] D. Das Raoult'sche Gesetz gilt für alle Konzentrationen
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---

@@ -10,9 +10,9 @@
 - [ ] A. Gelöste Gase tragen zur Dampfdruckerniedrigung bei
 - [ ] B. Der Partialdruck des gelösten Gases folgt c = kH × p
 - [ ] C. Bei Tauchern kann schneller Druckabfall zur Dekompressionskrankheit führen
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Gelöste Gase haben keinen Einfluss auf kolligative Eigenschaften
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -22,9 +22,9 @@
 - [ ] A. a = γ × x, wobei γ der Aktivitätskoeffizient ist
 - [ ] B. Sie berücksichtigt nicht-ideale Wechselwirkungen
 - [ ] C. In sehr verdünnten Lösungen nähert sich γ → 1
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Aktivität entspricht immer dem Molenbruch
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -34,9 +34,9 @@
 - [ ] A. Dampf und Flüssigkeit haben die gleiche Zusammensetzung
 - [ ] B. Positive Abweichung vom Raoult'schen Gesetz führt zu einem Siedepunktminimum
 - [ ] C. Das Azeotrop siedet bei niedrigerer Temperatur als beide reinen Komponenten
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Azeotrope können durch einfache Destillation getrennt werden
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -46,9 +46,9 @@
 - [ ] A. Ionen sind von einer "Ionenwolke" entgegengesetzter Ladung umgeben
 - [ ] B. Der Aktivitätskoeffizient sinkt mit steigender Ionenstärke
 - [ ] C. Bei sehr hohen Konzentrationen versagt die Theorie
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Debye-Hückel-Theorie gilt für alle Konzentrationen
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -58,9 +58,9 @@
 - [ ] A. Der osmotische Druck, der durch Proteine im Blutplasma erzeugt wird
 - [ ] B. Er hält Flüssigkeit in den Blutgefäßen
 - [ ] C. Bei Proteinmangel kommt es zu Ödemen
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Der onkotische Druck wird durch kleine Moleküle erzeugt
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -70,9 +70,9 @@
 - [ ] A. Meerwasser ist hyperton zu den Körperflüssigkeiten der Fische
 - [ ] B. Süßwasserfische müssen überschüssiges Wasser ausscheiden
 - [ ] C. Salzwasserfische müssen aktiv Wasser aufnehmen und Salz ausscheiden
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Süß- und Salzwasserfische haben identische Osmoregulation
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -106,9 +106,9 @@
 - [ ] A. Semipermeable Membranen sind selektiv für bestimmte Ionen
 - [ ] B. Unterschiedliche Ionenkonzentrationen erzeugen ein elektrisches Potential
 - [ ] C. Dies ist fundamental für Nervenimpulse
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Osmose hat keinen Zusammenhang mit dem Membranpotential
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -118,8 +118,8 @@
 - [ ] A. Osmose treibt Wasser in Richtung höherer Konzentration gelöster Stoffe
 - [ ] B. Die Dialyselösung muss isoosmotisch zum Blut sein, um Zellschäden zu vermeiden
 - [ ] C. Harnstoff und andere kleine Moleküle diffundieren durch die Membran
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Dialyselösung muss hyperton zum Blut sein
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---

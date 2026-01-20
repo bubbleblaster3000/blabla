@@ -22,9 +22,9 @@
 - [ ] A. Äquatoriale Positionen haben nur zwei 90°-Nachbarn
 - [ ] B. Axiale Positionen haben drei 90°-Nachbarn
 - [ ] C. Die Abstoßung ist in äquatorialer Position geringer
-- [ ] D. Alle genannten Gründe
+- [ ] D. Die Abstoßung ist in axialer Position geringer
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -70,9 +70,9 @@
 - [ ] A. O hat 2 freie Paare, Be hat keine
 - [ ] B. Be hat nur 2 Valenzelektronen und bildet 2 Bindungen ohne freie Paare
 - [ ] C. O hat 6 Valenzelektronen, 2 für Bindungen, 4 als freie Paare
-- [ ] D. Alle genannten Gründe
+- [ ] D. Axiale Positionen haben nur einen 90°-Nachbarn
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -106,9 +106,9 @@
 - [ ] A. SO₄²⁻ ist symmetrisch, die Dipole heben sich auf
 - [ ] B. H₂SO₄ hat eine unsymmetrische Struktur durch die O-H-Bindungen
 - [ ] C. Die Ladungen im SO₄²⁻ sind gleichmäßig verteilt
-- [ ] D. Alle genannten Gründe
+- [ ] D. Freie Elektronenpaare bevorzugen immer axiale Positionen
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 

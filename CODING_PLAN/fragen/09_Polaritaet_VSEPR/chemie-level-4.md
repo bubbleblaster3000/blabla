@@ -118,8 +118,8 @@
 - [ ] A. Die N-F-Bindungsdipolmomente und das Dipolmoment des freien Paares zeigen in entgegengesetzte Richtungen
 - [ ] B. In NH₃ verstärken sich Bindungsdipole und freies Paar gegenseitig
 - [ ] C. Fluor ist zu elektronegativ
-- [ ] D. A und B sind beide korrekt
+- [ ] D. NF₃ ist ein lineares Molekül ohne Dipolmoment
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B
 
 ---

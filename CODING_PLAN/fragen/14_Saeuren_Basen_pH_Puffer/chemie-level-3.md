@@ -118,8 +118,8 @@
 - [ ] A. Jedes Proton hat eine andere Dissoziationskonstante
 - [ ] B. Die Abgabe jedes weiteren Protons wird schwieriger
 - [ ] C. pKs1 < pKs2 < pKs3
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Jedes Proton hat die gleiche Dissoziationskonstante
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---

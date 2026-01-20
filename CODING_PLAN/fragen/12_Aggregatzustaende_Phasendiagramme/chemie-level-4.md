@@ -21,9 +21,9 @@
 - [ ] A. Logarithmisch-linear
 - [ ] B. Ein Plot von ln(P) gegen 1/T ergibt eine Gerade
 - [ ] C. Die Steigung ist -ΔHvap/R
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Clausius-Clapeyron-Gleichung gilt nur für ideale Gase
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -45,9 +45,9 @@
 - [ ] A. Oberhalb dieser Werte existiert nur überkritisches Wasser
 - [ ] B. Die Dichte von Flüssigkeit und Dampf werden am kritischen Punkt gleich
 - [ ] C. Die Oberflächenspannung verschwindet am kritischen Punkt
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Am kritischen Punkt ist die Oberflächenspannung maximal
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -57,9 +57,9 @@
 - [ ] A. Schmilzt das Eis, da die Schmelzkurve negative Steigung hat
 - [ ] B. Der Schmelzpunkt sinkt auf etwa -4°C
 - [ ] C. Die Dichteanomalie des Wassers ist verantwortlich
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Erhöhter Druck verhindert das Schmelzen von Eis
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -105,9 +105,9 @@
 - [ ] A. Sie nimmt ab
 - [ ] B. Thermische Bewegung schwächt die intermolekularen Kräfte
 - [ ] C. Am kritischen Punkt wird sie null
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Oberflächenspannung steigt mit der Temperatur
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 

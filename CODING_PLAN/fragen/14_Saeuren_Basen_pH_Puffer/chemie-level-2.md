@@ -41,14 +41,14 @@
 ---
 
 ## Frage 4
-**Welche der folgenden ist eine starke Säure?**
+**Was ist der pH-Wert einer 0,01 M HCl-Lösung?**
 
-- [ ] A. HCl
-- [ ] B. CH₃COOH
-- [ ] C. H₂CO₃
-- [ ] D. HF
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. 4
 
-**Richtige Antworten:** A
+**Richtige Antworten:** B
 
 ---
 

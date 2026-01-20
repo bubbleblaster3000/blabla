@@ -60,9 +60,9 @@
 - [ ] A. Die Gesamtenergie zum Brechen aller 4 C-H-Bindungen ist ~1652 kJ/mol
 - [ ] B. Die Bindungsenergien sind Durchschnittswerte
 - [ ] C. Die erste C-H-Bindung erfordert mehr Energie als die nachfolgenden
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Bindungsenergie ist unabhängig von der molekularen Umgebung
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -84,9 +84,9 @@
 - [ ] A. Mg²⁺ und O²⁻ haben höhere Ladungen als Na⁺ und Cl⁻
 - [ ] B. Der Ionenabstand in MgO ist kleiner
 - [ ] C. Die Gitterenergie ist proportional zu q₁×q₂/r
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Der Ionenabstand hat keinen Einfluss auf die Gitterenergie
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 

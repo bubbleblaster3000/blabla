@@ -46,9 +46,9 @@
 - [ ] A. Mg²⁺ und O²⁻ haben höhere Ladungen als Na⁺ und Cl⁻
 - [ ] B. Die Ionenradien sind kleiner
 - [ ] C. Die elektrostatische Anziehung ist stärker
-- [ ] D. Alle genannten Gründe
+- [ ] D. Die Ionenradien haben keinen Einfluss auf die Gitterenergie
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -106,9 +106,9 @@
 - [ ] A. Eine Dreifachbindung mit einem freien Elektronenpaar am C und einem am O
 - [ ] B. Eine dative (koordinative) Bindung vom O zum C
 - [ ] C. Kohlenstoff hat nur 6 Elektronen (Oktettunterschreitung)
-- [ ] D. A und B sind beide korrekt
+- [ ] D. CO hat eine reine Doppelbindung wie O₂
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B
 
 ---
 

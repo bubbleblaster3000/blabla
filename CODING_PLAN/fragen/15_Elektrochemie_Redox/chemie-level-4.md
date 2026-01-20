@@ -22,9 +22,9 @@
 - [ ] A. Überspannung bei der O₂-Entwicklung ist hoch
 - [ ] B. Die Kinetik der Cl₂-Bildung ist schneller
 - [ ] C. Bei hoher Cl⁻-Konzentration verschiebt sich das Potential
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Bei hoher Cl⁻-Konzentration entsteht bevorzugt O₂
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -46,9 +46,9 @@
 - [ ] A. Direkte Umwandlung chemischer in elektrische Energie
 - [ ] B. Keine Carnot-Limitierung
 - [ ] C. ΔG/ΔH kann über 80% betragen
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Der Wirkungsgrad von Brennstoffzellen ist durch Carnot limitiert
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -118,8 +118,8 @@
 - [ ] A. Lithium hat ein sehr negatives Standardpotential (-3,04 V)
 - [ ] B. Der große Potentialunterschied zwischen Anode und Kathode
 - [ ] C. Organische Elektrolyte ermöglichen höhere Spannungen
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Lithium-Ionen-Batterie hat niedrigere Spannung als der Bleiakku
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---

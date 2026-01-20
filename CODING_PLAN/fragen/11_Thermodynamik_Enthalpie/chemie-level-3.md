@@ -23,9 +23,9 @@
 - [ ] A. Kombination von Teilreaktionen
 - [ ] B. Verwendung von Standardbildungsenthalpien
 - [ ] C. Verwendung von Bindungsenergien
-- [ ] D. Alle genannten Methoden
+- [ ] D. ΔH kann nur kalorimetrisch gemessen werden
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -108,9 +108,9 @@
 - [ ] A. Die Enthalpie des direkten Übergangs von fest zu gasförmig
 - [ ] B. Gleich der Summe aus Schmelz- und Verdampfungsenthalpie
 - [ ] C. Immer positiv (endotherm)
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Enthalpie der Sublimation ist immer negativ (exotherm)
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 

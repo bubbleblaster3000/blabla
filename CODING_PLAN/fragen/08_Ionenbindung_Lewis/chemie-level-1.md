@@ -17,36 +17,36 @@
 ---
 
 ## Frage 2
-**Was ist ein Kation?**
+**Was passiert bei der Bildung einer Ionenbindung?**
 
-- [ ] A. Ein negativ geladenes Ion
-- [ ] B. Ein positiv geladenes Ion
-- [ ] C. Ein neutrales Atom
-- [ ] D. Ein Elektronenpaar
+- [ ] A. Elektronen werden zwischen Atomen geteilt
+- [ ] B. Elektronen werden von einem Atom auf ein anderes übertragen
+- [ ] C. Protonen werden ausgetauscht
+- [ ] D. Neutronen werden geteilt
 
 **Richtige Antworten:** B
 
 ---
 
 ## Frage 3
-**Was ist ein Anion?**
+**Was zeigt eine Lewis-Struktur?**
 
-- [ ] A. Ein positiv geladenes Ion
-- [ ] B. Ein neutrales Teilchen
-- [ ] C. Ein negativ geladenes Ion
-- [ ] D. Ein Proton
+- [ ] A. Nur die Protonen eines Atoms
+- [ ] B. Die Valenzelektronen und Bindungen eines Moleküls
+- [ ] C. Die Masse eines Moleküls
+- [ ] D. Die Kernladung eines Atoms
 
-**Richtige Antworten:** C
+**Richtige Antworten:** B
 
 ---
 
 ## Frage 4
-**Was zeigt eine Lewis-Struktur?**
+**Welches Element gibt bei einer Ionenbindung mit Chlor ein Elektron ab?**
 
-- [ ] A. Die räumliche Anordnung der Atome
-- [ ] B. Die Valenzelektronen als Punkte oder Striche
-- [ ] C. Die Masse der Atome
-- [ ] D. Die Kernladung
+- [ ] A. Sauerstoff
+- [ ] B. Natrium
+- [ ] C. Stickstoff
+- [ ] D. Kohlenstoff
 
 **Richtige Antworten:** B
 
@@ -94,9 +94,9 @@
 - [ ] A. Die Energie, die beim Bilden eines Ionengitters freigesetzt wird
 - [ ] B. Die Energie, die zur Trennung aller Ionen im Gitter benötigt wird
 - [ ] C. Die kinetische Energie der Ionen
-- [ ] D. Sowohl A als auch B sind korrekte Beschreibungen
+- [ ] D. Die Gitterenergie ist unabhängig von den Ionenladungen
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 

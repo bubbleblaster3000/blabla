@@ -57,9 +57,9 @@
 - [ ] A. Van-der-Waals-Kräfte
 - [ ] B. Wasserstoffbrücken
 - [ ] C. Dipol-Dipol-Wechselwirkungen
-- [ ] D. Alle genannten
+- [ ] D. Nur ionische Bindungen
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 

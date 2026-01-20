@@ -46,9 +46,9 @@
 - [ ] A. HOMO = Highest Occupied Molecular Orbital
 - [ ] B. LUMO = Lowest Unoccupied Molecular Orbital
 - [ ] C. Eine kleine HOMO-LUMO-Lücke bedeutet höhere Reaktivität
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die HOMO-LUMO-Lücke ist irrelevant für die Reaktivität
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -70,9 +70,9 @@
 - [ ] A. O₂⁺ hat eine kürzere Bindung als O₂
 - [ ] B. O₂⁺ hat eine höhere Bindungsordnung als O₂
 - [ ] C. O₂⁺ ist paramagnetisch mit 1 ungepaarten Elektron
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. LUMO bezeichnet das niedrigste besetzte Orbital
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -82,9 +82,9 @@
 - [ ] A. Konjugation der π-Elektronen über alle 4 C-Atome
 - [ ] B. Delokalisierung führt zu einer Bindungsordnung > 1 zwischen C2-C3
 - [ ] C. Das Molekül hat Resonanzstrukturen
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. O₂⁺ hat eine niedrigere Bindungsordnung als O₂
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -106,9 +106,9 @@
 - [ ] A. Ein Elektronenpaar wird von drei Atomen geteilt
 - [ ] B. Es gibt Brücken-Wasserstoffatome zwischen den Boratomen
 - [ ] C. Normale VB-Theorie kann diese Bindung nicht erklären
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Konjugation führt zu lokalisierten π-Elektronen
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 

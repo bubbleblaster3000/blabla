@@ -10,9 +10,9 @@
 - [ ] A. Bindungsenergien sind Durchschnittswerte und hängen von der molekularen Umgebung ab
 - [ ] B. Die C-C-Bindung in Propan ist von mehr H-Atomen umgeben
 - [ ] C. Hyperkonjugation beeinflusst die Bindungsstärke
-- [ ] D. Alle genannten Faktoren spielen eine Rolle
+- [ ] D. Bindungsenergien sind in allen Molekülen identisch
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -22,9 +22,9 @@
 - [ ] A. Graphit ist thermodynamisch stabiler als Diamant
 - [ ] B. Diamant wandelt sich spontan in Graphit um (wenn kinetisch möglich)
 - [ ] C. Die Umwandlung Diamant → Graphit ist exotherm
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Diamant ist thermodynamisch stabiler als Graphit
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -34,9 +34,9 @@
 - [ ] A. Niedrige Temperatur begünstigt die exotherme Reaktion
 - [ ] B. Hoher Druck begünstigt die Seite mit weniger Gasteilchen
 - [ ] C. Kompromiss zwischen Thermodynamik (niedrige T) und Kinetik (hohe T für Geschwindigkeit)
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Hohe Temperatur begünstigt immer höhere Ausbeute
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -82,9 +82,9 @@
 - [ ] A. d(ΔH)/dT = ΔCp
 - [ ] B. Die Änderung der Reaktionsenthalpie mit der Temperatur hängt von der Differenz der Wärmekapazitäten ab
 - [ ] C. Bei konstantem ΔCp gilt: ΔH(T₂) = ΔH(T₁) + ΔCp(T₂ - T₁)
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Kirchhoff-Gleichung gilt nur bei konstantem ΔCp
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -94,9 +94,9 @@
 - [ ] A. O-H-Bindungen sind sehr stark (464 kJ/mol)
 - [ ] B. Die gebrochenen Bindungen (H-H, O=O) sind schwächer als die gebildeten O-H-Bindungen
 - [ ] C. Die Energie der gebildeten Bindungen übersteigt die der gebrochenen Bindungen
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. O-H-Bindungen sind relativ schwach (~200 kJ/mol)
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -118,8 +118,8 @@
 - [ ] A. Sie beschreibt die geometrische Anordnung der Ionen im Gitter
 - [ ] B. Sie erhöht die berechnete Gitterenergie gegenüber einer einfachen Ionen-Paar-Wechselwirkung
 - [ ] C. Sie berücksichtigt alle anziehenden und abstoßenden Wechselwirkungen im Kristall
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Madelung-Konstante ist für alle Kristalle identisch
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---

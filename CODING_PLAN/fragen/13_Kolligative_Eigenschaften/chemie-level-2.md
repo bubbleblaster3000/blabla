@@ -58,9 +58,9 @@
 - [ ] A. Der gelöste Stoff blockiert Lösungsmittelmoleküle an der Oberfläche
 - [ ] B. Der Molenbruch des Lösungsmittels sinkt
 - [ ] C. Weniger Lösungsmittelmoleküle können verdampfen
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Der gelöste Stoff erhöht den Dampfdruck
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -70,7 +70,7 @@
 - [ ] A. π = osmotischer Druck, M = Molarität, R = Gaskonstante, T = Temperatur
 - [ ] B. π = Dampfdruck, M = Masse, R = Radius, T = Zeit
 - [ ] C. π = Pi, M = Molmasse, R = Reaktionsgeschwindigkeit, T = Temperatur
-- [ ] D. Keine der genannten
+- [ ] D. π = Partialdruck, M = Molalität, R = Rydberg-Konstante, T = Tripelpunkt
 
 **Richtige Antworten:** A
 

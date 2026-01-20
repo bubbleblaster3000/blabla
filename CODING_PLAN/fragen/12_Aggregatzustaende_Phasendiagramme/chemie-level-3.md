@@ -9,9 +9,9 @@
 - [ ] A. Eis kann unter Druck schmelzen
 - [ ] B. Der Schmelzpunkt sinkt mit steigendem Druck
 - [ ] C. Wasser ist im festen Zustand weniger dicht als im flüssigen
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Eis ist dichter als flüssiges Wasser
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -33,9 +33,9 @@
 - [ ] A. Bei Normaldruck sublimiert festes CO₂ direkt
 - [ ] B. Flüssiges CO₂ existiert nur unter Druck
 - [ ] C. Trockeneis wird industriell genutzt
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Der Tripelpunkt liegt oberhalb von 1 atm für CO₂
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -45,9 +45,9 @@
 - [ ] A. Die Clausius-Clapeyron-Gleichung zeigt eine exponentielle Beziehung
 - [ ] B. Mehr Moleküle haben genügend Energie, um die Flüssigkeit zu verlassen
 - [ ] C. Die Verdampfungsenthalpie wird überwunden
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Der Dampfdruck steigt linear mit der Temperatur
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -57,9 +57,9 @@
 - [ ] A. Die Energie, die benötigt wird, um 1 mol einer Flüssigkeit zu verdampfen
 - [ ] B. Sie ist immer positiv (endotherm)
 - [ ] C. Sie ist ein Maß für die Stärke der intermolekularen Kräfte
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Verdampfungsenthalpie ist immer negativ
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -69,9 +69,9 @@
 - [ ] A. Beim Schmelzen werden nur einige Wasserstoffbrücken gebrochen
 - [ ] B. Beim Verdampfen werden alle intermolekularen Kräfte überwunden
 - [ ] C. Der Übergang flüssig → gas erfordert mehr Energie
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Beim Schmelzen werden alle intermolekularen Kräfte gebrochen
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -81,9 +81,9 @@
 - [ ] A. Ein Zustand oberhalb des kritischen Punktes
 - [ ] B. Eigenschaften zwischen Flüssigkeit und Gas
 - [ ] C. Gutes Lösungsmittel mit einstellbaren Eigenschaften
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Ein überkritisches Fluid existiert nur theoretisch
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -93,9 +93,9 @@
 - [ ] A. Koffeinentfernung aus Kaffee
 - [ ] B. Extraktion von Aromastoffen
 - [ ] C. Reinigung von Elektronik
-- [ ] D. Alle genannten
+- [ ] D. Herstellung von Diamanten unter hohem Druck
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -105,9 +105,9 @@
 - [ ] A. Höhere Temperatur bedeutet höheren Dampfdruck
 - [ ] B. Die Verdampfung ist endotherm
 - [ ] C. Das Gleichgewicht verschiebt sich zur Gasphase
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Überkritisches CO₂ ist nur für Koffein geeignet
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -117,6 +117,6 @@
 - [ ] A. Sublimation unter vermindertem Druck
 - [ ] B. Das Wasser geht direkt von fest zu gasförmig
 - [ ] C. Der Tripelpunkt wird unterschritten
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Dampfdruckkurve zeigt nach unten links
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C

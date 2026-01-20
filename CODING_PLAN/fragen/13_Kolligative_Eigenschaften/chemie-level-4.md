@@ -70,9 +70,9 @@
 - [ ] A. Der Dampfdruck ist höher als nach Raoult erwartet
 - [ ] B. Die Wechselwirkungen A-B sind schwächer als A-A und B-B
 - [ ] C. Ein azeotropes Gemisch mit Minimum im Siedepunkt ist möglich
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Der Dampfdruck ist unabhängig von der Wechselwirkung zwischen Komponenten
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -94,9 +94,9 @@
 - [ ] A. Kb ist kleiner als Kf für die meisten Lösungsmittel
 - [ ] B. Die Siedepunkterhöhung ist kleiner als die Gefrierpunktserniedrigung
 - [ ] C. Verdampfung des Lösungsmittels kann die Konzentration ändern
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Ebullioskopie ist genauer als die Kryoskopie
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 

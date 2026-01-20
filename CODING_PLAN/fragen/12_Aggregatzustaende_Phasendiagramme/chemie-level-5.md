@@ -9,9 +9,9 @@
 - [ ] A. Verschiedene kristalline Strukturen sind bei unterschiedlichen P und T stabil
 - [ ] B. Eis VI, VII, etc. sind dichter als normales Eis I
 - [ ] C. Polymorphie ist bei hohem Druck relevant
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Wasser existiert nur in einer Eismodifikation
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -21,9 +21,9 @@
 - [ ] A. Sie berücksichtigt die Temperaturabhängigkeit von ΔHvap
 - [ ] B. Die Parameter A, B, C werden empirisch angepasst
 - [ ] C. Sie gilt über einen größeren Temperaturbereich
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Die Antoine-Gleichung ist weniger genau als Clausius-Clapeyron
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -33,9 +33,9 @@
 - [ ] A. Eis schmilzt unter Druck und gefriert wieder, wenn der Druck nachlässt
 - [ ] B. Ein Draht kann durch einen Eisblock “schneiden” ohne ihn zu teilen
 - [ ] C. Die negative Steigung der Schmelzkurve ermöglicht dies
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Regelation ist bei allen Festkörpern beobachtbar
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -45,9 +45,9 @@
 - [ ] A. Es kann unpolare organische Verbindungen lösen
 - [ ] B. Die Dielektrizitätskonstante sinkt stark
 - [ ] C. Es ist korrosiv und reaktiv
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Überkritisches Wasser kann keine unpolaren Stoffe lösen
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -57,9 +57,9 @@
 - [ ] A. Helium fließt ohne Viskosität
 - [ ] B. Quanteneffekte dominieren das Verhalten
 - [ ] C. Es gibt keinen normalen Tripelpunkt mit fester Phase unter Normaldruck
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Helium-4 hat einen normalen Tripelpunkt
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -69,9 +69,9 @@
 - [ ] A. Der Dampfdruck steigt
 - [ ] B. Mehr Flüssigkeit verdampft
 - [ ] C. Das Volumen der Flüssigkeit nimmt ab, das des Dampfes zu
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Bei Erhitzung nimmt das Dampfvolumen ab
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -81,9 +81,9 @@
 - [ ] A. Starke Wasserstoffbrücken in der flüssigen Phase
 - [ ] B. Mehr Ordnung in der flüssigen Phase als bei anderen Flüssigkeiten
 - [ ] C. Der Übergang zur Gasphase bringt mehr Unordnung
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Wasser befolgt die Trouton-Regel exakt
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -105,9 +105,9 @@
 - [ ] A. Kleine Tröpfchen haben einen höheren Dampfdruck
 - [ ] B. Sie verdampfen schneller als große Tröpfchen
 - [ ] C. Dieses Prinzip erklärt Übersättigung bei der Wolkenbildung
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Bei kleinen Tröpfchen sinkt der Dampfdruck
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C
 
 ---
 
@@ -117,6 +117,6 @@
 - [ ] A. Bei 0,1 mbar liegt man unter dem Tripelpunkt von Wasser
 - [ ] B. Das gefrorene Wasser sublimiert direkt
 - [ ] C. Wärme muss zugeführt werden (ΔHsub = ΔHfus + ΔHvap ≈ 51 kJ/mol)
-- [ ] D. Alle genannten sind korrekt
+- [ ] D. Sublimation erfordert Temperaturen über 100°C
 
-**Richtige Antworten:** D
+**Richtige Antworten:** A, B, C

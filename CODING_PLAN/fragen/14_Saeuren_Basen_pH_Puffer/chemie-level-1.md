@@ -29,12 +29,12 @@
 ---
 
 ## Frage 3
-**Was ist eine schwache Säure?**
+**Was ist ein Puffer?**
 
-- [ ] A. Eine Säure, die nur teilweise dissoziiert
-- [ ] B. Eine Säure mit niedriger Konzentration
-- [ ] C. Eine Säure, die vollständig dissoziiert
-- [ ] D. Eine Säure ohne Wasserstoff
+- [ ] A. Eine Lösung, die den pH-Wert bei Zugabe von Säure oder Base stabilisiert
+- [ ] B. Eine konzentrierte Säure
+- [ ] C. Eine Lösung ohne Ionen
+- [ ] D. Reines Wasser
 
 **Richtige Antworten:** A
 
@@ -65,12 +65,12 @@
 ---
 
 ## Frage 6
-**Was ist ein Puffer?**
+**Woraus besteht ein typischer Puffer?**
 
-- [ ] A. Eine Lösung, die ihren pH-Wert bei Zugabe von Säure oder Base kaum ändert
-- [ ] B. Eine stark saure Lösung
-- [ ] C. Reines Wasser
-- [ ] D. Eine Lösung ohne Ionen
+- [ ] A. Aus einer schwachen Säure und ihrem konjugierten Salz
+- [ ] B. Aus zwei starken Säuren
+- [ ] C. Nur aus reinem Wasser
+- [ ] D. Aus einer starken Base und einer starken Säure
 
 **Richtige Antworten:** A
 
