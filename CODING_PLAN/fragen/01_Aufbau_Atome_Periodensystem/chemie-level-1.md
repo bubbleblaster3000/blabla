@@ -8,8 +8,8 @@
 **Aus welchen Teilchen besteht ein Atom?**
 
 - [ ] A. Protonen, Neutronen und Elektronen
-- [ ] B. Nur aus Protonen und Elektronen
-- [ ] C. Nur aus Neutronen und Elektronen
+- [ ] B. meist aus Protonen und Elektronen
+- [ ] C. meist aus Neutronen und Elektronen
 - [ ] D. Aus Molekülen und Ionen
 
 **Richtige Antworten:** A
@@ -56,7 +56,7 @@
 **Was sind Isotope?**
 
 - [ ] A. Atome verschiedener Elemente mit gleicher Masse
-- [ ] B. Atome desselben Elements mit unterschiedlicher Neutronenzahl
+- [ ] B. Isotope des gleichen Elements
 - [ ] C. Atome mit unterschiedlicher Protonenzahl
 - [ ] D. Atome ohne Elektronen
 

@@ -18,10 +18,10 @@
 ## Frage 2
 **Die Clausius-Clapeyron-Gleichung beschreibt:**
 
-- [ ] A. Die Abhängigkeit des Dampfdrucks von der Temperatur
-- [ ] B. Die ideale Gasgleichung
-- [ ] C. Die Schmelzwärme
-- [ ] D. Die kritische Temperatur
+- [ ] A. Abhängigkeit des Dampfdrucks von T
+- [ ] B. Die ideale Gasgleichung für ideale Gase (pV=nRT)
+- [ ] C. Die Schmelzwärme eines Feststoffs beim Schmelzen
+- [ ] D. Die kritische Temperatur eines Stoffes im Phasendiagramm
 
 **Richtige Antworten:** A
 
@@ -55,7 +55,7 @@
 **Was ist die Verdampfungsenthalpie (ΔHvap)?**
 
 - [ ] A. Die Energie, die benötigt wird, um 1 mol einer Flüssigkeit zu verdampfen
-- [ ] B. Sie ist immer positiv (endotherm)
+- [ ] B. Sie ist immer positiv
 - [ ] C. Sie ist ein Maß für die Stärke der intermolekularen Kräfte
 - [ ] D. Die Verdampfungsenthalpie ist immer negativ
 
@@ -81,7 +81,7 @@
 - [ ] A. Ein Zustand oberhalb des kritischen Punktes
 - [ ] B. Eigenschaften zwischen Flüssigkeit und Gas
 - [ ] C. Gutes Lösungsmittel mit einstellbaren Eigenschaften
-- [ ] D. Ein überkritisches Fluid existiert nur theoretisch
+- [ ] D. Ein überkritisches Fluid existiert meist theoretisch
 
 **Richtige Antworten:** A, B, C
 
@@ -105,7 +105,7 @@
 - [ ] A. Höhere Temperatur bedeutet höheren Dampfdruck
 - [ ] B. Die Verdampfung ist endotherm
 - [ ] C. Das Gleichgewicht verschiebt sich zur Gasphase
-- [ ] D. Überkritisches CO₂ ist nur für Koffein geeignet
+- [ ] D. Überkritisches CO₂ ist meist für Koffein geeignet
 
 **Richtige Antworten:** A, B, C
 

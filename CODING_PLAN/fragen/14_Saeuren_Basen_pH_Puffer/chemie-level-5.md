@@ -7,7 +7,7 @@
 ## Frage 1
 **Ein Patient hyperventiliert und baut CO₂ ab. Wie beeinflusst das den Blut-pH?**
 
-- [ ] A. Der pH steigt (respiratorische Alkalose)
+- [ ] A. Der pH steigt
 - [ ] B. Weniger H₂CO₃ bedeutet weniger H⁺-Ionen
 - [ ] C. Das Gleichgewicht H₂CO₃ ⇌ H⁺ + HCO₃⁻ verschiebt sich nach links
 - [ ] D. Hyperventilation führt zu respiratorischer Acidose
@@ -67,7 +67,7 @@
 ## Frage 6
 **Ein Puffer sollte innerhalb von ±1 pH-Einheit seines pKs-Wertes verwendet werden. Erkläre warum.**
 
-- [ ] A. Außerhalb dieses Bereichs ist das Verhältnis [HA]/[A⁻] zu extrem (>10:1 oder <1:10)
+- [ ] A. Außerhalb dieses Bereichs ist das Verhältnis [HA]/[A⁻] zu extrem
 - [ ] B. Die Pufferkapazität sinkt stark
 - [ ] C. Eine Komponente ist nahezu erschöpft
 - [ ] D. Die Pufferkapazität ist bei pH ≠ pKs am höchsten
@@ -79,7 +79,7 @@
 ## Frage 7
 **TRIS (Trishydroxymethylaminomethan) ist ein gängiger Laborpuffer mit pKa = 8,1. Wie ändert sich der pH einer TRIS-Lösung mit der Temperatur?**
 
-- [ ] A. Der pH sinkt bei Temperaturerhöhung (ΔpKa/ΔT ≈ -0,03/°C)
+- [ ] A. Der pH sinkt bei Temperaturerhöhung
 - [ ] B. TRIS-Puffer sollten bei der Arbeitstemperatur eingestellt werden
 - [ ] C. Bei 37°C hat TRIS einen niedrigeren pKa als bei 25°C
 - [ ] D. Der pH von TRIS ist temperaturunabhängig
@@ -118,7 +118,7 @@
 - [ ] A. Sie sind milliardenfach stärker als 100%ige Schwefelsäure
 - [ ] B. Sie können selbst schwache Basen wie Alkane protonieren
 - [ ] C. Der pH-Begriff ist hier nicht mehr anwendbar
-- [ ] D. Superacids sind nur wenig stärker als Schwefelsäure
+- [ ] D. Superacids sind meist wenig stärker als Schwefelsäure
 
 **Richtige Antworten:** A, B, C
 

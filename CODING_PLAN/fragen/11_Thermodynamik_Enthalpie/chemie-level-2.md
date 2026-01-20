@@ -32,8 +32,8 @@
 **Was besagt der Satz von Hess?**
 
 - [ ] A. Die Gesamtenthalpieänderung ist unabhängig vom Reaktionsweg
-- [ ] B. Alle Reaktionen sind exotherm
-- [ ] C. Enthalpie kann nur bei hohen Temperaturen gemessen werden
+- [ ] B. viele Reaktionen sind exotherm
+- [ ] C. Enthalpie kann meist bei hohen Temperaturen gemessen werden
 - [ ] D. Die Enthalpie hängt vom Druck ab
 
 **Richtige Antworten:** A
@@ -79,10 +79,10 @@
 ## Frage 7
 **Was ist die spezifische Wärmekapazität?**
 
-- [ ] A. Die Wärmemenge, die 1 g eines Stoffes um 1°C erwärmt
-- [ ] B. Die Wärmemenge bei der Verbrennung
-- [ ] C. Die maximale Temperatur eines Stoffes
-- [ ] D. Die Wärmeleitfähigkeit
+- [ ] A. Wärme für 1 g Stoff um 1°C zu erwärmen
+- [ ] B. Die Wärmemenge bei vollständiger Verbrennung
+- [ ] C. Die maximale Temperatur, die ein Stoff erreichen kann
+- [ ] D. Die Wärmeleitfähigkeit eines Materials in W/(m·K)
 
 **Richtige Antworten:** A
 
@@ -91,10 +91,10 @@
 ## Frage 8
 **Die Formel q = m × c × ΔT berechnet:**
 
-- [ ] A. Die aufgenommene oder abgegebene Wärmemenge
-- [ ] B. Die Reaktionsgeschwindigkeit
-- [ ] C. Die Gleichgewichtskonstante
-- [ ] D. Die Aktivierungsenergie
+- [ ] A. Aufgenommene oder abgegebene Wärmemenge
+- [ ] B. Die Reaktionsgeschwindigkeit einer chemischen Reaktion
+- [ ] C. Die Gleichgewichtskonstante einer Reaktion im System
+- [ ] D. Die Aktivierungsenergie einer chemischen Reaktion
 
 **Richtige Antworten:** A
 
@@ -115,10 +115,10 @@
 ## Frage 10
 **Was ist die Verbrennungsenthalpie?**
 
-- [ ] A. Die Enthalpieänderung bei der vollständigen Verbrennung von 1 mol einer Substanz mit O₂
+- [ ] A. ΔH bei vollständiger Verbrennung von 1 mol mit O₂
 - [ ] B. Die Enthalpie bei der Bildung aus den Elementen
-- [ ] C. Die Enthalpie beim Schmelzen
-- [ ] D. Die Enthalpie bei der Lösung in Wasser
+- [ ] C. Die Enthalpie beim Schmelzen eines Feststoffes
+- [ ] D. Die Enthalpie bei der Lösung in Wasser (Hydratation)
 
 **Richtige Antworten:** A
 

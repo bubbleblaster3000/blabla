@@ -22,7 +22,7 @@
 - [ ] A. O₂⁺ > O₂ > O₂⁻ > O₂²⁻
 - [ ] B. O₂ > O₂⁺ > O₂⁻ > O₂²⁻
 - [ ] C. O₂²⁻ > O₂⁻ > O₂ > O₂⁺
-- [ ] D. Alle haben die gleiche Bindungsstärke
+- [ ] D. viele haben die gleiche Bindungsstärke
 
 **Richtige Antworten:** A
 
@@ -56,8 +56,8 @@
 **Bestimme die Hybridisierung jedes C-Atoms in Acrylnitril (H₂C=CH-C≡N).**
 
 - [ ] A. C1: sp², C2: sp², C3: sp
-- [ ] B. Alle sp²
-- [ ] C. Alle sp
+- [ ] B. viele sp²
+- [ ] C. viele sp
 - [ ] D. C1: sp³, C2: sp², C3: sp
 
 **Richtige Antworten:** A
@@ -79,10 +79,10 @@
 ## Frage 7
 **Bei homonuklearen zweiatomigen Molekülen der 2. Periode gibt es eine Orbitalumkehr bei O₂ und F₂. Was bedeutet das?**
 
-- [ ] A. Das σ₂p-Orbital liegt energetisch unter den π₂p-Orbitalen
-- [ ] B. Das σ₂p-Orbital liegt energetisch über den π₂p-Orbitalen
-- [ ] C. Es gibt keine π-Orbitale
-- [ ] D. Die Bindungsordnung ist negativ
+- [ ] A. σ₂p-Orbital liegt energetisch unter den π₂p-Orbitalen
+- [ ] B. σ₂p-Orbital liegt energetisch über den π₂p-Orbitalen
+- [ ] C. Es gibt nur wenige π-Orbitale in diesen Molekülen
+- [ ] D. Die Bindungsordnung ist negativ bei diesen Molekülen
 
 **Richtige Antworten:** A
 
@@ -115,10 +115,10 @@
 ## Frage 10
 **Warum ist B₂ paramagnetisch?**
 
-- [ ] A. Die beiden Elektronen im π-System sind ungepaart (Hund'sche Regel)
-- [ ] B. Bor hat freie Elektronen
-- [ ] C. Die Bindungsordnung ist 0
-- [ ] D. Bor ist ein Metall
+- [ ] A. 2 e⁻ im π-System sind ungepaart
+- [ ] B. Bor hat freie Elektronen in seinen Orbitalen
+- [ ] C. Die Bindungsordnung ist genau 0 bei diesem Molekül
+- [ ] D. Bor ist ein Metall mit Metallbindung
 
 **Richtige Antworten:** A
 

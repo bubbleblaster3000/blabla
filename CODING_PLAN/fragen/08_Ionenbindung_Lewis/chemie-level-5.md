@@ -19,10 +19,10 @@
 ## Frage 2
 **Das Sulfat-Ion (SO₄²⁻) kann mit verschiedenen Resonanzstrukturen gezeichnet werden. Welche minimiert die Formalladungen am besten?**
 
-- [ ] A. S mit vier Einfachbindungen zu O (S: +2, O: je -1)
-- [ ] B. S mit zwei Doppelbindungen und zwei Einfachbindungen (S: 0, zwei O: 0, zwei O: -1)
-- [ ] C. S mit vier Doppelbindungen (nicht möglich)
-- [ ] D. S mit einer Doppelbindung und drei Einfachbindungen
+- [ ] A. S mit vier Einfachbindungen zu O (S: +2, jedes O: -1)
+- [ ] B. S mit 2 Doppel- und 2 Einfachbindungen (S: 0, zwei O: -1)
+- [ ] C. S mit vier Doppelbindungen (sterisch nicht möglich)
+- [ ] D. S mit einer Doppelbindung und drei Einfachbindungen zu O
 
 **Richtige Antworten:** B
 
@@ -34,7 +34,7 @@
 - [ ] A. Born-Haber ist experimentell, Born-Landé ist theoretisch
 - [ ] B. Born-Haber nutzt Hess'schen Satz, Born-Landé nutzt elektrostatische Berechnungen
 - [ ] C. Abweichungen zwischen beiden deuten auf kovalente Anteile hin
-- [ ] D. Beide Methoden liefern immer identische Werte
+- [ ] D. Beide Methoden liefern häufig identische Werte
 
 **Richtige Antworten:** A, B, C
 
@@ -43,10 +43,10 @@
 ## Frage 4
 **Das ICl₄⁻-Ion hat eine quadratisch-planare Struktur. Wie viele freie Elektronenpaare hat Iod und warum ist die Struktur nicht tetraedrisch?**
 
-- [ ] A. 2 freie Paare; sie besetzen axiale Positionen der oktaedrischen Anordnung
-- [ ] B. 1 freies Paar; es verzerrt die Geometrie
-- [ ] C. 3 freie Paare; Iod hat expandiertes Oktett
-- [ ] D. 0 freie Paare; alle Elektronen sind bindend
+- [ ] A. 2 freie Paare; axiale Positionen im Oktaeder besetzt
+- [ ] B. 1 freies Paar; es verzerrt die Geometrie deutlich
+- [ ] C. 3 freie Paare; Iod hat stark expandiertes Oktett
+- [ ] D. 0 freie Paare; viele Elektronen sind bindend verteilt
 
 **Richtige Antworten:** A
 
@@ -68,8 +68,8 @@
 **Bei der Reaktion BF₃ + NH₃ → F₃B-NH₃: Welche Art von Bindung entsteht zwischen B und N?**
 
 - [ ] A. Koordinative (dative) Bindung
-- [ ] B. NH₃ ist der Elektronenpaardonator (Lewis-Base)
-- [ ] C. BF₃ ist der Elektronenpaarakzeptor (Lewis-Säure)
+- [ ] B. NH₃ ist der Elektronenpaardonator
+- [ ] C. BF₃ ist der Elektronenpaarakzeptor
 - [ ] D. Es entsteht eine σ-Bindung durch Überlappung
 
 **Richtige Antworten:** A, B, C, D
@@ -81,7 +81,7 @@
 
 - [ ] A. Es ist isoelektronisch mit dem Sulfat-Ion, wenn S für O substituiert wird
 - [ ] B. Ein S-Atom ersetzt ein O-Atom des Sulfats
-- [ ] C. Die S-S-Bindung ist länger als typische S-O-Bindungen
+- [ ] C. S-S-Bindung ist länger als typische S-O-Bindungen
 - [ ] D. Es gibt Resonanzstrukturen
 
 **Richtige Antworten:** A, B, C, D
@@ -91,8 +91,8 @@
 ## Frage 8
 **Warum hat NO₂ ein ungepaartes Elektron, während NO₂⁻ diamagnetisch ist?**
 
-- [ ] A. NO₂ hat 17 Valenzelektronen (ungerade Zahl)
-- [ ] B. NO₂⁻ hat 18 Valenzelektronen (gerade Zahl)
+- [ ] A. NO₂ hat 17 Valenzelektronen
+- [ ] B. NO₂⁻ hat 18 Valenzelektronen
 - [ ] C. Das zusätzliche Elektron im NO₂⁻ paart das ungepaarte
 - [ ] D. NO₂ ist ein Radikal
 
@@ -115,8 +115,8 @@
 ## Frage 10
 **Das Molekül SF₄ hat eine "Wippen"-Form (seesaw). Erkläre dies mit der Lewis-Struktur und VSEPR.**
 
-- [ ] A. S hat 4 bindende Paare und 1 freies Paar (5 Elektronenpaare)
-- [ ] B. Die Basisgeometrie ist trigonal-bipyramidal
+- [ ] A. S hat 4 bindende Paare und 1 freies Paar
+- [ ] B. Basisgeometrie ist trigonal-bipyramidal
 - [ ] C. Das freie Paar besetzt eine äquatoriale Position
 - [ ] D. Die äquatoriale Position minimiert die Abstoßung des freien Paares
 

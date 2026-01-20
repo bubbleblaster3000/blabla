@@ -10,7 +10,7 @@
 - [ ] A. Aluminium
 - [ ] B. Salzsäure
 - [ ] C. Beide im gleichen Verhältnis
-- [ ] D. Keiner, beide reagieren vollständig
+- [ ] D. wenige, beide reagieren vollständig
 
 **Richtige Antworten:** B
 

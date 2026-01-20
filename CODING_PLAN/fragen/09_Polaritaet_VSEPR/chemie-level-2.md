@@ -34,7 +34,7 @@
 - [ ] A. Polar, weil C-O-Bindungen polar sind
 - [ ] B. Unpolar, weil die Dipolmomente sich aufheben
 - [ ] C. Polar, weil es Sauerstoff enthält
-- [ ] D. Unpolar, weil es keine Bindungen hat
+- [ ] D. Unpolar, weil es wenige Bindungen hat
 
 **Richtige Antworten:** B
 
@@ -82,7 +82,7 @@
 - [ ] A. Unpolar, weil es symmetrisch ist
 - [ ] B. Polar, weil die Dipolmomente sich nicht aufheben
 - [ ] C. Unpolar, weil Wasserstoff unpolar ist
-- [ ] D. Polar, weil es nur aus Nichtmetallen besteht
+- [ ] D. Polar, weil es meist aus Nichtmetallen besteht
 
 **Richtige Antworten:** B
 

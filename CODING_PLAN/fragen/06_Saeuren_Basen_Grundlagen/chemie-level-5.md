@@ -31,10 +31,10 @@
 ## Frage 3
 **Warum ist die Neutralisationswärme für die Reaktion von schwacher Säure mit starker Base geringer als -57 kJ/mol?**
 
-- [ ] A. Ein Teil der Energie wird für die Dissoziation der schwachen Säure benötigt
-- [ ] B. Schwache Säuren reagieren langsamer
-- [ ] C. Die Reaktion ist endotherm
-- [ ] D. Die Enthalpieänderung bei der Dissoziation der schwachen Säure ist positiv
+- [ ] A. Energie wird für Dissoziation der schwachen Säure benötigt
+- [ ] B. Schwache Säuren reagieren allgemein wesentlich langsamer
+- [ ] C. Die Reaktion verläuft insgesamt endotherm, nicht exotherm
+- [ ] D. ΔH der Dissoziation schwacher Säuren ist positiv (endotherm)
 
 **Richtige Antworten:** A, D
 
@@ -79,10 +79,10 @@
 ## Frage 7
 **Bei der Reaktion von Aluminium mit Natronlauge entsteht ein Gas. Welches Gas ist es und wie lautet die Reaktionsgleichung?**
 
-- [ ] A. O₂; 4 Al + 3 O₂ → 2 Al₂O₃
+- [ ] A. O₂ entsteht; Gleichung: 4 Al + 3 O₂ → 2 Al₂O₃
 - [ ] B. H₂; 2 Al + 2 NaOH + 2 H₂O → 2 NaAlO₂ + 3 H₂
-- [ ] C. Cl₂; Al + 3 NaCl → AlCl₃ + 3 Na
-- [ ] D. NH₃; Al + NaOH → NaAlO₂ + NH₃
+- [ ] C. Cl₂ entsteht; Gleichung: Al + 3 NaCl → AlCl₃ + 3 Na
+- [ ] D. NH₃ entsteht; Gleichung: Al + NaOH → NaAlO₂ + NH₃
 
 **Richtige Antworten:** B
 
@@ -115,10 +115,10 @@
 ## Frage 10
 **Warum reagiert konzentrierte Salpetersäure mit Kupfer anders als verdünnte? Welche Produkte entstehen?**
 
-- [ ] A. Konzentriert: Cu(NO₃)₂ + NO₂ + H₂O; Verdünnt: Cu(NO₃)₂ + NO + H₂O
-- [ ] B. Beide bilden die gleichen Produkte
-- [ ] C. Konzentriert bildet N₂O, verdünnt bildet N₂
-- [ ] D. Konzentriert: Oxidation zu Cu²⁺ mit NO₂ (braun); Verdünnt: Oxidation zu Cu²⁺ mit NO (farblos)
+- [ ] A. Konz.: Cu(NO₃)₂ + NO₂; verd.: Cu(NO₃)₂ + NO
+- [ ] B. Beide bilden identische Reaktionsprodukte miteinander
+- [ ] C. Konzentriert bildet N₂O, verdünnt bildet N₂ als Gas
+- [ ] D. Konz. → NO₂ (braun); verd. → NO (farblos)
 
 **Richtige Antworten:** A, D
 

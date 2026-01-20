@@ -117,6 +117,6 @@
 - [ ] A. n=3, l=1, ml=+1, ms=+½
 - [ ] B. n=3, l=1, ml=0, ms=+½
 - [ ] C. n=3, l=1, ml=-1, ms=+½
-- [ ] D. Alle drei sind möglich (entartet)
+- [ ] D. Alle drei sind möglich
 
 **Richtige Antworten:** D

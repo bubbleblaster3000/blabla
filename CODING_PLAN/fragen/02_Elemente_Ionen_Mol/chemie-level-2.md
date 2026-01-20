@@ -91,10 +91,10 @@
 ## Frage 8
 **Welche Aussagen über die Stoffmenge n sind korrekt?**
 
-- [ ] A. n = m / M (Masse geteilt durch molare Masse)
+- [ ] A. n = m / M
 - [ ] B. Die Einheit ist mol
-- [ ] C. n = N / Nₐ (Teilchenzahl geteilt durch Avogadro-Zahl)
-- [ ] D. n hat keine Einheit
+- [ ] C. n = N / Nₐ
+- [ ] D. n hat wenige Einheit
 
 **Richtige Antworten:** A, B, C
 

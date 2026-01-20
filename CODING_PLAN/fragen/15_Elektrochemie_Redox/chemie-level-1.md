@@ -31,10 +31,10 @@
 ## Frage 3
 **Was ist eine Redoxreaktion?**
 
-- [ ] A. Eine Reaktion, bei der Oxidation und Reduktion gleichzeitig stattfinden
-- [ ] B. Eine Säure-Base-Reaktion
-- [ ] C. Eine Fällungsreaktion
-- [ ] D. Eine Verbrennungsreaktion
+- [ ] A. Oxidation und Reduktion finden gleichzeitig statt
+- [ ] B. Eine Säure-Base-Reaktion mit Protonenausausch
+- [ ] C. Eine Fällungsreaktion mit Niederschlagsbildung
+- [ ] D. Eine Verbrennungsreaktion mit Sauerstoff
 
 **Richtige Antworten:** A
 
@@ -43,10 +43,10 @@
 ## Frage 4
 **Was ist ein Oxidationsmittel?**
 
-- [ ] A. Ein Stoff, der andere oxidiert und selbst reduziert wird
-- [ ] B. Ein Stoff, der andere reduziert
-- [ ] C. Ein Katalysator
-- [ ] D. Ein Inertgas
+- [ ] A. Stoff, der andere oxidiert und selbst reduziert wird
+- [ ] B. Ein Stoff, der andere Stoffe reduziert (e⁻-Donor)
+- [ ] C. Ein Katalysator, der Reaktionen beschleunigt
+- [ ] D. Ein Inertgas, das nicht reagiert (z.B. Argon)
 
 **Richtige Antworten:** A
 
@@ -55,10 +55,10 @@
 ## Frage 5
 **Was ist ein Reduktionsmittel?**
 
-- [ ] A. Ein Stoff, der andere reduziert und selbst oxidiert wird
-- [ ] B. Ein Stoff, der andere oxidiert
-- [ ] C. Ein Katalysator
-- [ ] D. Ein Edelgas
+- [ ] A. Stoff, der andere reduziert und selbst oxidiert wird
+- [ ] B. Ein Stoff, der andere Stoffe oxidiert (e⁻-Akzeptor)
+- [ ] C. Ein Katalysator, der Reaktionen beschleunigt
+- [ ] D. Ein Edelgas, das nicht reagiert (z.B. Neon)
 
 **Richtige Antworten:** A
 
@@ -79,10 +79,10 @@
 ## Frage 7
 **Was ist eine galvanische Zelle?**
 
-- [ ] A. Eine elektrochemische Zelle, die chemische Energie in elektrische Energie umwandelt
+- [ ] A. Elektrochemische Zelle: chem. Energie → elektr. Energie
 - [ ] B. Eine Zelle, die elektrische Energie in chemische umwandelt
-- [ ] C. Ein Kondensator
-- [ ] D. Ein Transformator
+- [ ] C. Ein Kondensator zur Speicherung elektrischer Ladung
+- [ ] D. Ein Transformator zur Spannungsumwandlung
 
 **Richtige Antworten:** A
 
@@ -91,7 +91,7 @@
 ## Frage 8
 **Was ist Elektrolyse?**
 
-- [ ] A. Die Umwandlung von elektrischer Energie in chemische Energie
+- [ ] A. Umwandlung von elektrischer Energie in chemische Energie
 - [ ] B. Die Umwandlung von chemischer Energie in elektrische Energie
 - [ ] C. Die Verbrennung von Wasserstoff
 - [ ] D. Die Auflösung von Salzen
@@ -106,7 +106,7 @@
 - [ ] A. An der Anode
 - [ ] B. An der Kathode
 - [ ] C. An beiden
-- [ ] D. An keiner
+- [ ] D. An wenige
 
 **Richtige Antworten:** A
 
@@ -118,7 +118,7 @@
 - [ ] A. An der Kathode
 - [ ] B. An der Anode
 - [ ] C. An beiden
-- [ ] D. An keiner
+- [ ] D. An wenige
 
 **Richtige Antworten:** A
 

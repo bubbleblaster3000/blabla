@@ -43,8 +43,8 @@
 ## Frage 4
 **Die Pufferkapazität β ist definiert als β = Δn/ΔpH. Welche Faktoren beeinflussen sie?**
 
-- [ ] A. Die Gesamtkonzentration des Puffers (höher = bessere Kapazität)
-- [ ] B. Das Verhältnis [HA]/[A⁻] (optimal bei 1:1)
+- [ ] A. Die Gesamtkonzentration des Puffers
+- [ ] B. Das Verhältnis [HA]/[A⁻]
 - [ ] C. Der pKs-Wert sollte nahe am gewünschten pH liegen
 - [ ] D. Die Pufferkapazität ist unabhängig von der Konzentration
 
@@ -79,10 +79,10 @@
 ## Frage 7
 **Der Blutpuffer hält den pH bei etwa 7,4. Er besteht hauptsächlich aus:**
 
-- [ ] A. H₂CO₃/HCO₃⁻ (Kohlensäure/Hydrogencarbonat)
-- [ ] B. H₂PO₄⁻/HPO₄²⁻ (Phosphatpuffer)
-- [ ] C. Proteine (Histidin-Reste)
-- [ ] D. Der Blutpuffer besteht nur aus H₂CO₃/HCO₃⁻
+- [ ] A. H₂CO₃/HCO₃⁻
+- [ ] B. H₂PO₄⁻/HPO₄²⁻
+- [ ] C. Proteine
+- [ ] D. Der Blutpuffer besteht meist aus H₂CO₃/HCO₃⁻
 
 **Richtige Antworten:** A, B, C
 
@@ -103,7 +103,7 @@
 ## Frage 9
 **Eine Lösung enthält 0,1 M HCl und 0,1 M CH₃COOH. Was ist der pH-Wert?**
 
-- [ ] A. ca. 1,00 (dominiert von der starken Säure)
+- [ ] A. ca. 1,00
 - [ ] B. ca. 2,00
 - [ ] C. ca. 2,88
 - [ ] D. ca. 0,70

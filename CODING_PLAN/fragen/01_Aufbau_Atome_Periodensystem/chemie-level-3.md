@@ -7,10 +7,10 @@
 ## Frage 1
 **Ein Element X steht in der 3. Periode und der 6. Hauptgruppe. Welche Aussagen sind korrekt?**
 
-- [ ] A. Es hat 6 Valenzelektronen
-- [ ] B. Es hat 3 besetzte Elektronenschalen
-- [ ] C. Es handelt sich um Schwefel (S)
-- [ ] D. Es ist ein Metall
+- [ ] A. Hat 6 Valenzelektronen
+- [ ] B. Hat 3 besetzte Elektronenschalen
+- [ ] C. Schwefel (S)
+- [ ] D. Es gehört zu den Übergangsmetallen
 
 **Richtige Antworten:** A, B, C
 
@@ -91,10 +91,10 @@
 ## Frage 8
 **Warum sind Edelgase unter normalen Bedingungen chemisch sehr reaktionsträge?**
 
-- [ ] A. Sie haben eine vollständig gefüllte Valenzschale
-- [ ] B. Sie haben keine Elektronen
-- [ ] C. Sie erreichen die stabile Edelgaskonfiguration bereits
-- [ ] D. Sie haben nur Protonen im Kern
+- [ ] A. Haben volle Valenzschale
+- [ ] B. Sie haben wenige Elektronen
+- [ ] C. Erreichen bereits die Edelgaskonfiguration
+- [ ] D. Sie haben meist Protonen im Kern
 
 **Richtige Antworten:** A, C
 
@@ -115,10 +115,10 @@
 ## Frage 10
 **Ordne die folgenden Elemente nach steigendem Atomradius: Li, Na, K. Welche Begründung ist korrekt?**
 
-- [ ] A. Li < Na < K, weil die Anzahl der Elektronenschalen zunimmt
+- [ ] A. Li < Na < K
 - [ ] B. K < Na < Li, weil die Kernladung zunimmt
 - [ ] C. Li < Na < K, weil die Kernladung abnimmt
-- [ ] D. Alle haben den gleichen Atomradius
+- [ ] D. viele haben den gleichen Atomradius
 
 **Richtige Antworten:** A
 

@@ -31,9 +31,9 @@
 ## Frage 3
 **Welche Aussagen über die Ionisierungsenergie sind korrekt?**
 
-- [ ] A. Die erste Ionisierungsenergie ist die Energie, um das erste Elektron zu entfernen
-- [ ] B. Die zweite Ionisierungsenergie ist immer größer als die erste
-- [ ] C. Bei Alkalimetallen ist die zweite Ionisierungsenergie deutlich höher als die erste
+- [ ] A. Die erste Ionisierungsenergie ist Energie zur Entfernung des 1. Elektrons
+- [ ] B. Die zweite Ionisierungsenergie ist größer als die erste
+- [ ] C. Bei Alkalimetallen: 2. IE >> 1. IE als die erste
 - [ ] D. Edelgase haben niedrige Ionisierungsenergien
 
 **Richtige Antworten:** A, B, C
@@ -91,10 +91,10 @@
 ## Frage 8
 **Welche Erklärung für die hohe erste Ionisierungsenergie von Stickstoff (im Vergleich zu Sauerstoff) ist korrekt?**
 
-- [ ] A. Stickstoff hat eine halb gefüllte p-Unterschale, die besonders stabil ist
+- [ ] A. N hat halbgefüllte p-Unterschale (stabil)
 - [ ] B. Stickstoff hat mehr Protonen als Sauerstoff
-- [ ] C. Bei Sauerstoff führt die Elektron-Elektron-Abstoßung in einem doppelt besetzten p-Orbital zur leichteren Ionisierung
-- [ ] D. Sauerstoff ist ein Nichtmetall
+- [ ] C. Bei O führt e⁻-Abstoßung im doppelt besetzten p-Orbital zur leichteren Ionisierung
+- [ ] D. Sauerstoff gehört zu den typischen Nichtmetallen
 
 **Richtige Antworten:** A, C
 
@@ -103,10 +103,10 @@
 ## Frage 9
 **Die Elektronenaffinität von Chlor beträgt -349 kJ/mol. Was bedeutet dieser negative Wert?**
 
-- [ ] A. Energie wird freigesetzt, wenn Chlor ein Elektron aufnimmt
-- [ ] B. Die Aufnahme eines Elektrons ist energetisch günstig
+- [ ] A. Energiefreisetzung bei Chlor ein Elektron aufnimmt
+- [ ] B. Elektronenaufnahme ist energetisch günstig
 - [ ] C. Chlor gibt leicht Elektronen ab
-- [ ] D. Das entstehende Cl⁻-Ion ist stabiler als das neutrale Cl-Atom
+- [ ] D. Das Ion ist stabiler als das Atom
 
 **Richtige Antworten:** A, B, D
 

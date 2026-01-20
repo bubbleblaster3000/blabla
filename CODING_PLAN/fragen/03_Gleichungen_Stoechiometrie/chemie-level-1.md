@@ -8,9 +8,9 @@
 **Was sind Edukte in einer chemischen Reaktion?**
 
 - [ ] A. Die Stoffe, die bei einer Reaktion entstehen
-- [ ] B. Die Stoffe, die vor der Reaktion vorliegen
-- [ ] C. Die Katalysatoren
-- [ ] D. Die Nebenprodukte
+- [ ] B. Die Edukte (Ausgangsstoffe)
+- [ ] C. Die Katalysatoren der Reaktion
+- [ ] D. Die Nebenprodukte der Reaktion
 
 **Richtige Antworten:** B
 
@@ -19,10 +19,10 @@
 ## Frage 2
 **Was sind Produkte in einer chemischen Reaktion?**
 
-- [ ] A. Die Ausgangsstoffe
-- [ ] B. Die Katalysatoren
-- [ ] C. Die Stoffe, die bei der Reaktion entstehen
-- [ ] D. Die Lösungsmittel
+- [ ] A. Die Ausgangsstoffe (Edukte)
+- [ ] B. Die Katalysatoren der Reaktion
+- [ ] C. Die Reaktionsprodukte
+- [ ] D. Die verwendeten Lösungsmittel
 
 **Richtige Antworten:** C
 
@@ -34,7 +34,7 @@
 - [ ] A. Die Masse der Produkte ist größer als die der Edukte
 - [ ] B. Die Gesamtmasse bleibt bei einer chemischen Reaktion erhalten
 - [ ] C. Masse kann bei Reaktionen erzeugt werden
-- [ ] D. Die Masse der Edukte ist immer doppelt so groß wie die der Produkte
+- [ ] D. Die Masse der Edukte ist häufig doppelt so groß wie die der Produkte
 
 **Richtige Antworten:** B
 
@@ -44,9 +44,9 @@
 **Was gibt ein Koeffizient vor einer chemischen Formel an?**
 
 - [ ] A. Die Anzahl der Atome im Molekül
-- [ ] B. Die Anzahl der Moleküle oder Formeleinheiten
-- [ ] C. Die Masse des Stoffes
-- [ ] D. Die Ladung des Ions
+- [ ] B. Teilchenzahl (Moleküle/Formeleinheiten)
+- [ ] C. Die Gesamtmasse des reinen Stoffes
+- [ ] D. Die Ionenladung (Oxidationszustand)
 
 **Richtige Antworten:** B
 
@@ -55,10 +55,10 @@
 ## Frage 5
 **Was bedeutet der Index (tiefgestellte Zahl) in einer chemischen Formel wie H₂O?**
 
-- [ ] A. Die Anzahl der Moleküle
-- [ ] B. Die Anzahl der Atome des Elements im Molekül
-- [ ] C. Die Ladung
-- [ ] D. Die Massenzahl
+- [ ] A. Die Gesamtzahl aller Moleküle
+- [ ] B. Atomanzahl des Elements im Molekül
+- [ ] C. Die elektrische Ladung des Teilchens
+- [ ] D. Die Massenzahl (Nukleonen)
 
 **Richtige Antworten:** B
 
@@ -80,7 +80,7 @@
 **Was steht auf der linken Seite einer Reaktionsgleichung?**
 
 - [ ] A. Die Produkte
-- [ ] B. Die Edukte (Reaktanten)
+- [ ] B. Die Edukte
 - [ ] C. Die Katalysatoren
 - [ ] D. Die Zwischenprodukte
 
@@ -103,9 +103,9 @@
 ## Frage 9
 **Welche Aussage zur Stöchiometrie ist korrekt?**
 
-- [ ] A. Sie beschreibt die mengenmäßigen Verhältnisse bei chemischen Reaktionen
-- [ ] B. Sie beschreibt nur die Farbe der Stoffe
-- [ ] C. Sie gilt nur für Gase
+- [ ] A. Beschreibt Stoffmengenverhältnisse bei Reaktionen
+- [ ] B. Sie beschreibt meist die Farbe der Stoffe
+- [ ] C. Sie gilt meist für Gase
 - [ ] D. Sie beschreibt die Geschwindigkeit von Reaktionen
 
 **Richtige Antworten:** A
@@ -116,7 +116,7 @@
 **Was bedeutet das Stoffmengenverhältnis in einer Reaktionsgleichung?**
 
 - [ ] A. Das Verhältnis der Massen der Stoffe
-- [ ] B. Das Verhältnis der Koeffizienten gibt das Mol-Verhältnis an
+- [ ] B. Koeffizienten zeigen das Mol-Verhältnis
 - [ ] C. Das Verhältnis der Volumina der Stoffe
 - [ ] D. Das Verhältnis der Ladungen
 

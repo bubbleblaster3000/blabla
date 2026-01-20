@@ -79,7 +79,7 @@
 ## Frage 7
 **Eine mehrprotonige Säure wie H₂SO₄ dissoziiert in zwei Stufen. Welche Aussagen sind korrekt?**
 
-- [ ] A. Die erste Dissoziation ist vollständig (starke Säure)
+- [ ] A. Die erste Dissoziation ist vollständig
 - [ ] B. Die zweite Dissoziation ist schwächer
 - [ ] C. Beide Dissoziationen sind gleich stark
 - [ ] D. H₂SO₄ gibt insgesamt 2 H⁺ pro Molekül ab

@@ -43,7 +43,7 @@
 ## Frage 4
 **Zu dem Puffer aus Frage 3 werden 0,01 mol HCl pro Liter gegeben. Wie ändert sich der pH?**
 
-- [ ] A. Der pH sinkt geringfügig (auf ca. 4,36)
+- [ ] A. Der pH sinkt geringfügig
 - [ ] B. Der pH sinkt stark auf 1
 - [ ] C. Der pH bleibt genau gleich
 - [ ] D. Der pH steigt
@@ -67,10 +67,10 @@
 ## Frage 6
 **Was ist der Halbtitrationsunkt?**
 
-- [ ] A. Der Punkt, an dem die Hälfte der Säure neutralisiert ist und pH = pKs
-- [ ] B. Der Äquivalenzpunkt
-- [ ] C. Der Startpunkt der Titration
-- [ ] D. Der Punkt bei pH = 7
+- [ ] A. 50% neutralisiert, pH = pKs
+- [ ] B. Der Äquivalenzpunkt in der Reaktion (100% neutralisiert)
+- [ ] C. Der Startpunkt der Titration (0% neutralisiert)
+- [ ] D. Der Punkt bei pH = 7 in der Reaktion (neutral)
 
 **Richtige Antworten:** A
 
@@ -81,8 +81,8 @@
 
 - [ ] A. Phenolphthalein (Umschlagbereich 8,2-10)
 - [ ] B. Methylorange (Umschlagbereich 3,1-4,4)
-- [ ] C. Beide sind gleich gut
-- [ ] D. Keiner ist geeignet
+- [ ] C. Beide Indikatoren sind gleich gut geeignet
+- [ ] D. Wenige der genannten Indikatoren ist geeignet
 
 **Richtige Antworten:** A
 
@@ -91,7 +91,7 @@
 ## Frage 8
 **Die Pufferkapazität ist am größten, wenn:**
 
-- [ ] A. [HA] = [A⁻] (pH = pKs)
+- [ ] A. [HA] = [A⁻]
 - [ ] B. [HA] >> [A⁻]
 - [ ] C. [A⁻] >> [HA]
 - [ ] D. Die Konzentration sehr niedrig ist
@@ -103,7 +103,7 @@
 ## Frage 9
 **Das Ionenprodukt des Wassers Kw = [H⁺][OH⁻] = 10⁻¹⁴ gilt bei 25°C. Wie ändert sich Kw mit der Temperatur?**
 
-- [ ] A. Kw steigt mit der Temperatur (Dissoziation ist endotherm)
+- [ ] A. Kw steigt mit der Temperatur
 - [ ] B. Kw sinkt mit der Temperatur
 - [ ] C. Kw bleibt konstant
 - [ ] D. Kw wird negativ

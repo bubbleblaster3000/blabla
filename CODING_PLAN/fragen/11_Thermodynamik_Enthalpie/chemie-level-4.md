@@ -35,7 +35,7 @@
 - [ ] A. ΔH°r = ΣΔH°f(Produkte) - ΣΔH°f(Reaktanten)
 - [ ] B. ΔH°r = ΣD(Bindungen gebrochen) - ΣD(Bindungen gebildet)
 - [ ] C. Beide Methoden sind korrekt
-- [ ] D. Keine der Methoden ist korrekt
+- [ ] D. wenige der Methoden ist korrekt
 
 **Richtige Antworten:** C
 
@@ -93,7 +93,7 @@
 ## Frage 8
 **Berechne ΔU für die Reaktion: C(s) + O₂(g) → CO₂(g) bei 298 K, wenn ΔH = -393,5 kJ/mol.**
 
-- [ ] A. -393,5 kJ/mol (da Δn = 0)
+- [ ] A. -393,5 kJ/mol
 - [ ] B. -391,0 kJ/mol
 - [ ] C. -396,0 kJ/mol
 - [ ] D. Kann nicht berechnet werden

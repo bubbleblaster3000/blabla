@@ -18,8 +18,8 @@ const QUESTIONS_DATA = {
             text: "Aus welchen Teilchen besteht ein Atom?",
             options: [
                   "Protonen, Neutronen und Elektronen",
-                  "Nur aus Protonen und Elektronen",
-                  "Nur aus Neutronen und Elektronen",
+                  "meist aus Protonen und Elektronen",
+                  "meist aus Neutronen und Elektronen",
                   "Aus Molekülen und Ionen"
             ],
             correctAnswers: [
@@ -82,7 +82,7 @@ const QUESTIONS_DATA = {
             text: "Was sind Isotope?",
             options: [
                   "Atome verschiedener Elemente mit gleicher Masse",
-                  "Atome desselben Elements mit unterschiedlicher Neutronenzahl",
+                  "Isotope des gleichen Elements",
                   "Atome mit unterschiedlicher Protonenzahl",
                   "Atome ohne Elektronen"
             ],
@@ -338,9 +338,9 @@ const QUESTIONS_DATA = {
             text: "Was sind Edukte in einer chemischen Reaktion?",
             options: [
                   "Die Stoffe, die bei einer Reaktion entstehen",
-                  "Die Stoffe, die vor der Reaktion vorliegen",
-                  "Die Katalysatoren",
-                  "Die Nebenprodukte"
+                  "Die Edukte (Ausgangsstoffe)",
+                  "Die Katalysatoren der Reaktion",
+                  "Die Nebenprodukte der Reaktion"
             ],
             correctAnswers: [
                   1
@@ -353,10 +353,10 @@ const QUESTIONS_DATA = {
             id: 22,
             text: "Was sind Produkte in einer chemischen Reaktion?",
             options: [
-                  "Die Ausgangsstoffe",
-                  "Die Katalysatoren",
-                  "Die Stoffe, die bei der Reaktion entstehen",
-                  "Die Lösungsmittel"
+                  "Die Ausgangsstoffe (Edukte)",
+                  "Die Katalysatoren der Reaktion",
+                  "Die Reaktionsprodukte",
+                  "Die verwendeten Lösungsmittel"
             ],
             correctAnswers: [
                   2
@@ -372,7 +372,7 @@ const QUESTIONS_DATA = {
                   "Die Masse der Produkte ist größer als die der Edukte",
                   "Die Gesamtmasse bleibt bei einer chemischen Reaktion erhalten",
                   "Masse kann bei Reaktionen erzeugt werden",
-                  "Die Masse der Edukte ist immer doppelt so groß wie die der Produkte"
+                  "Die Masse der Edukte ist häufig doppelt so groß wie die der Produkte"
             ],
             correctAnswers: [
                   1
@@ -386,9 +386,9 @@ const QUESTIONS_DATA = {
             text: "Was gibt ein Koeffizient vor einer chemischen Formel an?",
             options: [
                   "Die Anzahl der Atome im Molekül",
-                  "Die Anzahl der Moleküle oder Formeleinheiten",
-                  "Die Masse des Stoffes",
-                  "Die Ladung des Ions"
+                  "Teilchenzahl (Moleküle/Formeleinheiten)",
+                  "Die Gesamtmasse des reinen Stoffes",
+                  "Die Ionenladung (Oxidationszustand)"
             ],
             correctAnswers: [
                   1
@@ -401,10 +401,10 @@ const QUESTIONS_DATA = {
             id: 25,
             text: "Was bedeutet der Index (tiefgestellte Zahl) in einer chemischen Formel wie H₂O?",
             options: [
-                  "Die Anzahl der Moleküle",
-                  "Die Anzahl der Atome des Elements im Molekül",
-                  "Die Ladung",
-                  "Die Massenzahl"
+                  "Die Gesamtzahl aller Moleküle",
+                  "Atomanzahl des Elements im Molekül",
+                  "Die elektrische Ladung des Teilchens",
+                  "Die Massenzahl (Nukleonen)"
             ],
             correctAnswers: [
                   1
@@ -434,7 +434,7 @@ const QUESTIONS_DATA = {
             text: "Was steht auf der linken Seite einer Reaktionsgleichung?",
             options: [
                   "Die Produkte",
-                  "Die Edukte (Reaktanten)",
+                  "Die Edukte",
                   "Die Katalysatoren",
                   "Die Zwischenprodukte"
             ],
@@ -465,9 +465,9 @@ const QUESTIONS_DATA = {
             id: 29,
             text: "Welche Aussage zur Stöchiometrie ist korrekt?",
             options: [
-                  "Sie beschreibt die mengenmäßigen Verhältnisse bei chemischen Reaktionen",
-                  "Sie beschreibt nur die Farbe der Stoffe",
-                  "Sie gilt nur für Gase",
+                  "Beschreibt Stoffmengenverhältnisse bei Reaktionen",
+                  "Sie beschreibt meist die Farbe der Stoffe",
+                  "Sie gilt meist für Gase",
                   "Sie beschreibt die Geschwindigkeit von Reaktionen"
             ],
             correctAnswers: [
@@ -482,7 +482,7 @@ const QUESTIONS_DATA = {
             text: "Was bedeutet das Stoffmengenverhältnis in einer Reaktionsgleichung?",
             options: [
                   "Das Verhältnis der Massen der Stoffe",
-                  "Das Verhältnis der Koeffizienten gibt das Mol-Verhältnis an",
+                  "Koeffizienten zeigen das Mol-Verhältnis",
                   "Das Verhältnis der Volumina der Stoffe",
                   "Das Verhältnis der Ladungen"
             ],
@@ -498,9 +498,9 @@ const QUESTIONS_DATA = {
             text: "Was ist eine Synthesereaktion?",
             options: [
                   "Eine Reaktion, bei der ein Stoff in mehrere zerfällt",
-                  "Eine Reaktion, bei der mehrere Stoffe zu einem Produkt reagieren",
+                  "Synthese: mehrere Stoffe → ein Produkt",
                   "Eine Reaktion zwischen Säure und Base",
-                  "Eine Reaktion mit Sauerstoff"
+                  "Eine Reaktion mit Sauerstoff (Oxidation)"
             ],
             correctAnswers: [
                   1
@@ -530,7 +530,7 @@ const QUESTIONS_DATA = {
             text: "Was versteht man unter einer Summenformel?",
             options: [
                   "Die räumliche Anordnung der Atome",
-                  "Die Anzahl und Art der Atome in einem Molekül",
+                  "Anzahl und Art der Atome in einem Molekül",
                   "Die Bindungen zwischen den Atomen",
                   "Die Masse des Moleküls"
             ],
@@ -561,10 +561,10 @@ const QUESTIONS_DATA = {
             id: 35,
             text: "Was ist eine Verbrennungsreaktion?",
             options: [
-                  "Eine Reaktion mit Wasser",
-                  "Eine Reaktion mit Sauerstoff unter Freisetzung von Energie",
+                  "Eine Reaktion mit Wasser (Hydrolyse)",
+                  "Verbrennung (exotherme Oxidation)",
                   "Eine Reaktion ohne Energieänderung",
-                  "Eine Reaktion mit Stickstoff"
+                  "Eine Reaktion mit elementarem Stickstoff"
             ],
             correctAnswers: [
                   1
@@ -594,9 +594,9 @@ const QUESTIONS_DATA = {
             text: "Was ist eine Doppel-Austauschreaktion (Metathese)?",
             options: [
                   "Ein Element ersetzt ein anderes",
-                  "Zwei Verbindungen tauschen gegenseitig Bestandteile aus",
-                  "Ein Stoff verbrennt",
-                  "Ein Molekül zerfällt"
+                  "Doppelte Umsetzung (Ionentausch)",
+                  "Ein Stoff verbrennt (Oxidation)",
+                  "Ein Molekül zerfällt in Atome"
             ],
             correctAnswers: [
                   1
@@ -626,8 +626,8 @@ const QUESTIONS_DATA = {
             text: "Was ist eine Fällungsreaktion?",
             options: [
                   "Eine Reaktion, bei der ein Gas entsteht",
-                  "Eine Reaktion, bei der ein schwerlöslicher Feststoff ausfällt",
-                  "Eine Reaktion mit Säuren",
+                  "Fällungsreaktion (Niederschlag)",
+                  "Eine Reaktion mit Säuren (Neutralisation)",
                   "Eine Reaktion bei hohen Temperaturen"
             ],
             correctAnswers: [
@@ -641,10 +641,10 @@ const QUESTIONS_DATA = {
             id: 40,
             text: "Was unterscheidet die Molekülformel von der empirischen Formel?",
             options: [
-                  "Die Molekülformel zeigt das tatsächliche Verhältnis, die empirische das kleinste",
-                  "Die Molekülformel zeigt die tatsächliche Atomanzahl, die empirische das kleinste ganzzahlige Verhältnis",
-                  "Es gibt keinen Unterschied",
-                  "Die empirische Formel zeigt mehr Atome"
+                  "Die Molekülformel zeigt das tatsächliche Verhältnis",
+                  "Molekülformel = echte Anzahl; Empirisch = kleinstes Verhältnis",
+                  "Es besteht kein wesentlicher Unterschied",
+                  "Die empirische Formel zeigt immer mehr Atome"
             ],
             correctAnswers: [
                   1
@@ -658,9 +658,9 @@ const QUESTIONS_DATA = {
             text: "Was ist ein Lösungsmittel?",
             options: [
                   "Der Stoff, der in geringerer Menge vorliegt",
-                  "Der Stoff, der in größerer Menge vorliegt und andere Stoffe löst",
-                  "Der Stoff, der ausfällt",
-                  "Der Stoff, der nicht reagiert"
+                  "Stoff in größerer Menge, der löst",
+                  "Der Stoff, der als Feststoff ausfällt",
+                  "Der Stoff, der chemisch nicht reagiert"
             ],
             correctAnswers: [
                   1
@@ -674,9 +674,9 @@ const QUESTIONS_DATA = {
             text: "Was ist der gelöste Stoff?",
             options: [
                   "Der Stoff, der andere Stoffe löst",
-                  "Der Stoff, der in geringerer Menge im Lösungsmittel gelöst ist",
-                  "Der Niederschlag",
-                  "Das Lösungsmittel selbst"
+                  "In geringerer Menge gelöster Stoff",
+                  "Der ausgefallene Niederschlag",
+                  "Das verwendete Lösungsmittel selbst"
             ],
             correctAnswers: [
                   1
@@ -722,7 +722,7 @@ const QUESTIONS_DATA = {
             text: "Was ist eine gesättigte Lösung?",
             options: [
                   "Eine Lösung ohne gelösten Stoff",
-                  "Eine Lösung, die die maximale Menge an gelöstem Stoff enthält",
+                  "Lösung mit max. gelöster Stoffmenge",
                   "Eine verdünnte Lösung",
                   "Eine überhitzte Lösung"
             ],
@@ -738,7 +738,7 @@ const QUESTIONS_DATA = {
             text: "Was bedeutet Löslichkeit?",
             options: [
                   "Die Geschwindigkeit des Lösevorgangs",
-                  "Die maximale Menge eines Stoffes, die sich in einem Lösungsmittel löst",
+                  "Max. lösbare Stoffmenge",
                   "Die Temperatur, bei der sich ein Stoff löst",
                   "Die Farbe der Lösung"
             ],
@@ -753,10 +753,10 @@ const QUESTIONS_DATA = {
             id: 47,
             text: "Was versteht man unter Verdünnung?",
             options: [
-                  "Zugabe von mehr gelöstem Stoff",
-                  "Zugabe von Lösungsmittel zur Verringerung der Konzentration",
-                  "Erhitzen der Lösung",
-                  "Filtrieren der Lösung"
+                  "Zugabe von mehr gelöstem Stoff zur Lösung",
+                  "Lösungsmittelzugabe senkt die Konzentration",
+                  "Erhitzen der Lösung zur Temperaturerhöhung",
+                  "Filtrieren der Lösung zur Feststoffabtrennung"
             ],
             correctAnswers: [
                   1
@@ -769,10 +769,10 @@ const QUESTIONS_DATA = {
             id: 48,
             text: "Was ist der Massenanteil (w)?",
             options: [
-                  "Masse des gelösten Stoffes geteilt durch Gesamtmasse der Lösung",
-                  "Stoffmenge des gelösten Stoffes pro Liter",
-                  "Volumen des gelösten Stoffes pro Volumen der Lösung",
-                  "Molare Masse des gelösten Stoffes"
+                  "m(Stoff) / m(Lösung) – dimensionslos",
+                  "Stoffmenge des gelösten Stoffes pro Liter Lösung",
+                  "Volumen des gelösten Stoffes pro Gesamtvolumen",
+                  "Molare Masse des gelösten Stoffes in g/mol"
             ],
             correctAnswers: [
                   0
@@ -785,10 +785,10 @@ const QUESTIONS_DATA = {
             id: 49,
             text: "Was ist eine übersättigte Lösung?",
             options: [
-                  "Eine Lösung mit weniger gelöstem Stoff als möglich",
-                  "Eine Lösung, die mehr gelösten Stoff enthält, als der Sättigung entspricht",
-                  "Eine stark verdünnte Lösung",
-                  "Eine Lösung bei 0°C"
+                  "Eine Lösung mit weniger gelöstem Stoff als der Sättigung entspricht",
+                  "Mehr gelöster Stoff als bei Sättigung möglich",
+                  "Eine stark verdünnte Lösung ohne Sättigungsgrenze",
+                  "Eine Lösung, die auf Gefrierpunkt gekühlt wurde"
             ],
             correctAnswers: [
                   1
@@ -801,9 +801,9 @@ const QUESTIONS_DATA = {
             id: 50,
             text: "Welche Aussage über Wasser als Lösungsmittel ist korrekt?",
             options: [
-                  "Wasser löst nur unpolare Stoffe",
+                  "Wasser löst meist unpolare Stoffe",
                   "Wasser ist ein polares Lösungsmittel",
-                  "Wasser löst keine Salze",
+                  "Wasser löst wenige Salze",
                   "Wasser ist unpolar"
             ],
             correctAnswers: [
@@ -818,9 +818,9 @@ const QUESTIONS_DATA = {
             text: "Was ist eine Säure nach Arrhenius?",
             options: [
                   "Ein Stoff, der OH⁻-Ionen abgibt",
-                  "Ein Stoff, der H⁺-Ionen (Protonen) in wässriger Lösung abgibt",
+                  "Ein Stoff, der H⁺-Ionen in wässriger Lösung abgibt",
                   "Ein Stoff, der Elektronen aufnimmt",
-                  "Ein Stoff, der nur mit Metallen reagiert"
+                  "Ein Stoff, der meist mit Metallen reagiert"
             ],
             correctAnswers: [
                   1
@@ -836,7 +836,7 @@ const QUESTIONS_DATA = {
                   "Ein Stoff, der H⁺-Ionen abgibt",
                   "Ein Stoff, der OH⁻-Ionen in wässriger Lösung abgibt",
                   "Ein Stoff, der Elektronen abgibt",
-                  "Ein Stoff, der nur mit Nichtmetallen reagiert"
+                  "Ein Stoff, der meist mit Nichtmetallen reagiert"
             ],
             correctAnswers: [
                   1
@@ -849,8 +849,8 @@ const QUESTIONS_DATA = {
             id: 53,
             text: "Was entsteht bei einer Neutralisationsreaktion?",
             options: [
-                  "Nur Wasser",
-                  "Nur Salz",
+                  "meist Wasser",
+                  "meist Salz",
                   "Salz und Wasser",
                   "Säure und Base"
             ],
@@ -897,9 +897,9 @@ const QUESTIONS_DATA = {
             id: 56,
             text: "Was bedeutet es, wenn eine Säure \"stark\" ist?",
             options: [
-                  "Sie ist konzentriert",
+                  "Sie hat eine hohe Konzentration",
                   "Sie dissoziiert vollständig in Wasser",
-                  "Sie ist gefährlich",
+                  "Sie ist chemisch gefährlich (ätzend)",
                   "Sie hat einen hohen pH-Wert"
             ],
             correctAnswers: [
@@ -961,10 +961,10 @@ const QUESTIONS_DATA = {
             id: 60,
             text: "Welche Aussage über die Neutralisation ist korrekt?",
             options: [
-                  "Sie ist immer endotherm",
+                  "Sie ist häufig endotherm",
                   "Säure und Base reagieren zu Salz und Wasser",
-                  "Es entstehen immer Gase",
-                  "Der pH-Wert sinkt immer"
+                  "Es entstehen häufig Gase",
+                  "Der pH-Wert sinkt häufig in der Reaktion"
             ],
             correctAnswers: [
                   1
@@ -977,10 +977,10 @@ const QUESTIONS_DATA = {
             id: 61,
             text: "Was beschreibt das Bohr-Modell des Atoms?",
             options: [
-                  "Elektronen bewegen sich auf festen Bahnen (Schalen) um den Kern",
-                  "Elektronen bewegen sich zufällig um den Kern",
-                  "Protonen kreisen um den Kern",
-                  "Der Kern besteht nur aus Elektronen"
+                  "e⁻ bewegen sich auf festen Schalen um den Kern",
+                  "Elektronen bewegen sich völlig zufällig um den Kern",
+                  "Protonen kreisen auf Bahnen um den Atomkern",
+                  "Der Kern besteht hauptsächlich aus Elektronen"
             ],
             correctAnswers: [
                   0
@@ -1025,10 +1025,10 @@ const QUESTIONS_DATA = {
             id: 64,
             text: "Was sind Valenzelektronen?",
             options: [
-                  "Elektronen im Atomkern",
-                  "Elektronen in der äußersten besetzten Schale",
-                  "Alle Elektronen eines Atoms",
-                  "Elektronen, die negativ geladen sind"
+                  "Elektronen, die sich direkt im Atomkern befinden",
+                  "e⁻ in der äußersten besetzten Schale",
+                  "Viele Elektronen eines Atoms gleichzeitig betrachtet",
+                  "Elektronen, die eine negative Ladung tragen"
             ],
             correctAnswers: [
                   1
@@ -1041,10 +1041,10 @@ const QUESTIONS_DATA = {
             id: 65,
             text: "Was besagt das Pauli-Prinzip?",
             options: [
-                  "Elektronen füllen zuerst die niedrigsten Energieniveaus",
-                  "Jedes Orbital kann maximal 2 Elektronen mit entgegengesetztem Spin enthalten",
-                  "Elektronen besetzen Orbitale zuerst einzeln",
-                  "Alle Elektronen haben den gleichen Spin"
+                  "Elektronen füllen zuerst die niedrigsten Energieniveaus auf",
+                  "Max. 2 e⁻ pro Orbital mit entgegengesetztem Spin",
+                  "Elektronen besetzen Orbitale zuerst einzeln, dann paarweise",
+                  "Viele Elektronen können den gleichen Spin besitzen"
             ],
             correctAnswers: [
                   1
@@ -1060,7 +1060,7 @@ const QUESTIONS_DATA = {
                   "Elektronen paaren sich sofort in Orbitalen",
                   "Orbitale gleicher Energie werden zuerst einzeln besetzt",
                   "Die K-Schale wird zuerst gefüllt",
-                  "Jedes Orbital kann nur ein Elektron aufnehmen"
+                  "Jedes Orbital kann meist ein Elektron aufnehmen"
             ],
             correctAnswers: [
                   1
@@ -1073,10 +1073,10 @@ const QUESTIONS_DATA = {
             id: 67,
             text: "Was ist ein Orbital?",
             options: [
-                  "Eine feste Kreisbahn des Elektrons",
-                  "Ein Raumbereich mit hoher Aufenthaltswahrscheinlichkeit für Elektronen",
-                  "Der Atomkern",
-                  "Eine Elektronenschale"
+                  "Eine feste Kreisbahn des Elektrons um den Kern",
+                  "Raumbereich hoher Aufenthaltswahrscheinlichkeit für e⁻",
+                  "Der Atomkern mit seinen Protonen und Neutronen",
+                  "Eine Elektronenschale im Bohr-Modell des Atoms"
             ],
             correctAnswers: [
                   1
@@ -1121,10 +1121,10 @@ const QUESTIONS_DATA = {
             id: 70,
             text: "Was besagt das Aufbauprinzip?",
             options: [
-                  "Elektronen füllen zuerst die Orbitale mit niedrigster Energie",
-                  "Elektronen füllen zuerst die äußeren Schalen",
-                  "Alle Orbitale werden gleichzeitig gefüllt",
-                  "Nur s-Orbitale werden besetzt"
+                  "e⁻ füllen zuerst Orbitale niedrigster Energie",
+                  "Elektronen füllen zuerst die äußeren Schalen auf",
+                  "Viele Orbitale werden gleichzeitig mit Elektronen gefüllt",
+                  "Meistens werden nur s-Orbitale mit Elektronen besetzt"
             ],
             correctAnswers: [
                   0
@@ -1137,10 +1137,10 @@ const QUESTIONS_DATA = {
             id: 71,
             text: "Was ist eine ionische Bindung?",
             options: [
-                  "Eine Bindung durch Elektronenpaarteilung",
-                  "Eine Bindung durch Elektronenübertragung zwischen Metall und Nichtmetall",
-                  "Eine Bindung zwischen zwei Nichtmetallen",
-                  "Eine schwache Anziehung zwischen Molekülen"
+                  "Eine Bindung durch Elektronenpaarteilung im Molekül",
+                  "Bindung durch e⁻-Übertragung (Metall → Nichtmetall)",
+                  "Eine Bindung zwischen zwei Nichtmetallen direkt",
+                  "Eine schwache Anziehung zwischen verschiedenen Molekülen"
             ],
             correctAnswers: [
                   1
@@ -1153,10 +1153,10 @@ const QUESTIONS_DATA = {
             id: 72,
             text: "Was passiert bei der Bildung einer Ionenbindung?",
             options: [
-                  "Elektronen werden zwischen Atomen geteilt",
-                  "Elektronen werden von einem Atom auf ein anderes übertragen",
-                  "Protonen werden ausgetauscht",
-                  "Neutronen werden geteilt"
+                  "Elektronen werden zwischen den Atomen geteilt",
+                  "e⁻ werden von einem Atom auf ein anderes übertragen",
+                  "Protonen werden zwischen Atomen ausgetauscht",
+                  "Neutronen werden zwischen Atomen geteilt"
             ],
             correctAnswers: [
                   1
@@ -1169,10 +1169,10 @@ const QUESTIONS_DATA = {
             id: 73,
             text: "Was zeigt eine Lewis-Struktur?",
             options: [
-                  "Nur die Protonen eines Atoms",
-                  "Die Valenzelektronen und Bindungen eines Moleküls",
-                  "Die Masse eines Moleküls",
-                  "Die Kernladung eines Atoms"
+                  "Meistens die Protonen eines Atoms im Kern",
+                  "Valenzelektronen und Bindungen im Molekül",
+                  "Die Masse eines Moleküls in Gramm pro Mol",
+                  "Die Kernladung eines Atoms in Protonenzahl"
             ],
             correctAnswers: [
                   1
@@ -1202,7 +1202,7 @@ const QUESTIONS_DATA = {
             text: "Was besagt die Oktettregel?",
             options: [
                   "Atome streben 8 Protonen an",
-                  "Atome streben 8 Valenzelektronen an (Edelgaskonfiguration)",
+                  "Atome streben 8 Valenzelektronen an",
                   "Jedes Orbital enthält 8 Elektronen",
                   "Jedes Molekül hat 8 Atome"
             ],
@@ -1217,10 +1217,10 @@ const QUESTIONS_DATA = {
             id: 76,
             text: "Was ist ein bindendes Elektronenpaar?",
             options: [
-                  "Ein Elektronenpaar, das zwischen zwei Atomen geteilt wird",
-                  "Ein Elektronenpaar, das nur an einem Atom sitzt",
-                  "Ein einzelnes Elektron",
-                  "Ein Protonenpaar"
+                  "e⁻-Paar, das zwischen zwei Atomen geteilt wird",
+                  "Ein Elektronenpaar, das meistens an einem Atom sitzt",
+                  "Ein einzelnes Elektron ohne Bindungspartner",
+                  "Ein Protonenpaar im Kern eines Atoms"
             ],
             correctAnswers: [
                   0
@@ -1233,10 +1233,10 @@ const QUESTIONS_DATA = {
             id: 77,
             text: "Was ist ein freies Elektronenpaar (nichtbindendes Elektronenpaar)?",
             options: [
-                  "Ein Elektronenpaar, das an der Bindung beteiligt ist",
-                  "Ein Elektronenpaar, das nur an einem Atom lokalisiert ist",
-                  "Ein positiv geladenes Teilchen",
-                  "Ein Elektron ohne Partner"
+                  "Ein Elektronenpaar, das direkt an der Bindung beteiligt ist",
+                  "Ein e⁻-Paar, das nur an einem Atom lokalisiert ist",
+                  "Ein positiv geladenes Teilchen im Atomkern",
+                  "Ein Elektron ohne Partner in einem Orbital"
             ],
             correctAnswers: [
                   1
@@ -1300,9 +1300,9 @@ const QUESTIONS_DATA = {
             text: "Was ist Elektronegativität?",
             options: [
                   "Die Fähigkeit eines Atoms, Elektronen abzugeben",
-                  "Die Fähigkeit eines Atoms, Bindungselektronen anzuziehen",
-                  "Die Anzahl der Valenzelektronen",
-                  "Die Größe eines Atoms"
+                  "Fähigkeit, Bindungselektronen anzuziehen",
+                  "Die Anzahl der Valenzelektronen eines Atoms",
+                  "Die Größe eines Atoms in Picometern (pm)"
             ],
             correctAnswers: [
                   1
@@ -1331,10 +1331,10 @@ const QUESTIONS_DATA = {
             id: 83,
             text: "Was ist eine polare Bindung?",
             options: [
-                  "Eine Bindung zwischen gleichen Atomen",
-                  "Eine Bindung mit ungleicher Elektronenverteilung",
-                  "Eine ionische Bindung",
-                  "Eine Bindung ohne Elektronen"
+                  "Eine Bindung zwischen gleichen Atomen ohne EN-Unterschied",
+                  "Bindung mit ungleicher Elektronenverteilung",
+                  "Eine ionische Bindung mit vollständiger Übertragung",
+                  "Eine Bindung ohne beteiligte Elektronen"
             ],
             correctAnswers: [
                   1
@@ -1379,10 +1379,10 @@ const QUESTIONS_DATA = {
             id: 86,
             text: "Was besagt das VSEPR-Modell?",
             options: [
-                  "Elektronenpaare stoßen sich ab und ordnen sich so an, dass die Abstoßung minimal ist",
-                  "Elektronen ziehen sich an",
-                  "Alle Moleküle sind linear",
-                  "Bindungen sind immer gleich lang"
+                  "e⁻-Paare stoßen sich ab und minimieren Abstoßung",
+                  "Elektronen ziehen sich gegenseitig an im Molekül",
+                  "Viele Moleküle haben eine lineare Geometrie",
+                  "Bindungen sind häufig gleich lang im Molekül"
             ],
             correctAnswers: [
                   0
@@ -1427,10 +1427,10 @@ const QUESTIONS_DATA = {
             id: 89,
             text: "Was ist eine unpolare Bindung?",
             options: [
-                  "Eine Bindung zwischen Atomen mit großem EN-Unterschied",
-                  "Eine Bindung zwischen gleichen oder ähnlichen Atomen",
-                  "Eine ionische Bindung",
-                  "Eine koordinative Bindung"
+                  "Bindung zwischen Atomen mit großem EN-Unterschied",
+                  "Bindung zwischen gleichen oder ähnlichen Atomen",
+                  "Eine ionische Bindung mit vollständiger Übertragung",
+                  "Eine koordinative Bindung vom Donor zum Akzeptor"
             ],
             correctAnswers: [
                   1
@@ -1459,10 +1459,10 @@ const QUESTIONS_DATA = {
             id: 91,
             text: "Was beschreibt die Valenzbindungstheorie (VB-Theorie)?",
             options: [
-                  "Die Überlappung von Atomorbitalen zur Bildung von Bindungen",
-                  "Die Bewegung von Elektronen in Bändern",
-                  "Die Abstoßung von Elektronenpaaren",
-                  "Die Ionisierung von Atomen"
+                  "Überlappung von Atomorbitalen bildet Bindungen",
+                  "Die Bewegung von Elektronen in Bändern im Kristall",
+                  "Die Abstoßung von Elektronenpaaren zueinander",
+                  "Die Ionisierung von Atomen zu geladenen Ionen"
             ],
             correctAnswers: [
                   0
@@ -1475,10 +1475,10 @@ const QUESTIONS_DATA = {
             id: 92,
             text: "Was ist Hybridisierung?",
             options: [
-                  "Die Mischung von Atomorbitalen zu neuen, gleichwertigen Orbitalen",
-                  "Die Trennung von Elektronen",
-                  "Die Bildung von Ionen",
-                  "Die Überlappung von Molekülorbitalen"
+                  "Mischung von Atomorbitalen zu neuen Orbitalen",
+                  "Die Trennung von Elektronen in verschiedene Schalen",
+                  "Die Bildung von Ionen durch Elektronentransfer",
+                  "Die Überlappung von Molekülorbitalen im Molekül"
             ],
             correctAnswers: [
                   0
@@ -1508,9 +1508,9 @@ const QUESTIONS_DATA = {
             text: "Was ist eine σ-Bindung (Sigma-Bindung)?",
             options: [
                   "Eine Bindung durch seitliche Orbitalüberlappung",
-                  "Eine Bindung durch Überlappung entlang der Bindungsachse",
-                  "Eine ionische Bindung",
-                  "Eine Wasserstoffbrücke"
+                  "Bindung durch Überlappung entlang der Achse",
+                  "Eine ionische Bindung durch Elektronenübertragung",
+                  "Eine Wasserstoffbrücke zwischen Molekülen"
             ],
             correctAnswers: [
                   1
@@ -1541,7 +1541,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Elektronen befinden sich in Orbitalen, die das gesamte Molekül umfassen",
                   "Elektronen bleiben an ihren ursprünglichen Atomen",
-                  "Nur ionische Bindungen können beschrieben werden",
+                  "meist ionische Bindungen können beschrieben werden",
                   "Hybridorbitale sind die einzige Möglichkeit"
             ],
             correctAnswers: [
@@ -1556,9 +1556,9 @@ const QUESTIONS_DATA = {
             text: "Was ist ein bindendes Molekülorbital?",
             options: [
                   "Ein Orbital mit höherer Energie als die Atomorbitale",
-                  "Ein Orbital mit niedrigerer Energie als die Atomorbitale",
-                  "Ein Orbital ohne Elektronen",
-                  "Ein Orbital nur für Ionen"
+                  "Orbital mit niedrigerer Energie als Atomorbitale",
+                  "Ein Orbital ohne Elektronen in einem Molekül",
+                  "Ein Orbital meistens für Ionen charakteristisch"
             ],
             correctAnswers: [
                   1
@@ -1573,7 +1573,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Ein Orbital mit niedrigerer Energie als die Atomorbitale",
                   "Ein Orbital mit höherer Energie als die Atomorbitale",
-                  "Ein Orbital, das nur Protonen enthält",
+                  "Ein Orbital, das meist Protonen enthält",
                   "Ein Hybridorbital"
             ],
             correctAnswers: [
@@ -1635,10 +1635,10 @@ const QUESTIONS_DATA = {
             id: 102,
             text: "Was ist Enthalpie (H)?",
             options: [
-                  "Die Wärmeenergie eines Systems bei konstantem Druck",
-                  "Die Temperatur einer Reaktion",
-                  "Die Masse der Reaktanten",
-                  "Die Konzentration der Produkte"
+                  "Wärmeenergie bei konstantem Druck",
+                  "Die Temperatur einer chemischen Reaktion",
+                  "Die Masse der Reaktanten in einer Reaktion",
+                  "Die Konzentration der Produkte einer Reaktion"
             ],
             correctAnswers: [
                   0
@@ -1668,7 +1668,7 @@ const QUESTIONS_DATA = {
             text: "Was bedeutet ΔH > 0?",
             options: [
                   "Die Reaktion ist exotherm",
-                  "Die Reaktion ist endotherm (nimmt Wärme auf)",
+                  "Die Reaktion ist endotherm",
                   "Die Reaktion ist spontan",
                   "Die Reaktion ist reversibel"
             ],
@@ -1683,10 +1683,10 @@ const QUESTIONS_DATA = {
             id: 105,
             text: "Was ist die Standardbildungsenthalpie?",
             options: [
-                  "Die Enthalpieänderung bei der Bildung von 1 mol einer Verbindung aus den Elementen unter Standardbedingungen",
-                  "Die Enthalpie bei 0 K",
-                  "Die Wärme bei der Verbrennung",
-                  "Die Energie zur Trennung aller Bindungen"
+                  "ΔH bei Bildung von 1 mol aus Elementen (Standardbed.)",
+                  "Die Enthalpie eines Systems bei 0 K (absoluter Nullpunkt)",
+                  "Die Wärme bei der vollständigen Verbrennung eines Stoffes",
+                  "Die Energie zur Trennung aller Bindungen im Molekül"
             ],
             correctAnswers: [
                   0
@@ -1699,7 +1699,7 @@ const QUESTIONS_DATA = {
             id: 106,
             text: "Was sind Standardbedingungen in der Thermodynamik?",
             options: [
-                  "25°C (298 K) und 1 bar (oder 1 atm)",
+                  "25°C (298 K) und 1 bar",
                   "0°C und 1 atm",
                   "100°C und 1 bar",
                   "Beliebige Temperatur und Druck"
@@ -1763,9 +1763,9 @@ const QUESTIONS_DATA = {
             id: 110,
             text: "Was ist die Reaktionsenthalpie (ΔHᵣ)?",
             options: [
-                  "Die Summe der Enthalpien der Produkte minus der Summe der Enthalpien der Reaktanten",
-                  "Die Temperaturänderung während der Reaktion",
-                  "Die Aktivierungsenergie der Reaktion",
+                  "ΣH(Produkte) − ΣH(Reaktanten)",
+                  "Die Temperaturänderung während der chemischen Reaktion",
+                  "Die Aktivierungsenergie einer chemischen Reaktion",
                   "Die Masse der Produkte minus der Masse der Reaktanten"
             ],
             correctAnswers: [
@@ -1781,8 +1781,8 @@ const QUESTIONS_DATA = {
             options: [
                   "Fest, flüssig, gasförmig",
                   "Fest, flüssig, Plasma",
-                  "Nur fest und flüssig",
-                  "Nur flüssig und gasförmig"
+                  "meist fest und flüssig",
+                  "meist flüssig und gasförmig"
             ],
             correctAnswers: [
                   0
@@ -1811,10 +1811,10 @@ const QUESTIONS_DATA = {
             id: 113,
             text: "Was ist der Siedepunkt?",
             options: [
-                  "Die Temperatur, bei der ein Stoff schmilzt",
-                  "Die Temperatur, bei der der Dampfdruck gleich dem äußeren Druck ist",
-                  "Die Temperatur, bei der ein Stoff erstarrt",
-                  "Die Temperatur, bei der ein Gas fest wird"
+                  "Die Temperatur, bei der ein Stoff zu schmelzen beginnt",
+                  "T, bei der Dampfdruck = äußerer Druck",
+                  "Die Temperatur, bei der ein Stoff zu erstarren beginnt",
+                  "Die Temperatur, bei der ein Gas fest zu werden beginnt"
             ],
             correctAnswers: [
                   1
@@ -1827,10 +1827,10 @@ const QUESTIONS_DATA = {
             id: 114,
             text: "Was ist Sublimation?",
             options: [
-                  "Übergang von fest zu gasförmig ohne flüssige Phase",
-                  "Übergang von flüssig zu gasförmig",
-                  "Übergang von gasförmig zu flüssig",
-                  "Übergang von fest zu flüssig"
+                  "fest → gasförmig ohne flüssige Phase",
+                  "Übergang von flüssig zu gasförmig (Verdampfen)",
+                  "Übergang von gasförmig zu flüssig (Kondensation)",
+                  "Übergang von fest zu flüssig (Schmelzen)"
             ],
             correctAnswers: [
                   0
@@ -1843,10 +1843,10 @@ const QUESTIONS_DATA = {
             id: 115,
             text: "Was ist ein Phasendiagramm?",
             options: [
-                  "Eine grafische Darstellung der Zustände eines Stoffes in Abhängigkeit von Druck und Temperatur",
-                  "Ein Diagramm der Reaktionsgeschwindigkeit",
-                  "Eine Darstellung der Molekülstruktur",
-                  "Ein Diagramm der Elektronenkonfiguration"
+                  "Darstellung der Zustände abhängig von p und T",
+                  "Ein Diagramm der Reaktionsgeschwindigkeit einer Reaktion",
+                  "Eine Darstellung der Molekülstruktur eines Stoffes",
+                  "Ein Diagramm der Elektronenkonfiguration von Atomen"
             ],
             correctAnswers: [
                   0
@@ -1859,10 +1859,10 @@ const QUESTIONS_DATA = {
             id: 116,
             text: "Was ist der Tripelpunkt?",
             options: [
-                  "Der Punkt, an dem alle drei Aggregatzustände im Gleichgewicht sind",
-                  "Der höchste Druck eines Stoffes",
-                  "Der Schmelzpunkt bei hohem Druck",
-                  "Der Siedepunkt bei niedrigem Druck"
+                  "Punkt, an dem alle 3 Zustände im Gleichgewicht sind",
+                  "Der höchste Druck, den ein Stoff erreichen kann",
+                  "Der Schmelzpunkt bei sehr hohem Druck",
+                  "Der Siedepunkt bei sehr niedrigem Druck"
             ],
             correctAnswers: [
                   0
@@ -1875,10 +1875,10 @@ const QUESTIONS_DATA = {
             id: 117,
             text: "Was ist der kritische Punkt?",
             options: [
-                  "Der Punkt, oberhalb dessen keine Unterscheidung zwischen flüssig und gasförmig möglich ist",
-                  "Der Schmelzpunkt eines Stoffes",
-                  "Der Tripelpunkt eines Stoffes",
-                  "Der Gefrierpunkt eines Stoffes"
+                  "Oberhalb davon keine Unterscheidung flüssig/gasförmig",
+                  "Der Schmelzpunkt eines bestimmten Stoffes",
+                  "Der Tripelpunkt eines bestimmten Stoffes",
+                  "Der Gefrierpunkt eines bestimmten Stoffes"
             ],
             correctAnswers: [
                   0
@@ -1923,10 +1923,10 @@ const QUESTIONS_DATA = {
             id: 120,
             text: "Was ist Resublimation (Deposition)?",
             options: [
-                  "Übergang von gasförmig zu fest ohne flüssige Phase",
-                  "Übergang von flüssig zu gasförmig",
-                  "Übergang von fest zu flüssig",
-                  "Übergang von flüssig zu fest"
+                  "gasförmig → fest ohne flüssige Phase",
+                  "Übergang von flüssig zu gasförmig (Verdampfen)",
+                  "Übergang von fest zu flüssig (Schmelzvorgang)",
+                  "Übergang von flüssig zu fest (Erstarrung)"
             ],
             correctAnswers: [
                   0
@@ -1939,10 +1939,10 @@ const QUESTIONS_DATA = {
             id: 121,
             text: "Was sind kolligative Eigenschaften?",
             options: [
-                  "Eigenschaften, die nur von der Anzahl der gelösten Teilchen abhängen, nicht von ihrer Art",
+                  "Hängen nur von der Anzahl gelöster Teilchen ab",
                   "Eigenschaften, die von der Farbe des gelösten Stoffes abhängen",
-                  "Eigenschaften, die nur bei Gasen auftreten",
-                  "Eigenschaften, die von der Masse abhängen"
+                  "Eigenschaften, die nur bei Gasen auftreten können",
+                  "Eigenschaften, die von der Masse des Stoffes abhängen"
             ],
             correctAnswers: [
                   0
@@ -1971,10 +1971,10 @@ const QUESTIONS_DATA = {
             id: 123,
             text: "Was ist die Gefrierpunktserniedrigung?",
             options: [
-                  "Die Senkung des Gefrierpunkts einer Lösung gegenüber dem reinen Lösungsmittel",
-                  "Die Erhöhung des Gefrierpunkts",
-                  "Die Änderung der Farbe beim Gefrieren",
-                  "Die Bildung von Eiskristallen"
+                  "Senkung des Gefrierpunkts durch gelöste Stoffe",
+                  "Die Erhöhung des Gefrierpunkts einer Lösung",
+                  "Die Änderung der Farbe beim Gefriervorgang",
+                  "Die Bildung von Eiskristallen in einer Lösung"
             ],
             correctAnswers: [
                   0
@@ -1987,10 +1987,10 @@ const QUESTIONS_DATA = {
             id: 124,
             text: "Was ist die Siedepunkterhöhung?",
             options: [
-                  "Die Erhöhung des Siedepunkts einer Lösung gegenüber dem reinen Lösungsmittel",
-                  "Die Senkung des Siedepunkts",
-                  "Die Verdampfung des gelösten Stoffes",
-                  "Die Bildung von Dampf"
+                  "Erhöhung des Siedepunkts durch gelöste Stoffe",
+                  "Die Senkung des Siedepunkts einer Lösung",
+                  "Die Verdampfung des gelösten Stoffes beim Erhitzen",
+                  "Die Bildung von Dampf über einer Flüssigkeit"
             ],
             correctAnswers: [
                   0
@@ -2003,10 +2003,10 @@ const QUESTIONS_DATA = {
             id: 125,
             text: "Was ist Osmose?",
             options: [
-                  "Der Übergang von Lösungsmittel durch eine semipermeable Membran",
-                  "Die Vermischung von zwei Lösungen",
-                  "Die Verdampfung von Wasser",
-                  "Die Auflösung eines Salzes"
+                  "Lösungsmittel-Übergang durch semipermeable Membran",
+                  "Die Vermischung von zwei verschiedenen Lösungen",
+                  "Die Verdampfung von Wasser aus einer Lösung",
+                  "Die Auflösung eines Salzes in einem Lösungsmittel"
             ],
             correctAnswers: [
                   0
@@ -2019,10 +2019,10 @@ const QUESTIONS_DATA = {
             id: 126,
             text: "Was ist der osmotische Druck?",
             options: [
-                  "Der Druck, der nötig ist, um Osmose zu verhindern",
-                  "Der Dampfdruck einer Lösung",
-                  "Der atmosphärische Druck",
-                  "Der Druck beim Sieden"
+                  "Druck, der nötig ist, um Osmose zu verhindern",
+                  "Der Dampfdruck einer wässrigen Lösung",
+                  "Der atmosphärische Druck auf Meereshöhe",
+                  "Der Druck beim Sieden einer Flüssigkeit"
             ],
             correctAnswers: [
                   0
@@ -2035,10 +2035,10 @@ const QUESTIONS_DATA = {
             id: 127,
             text: "Was ist die Dampfdruckerniedrigung?",
             options: [
-                  "Die Senkung des Dampfdrucks eines Lösungsmittels durch einen gelösten Stoff",
-                  "Die Erhöhung des Dampfdrucks",
-                  "Die Verdampfung des gelösten Stoffes",
-                  "Die Kondensation von Dampf"
+                  "Senkung des Dampfdrucks durch gelöste Stoffe",
+                  "Die Erhöhung des Dampfdrucks einer Lösung",
+                  "Die Verdampfung des gelösten Stoffes beim Erhitzen",
+                  "Die Kondensation von Dampf zu Flüssigkeit"
             ],
             correctAnswers: [
                   0
@@ -2051,10 +2051,10 @@ const QUESTIONS_DATA = {
             id: 128,
             text: "Was ist eine semipermeable Membran?",
             options: [
-                  "Eine Membran, die nur bestimmte Teilchen durchlässt",
-                  "Eine vollständig undurchlässige Wand",
-                  "Eine Membran, die alles durchlässt",
-                  "Eine metallische Oberfläche"
+                  "Membran, die nur bestimmte Teilchen durchlässt",
+                  "Eine vollständig undurchlässige Wand oder Folie",
+                  "Eine Membran, die alles durchlässt (unselektiv)",
+                  "Eine metallische Oberfläche ohne Poren"
             ],
             correctAnswers: [
                   0
@@ -2083,10 +2083,10 @@ const QUESTIONS_DATA = {
             id: 130,
             text: "Warum streut man im Winter Salz auf Straßen?",
             options: [
-                  "Um den Gefrierpunkt des Wassers zu senken",
-                  "Um das Eis zu färben",
-                  "Um den Siedepunkt zu erhöhen",
-                  "Um die Straße zu reinigen"
+                  "Um den Gefrierpunkt von Wasser zu senken",
+                  "Um das Eis für Verkehrsteilnehmer zu färben",
+                  "Um den Siedepunkt des Wassers zu erhöhen",
+                  "Um die Straße von Schmutz zu reinigen"
             ],
             correctAnswers: [
                   0
@@ -2099,10 +2099,10 @@ const QUESTIONS_DATA = {
             id: 131,
             text: "Was ist der pH-Wert?",
             options: [
-                  "Der negative dekadische Logarithmus der Wasserstoffionenkonzentration",
-                  "Die Konzentration von OH⁻-Ionen",
-                  "Die Stärke einer Base",
-                  "Die Temperatur einer Lösung"
+                  "-log₁₀[H⁺] (negativer dekadischer Logarithmus)",
+                  "Die Konzentration von OH⁻-Ionen in der Lösung",
+                  "Die Stärke einer Base auf einer Skala gemessen",
+                  "Die Temperatur einer Lösung in Grad Celsius"
             ],
             correctAnswers: [
                   0
@@ -2131,10 +2131,10 @@ const QUESTIONS_DATA = {
             id: 133,
             text: "Was ist ein Puffer?",
             options: [
-                  "Eine Lösung, die den pH-Wert bei Zugabe von Säure oder Base stabilisiert",
-                  "Eine konzentrierte Säure",
-                  "Eine Lösung ohne Ionen",
-                  "Reines Wasser"
+                  "Lösung, die pH bei Säure-/Basenzugabe stabilisiert",
+                  "Eine konzentrierte Säure mit hoher Molarität",
+                  "Eine Lösung ohne gelöste Ionen (destilliert)",
+                  "Reines Wasser ohne Zusätze (H₂O)"
             ],
             correctAnswers: [
                   0
@@ -2147,10 +2147,10 @@ const QUESTIONS_DATA = {
             id: 134,
             text: "Was ist der pOH-Wert?",
             options: [
-                  "Der negative dekadische Logarithmus der Hydroxidionenkonzentration",
-                  "Der pH-Wert einer Base",
-                  "Die Konzentration von H⁺-Ionen",
-                  "Das Produkt von pH und pKs"
+                  "-log₁₀[OH⁻] (negativer dekadischer Logarithmus)",
+                  "Der pH-Wert einer Base auf der Skala von 0-14",
+                  "Die Konzentration von H⁺-Ionen in einer Lösung",
+                  "Das Produkt von pH und pKs einer Säure"
             ],
             correctAnswers: [
                   0
@@ -2179,9 +2179,9 @@ const QUESTIONS_DATA = {
             id: 136,
             text: "Woraus besteht ein typischer Puffer?",
             options: [
-                  "Aus einer schwachen Säure und ihrem konjugierten Salz",
-                  "Aus zwei starken Säuren",
-                  "Nur aus reinem Wasser",
+                  "Schwache Säure + konjugiertes Salz (z.B. CH₃COOH/CH₃COONa)",
+                  "Aus zwei starken Säuren miteinander gemischt",
+                  "Meistens aus reinem destilliertem Wasser",
                   "Aus einer starken Base und einer starken Säure"
             ],
             correctAnswers: [
@@ -2195,10 +2195,10 @@ const QUESTIONS_DATA = {
             id: 137,
             text: "Was ist der pKs-Wert?",
             options: [
-                  "Der negative dekadische Logarithmus der Säurekonstante",
-                  "Der pH-Wert einer Säure",
-                  "Die Konzentration einer Säure",
-                  "Die Masse einer Säure"
+                  "-log₁₀(Ks) – Maß für Säurestärke",
+                  "Der pH-Wert einer Säure in wässriger Lösung",
+                  "Die Konzentration einer Säure in mol/L (Molarität)",
+                  "Die Masse einer Säure in Gramm pro Liter"
             ],
             correctAnswers: [
                   0
@@ -2211,10 +2211,10 @@ const QUESTIONS_DATA = {
             id: 138,
             text: "Was ist eine Titration?",
             options: [
-                  "Eine Methode zur Bestimmung der Konzentration durch Zugabe einer Reagenzlösung bekannter Konzentration",
-                  "Eine Methode zur Messung der Temperatur",
-                  "Eine Methode zur Bestimmung der Farbe",
-                  "Eine Methode zur Messung des Volumens"
+                  "Konzentrationsbestimmung durch Reagenzzugabe",
+                  "Eine Methode zur Messung der Temperatur einer Lösung",
+                  "Eine Methode zur Bestimmung der Farbe einer Lösung",
+                  "Eine Methode zur Messung des Volumens einer Flüssigkeit"
             ],
             correctAnswers: [
                   0
@@ -2227,10 +2227,10 @@ const QUESTIONS_DATA = {
             id: 139,
             text: "Was ist der Äquivalenzpunkt einer Titration?",
             options: [
-                  "Der Punkt, an dem stöchiometrisch äquivalente Mengen von Säure und Base reagiert haben",
-                  "Der Startpunkt der Titration",
+                  "Stöchiometrisch äquivalente Mengen haben reagiert",
+                  "Der Startpunkt der Titration (Beginn der Zugabe)",
                   "Der Punkt, an dem die Lösung farblos wird",
-                  "Der pH-Wert 7"
+                  "Der pH-Wert 7 in der Reaktion (neutral)"
             ],
             correctAnswers: [
                   0
@@ -2243,10 +2243,10 @@ const QUESTIONS_DATA = {
             id: 140,
             text: "Was ist ein Indikator?",
             options: [
-                  "Ein Stoff, der seine Farbe je nach pH-Wert ändert",
-                  "Ein Katalysator",
-                  "Ein Puffer",
-                  "Eine starke Base"
+                  "Stoff, der Farbe je nach pH-Wert ändert",
+                  "Ein Katalysator, der Reaktionen beschleunigt",
+                  "Ein Puffer, der den pH-Wert stabilisiert",
+                  "Eine starke Base mit hoher Konzentration"
             ],
             correctAnswers: [
                   0
@@ -2291,10 +2291,10 @@ const QUESTIONS_DATA = {
             id: 143,
             text: "Was ist eine Redoxreaktion?",
             options: [
-                  "Eine Reaktion, bei der Oxidation und Reduktion gleichzeitig stattfinden",
-                  "Eine Säure-Base-Reaktion",
-                  "Eine Fällungsreaktion",
-                  "Eine Verbrennungsreaktion"
+                  "Oxidation und Reduktion finden gleichzeitig statt",
+                  "Eine Säure-Base-Reaktion mit Protonenausausch",
+                  "Eine Fällungsreaktion mit Niederschlagsbildung",
+                  "Eine Verbrennungsreaktion mit Sauerstoff"
             ],
             correctAnswers: [
                   0
@@ -2307,10 +2307,10 @@ const QUESTIONS_DATA = {
             id: 144,
             text: "Was ist ein Oxidationsmittel?",
             options: [
-                  "Ein Stoff, der andere oxidiert und selbst reduziert wird",
-                  "Ein Stoff, der andere reduziert",
-                  "Ein Katalysator",
-                  "Ein Inertgas"
+                  "Stoff, der andere oxidiert und selbst reduziert wird",
+                  "Ein Stoff, der andere Stoffe reduziert (e⁻-Donor)",
+                  "Ein Katalysator, der Reaktionen beschleunigt",
+                  "Ein Inertgas, das nicht reagiert (z.B. Argon)"
             ],
             correctAnswers: [
                   0
@@ -2323,10 +2323,10 @@ const QUESTIONS_DATA = {
             id: 145,
             text: "Was ist ein Reduktionsmittel?",
             options: [
-                  "Ein Stoff, der andere reduziert und selbst oxidiert wird",
-                  "Ein Stoff, der andere oxidiert",
-                  "Ein Katalysator",
-                  "Ein Edelgas"
+                  "Stoff, der andere reduziert und selbst oxidiert wird",
+                  "Ein Stoff, der andere Stoffe oxidiert (e⁻-Akzeptor)",
+                  "Ein Katalysator, der Reaktionen beschleunigt",
+                  "Ein Edelgas, das nicht reagiert (z.B. Neon)"
             ],
             correctAnswers: [
                   0
@@ -2355,10 +2355,10 @@ const QUESTIONS_DATA = {
             id: 147,
             text: "Was ist eine galvanische Zelle?",
             options: [
-                  "Eine elektrochemische Zelle, die chemische Energie in elektrische Energie umwandelt",
+                  "Elektrochemische Zelle: chem. Energie → elektr. Energie",
                   "Eine Zelle, die elektrische Energie in chemische umwandelt",
-                  "Ein Kondensator",
-                  "Ein Transformator"
+                  "Ein Kondensator zur Speicherung elektrischer Ladung",
+                  "Ein Transformator zur Spannungsumwandlung"
             ],
             correctAnswers: [
                   0
@@ -2371,7 +2371,7 @@ const QUESTIONS_DATA = {
             id: 148,
             text: "Was ist Elektrolyse?",
             options: [
-                  "Die Umwandlung von elektrischer Energie in chemische Energie",
+                  "Umwandlung von elektrischer Energie in chemische Energie",
                   "Die Umwandlung von chemischer Energie in elektrische Energie",
                   "Die Verbrennung von Wasserstoff",
                   "Die Auflösung von Salzen"
@@ -2390,7 +2390,7 @@ const QUESTIONS_DATA = {
                   "An der Anode",
                   "An der Kathode",
                   "An beiden",
-                  "An keiner"
+                  "An wenige"
             ],
             correctAnswers: [
                   0
@@ -2406,7 +2406,7 @@ const QUESTIONS_DATA = {
                   "An der Kathode",
                   "An der Anode",
                   "An beiden",
-                  "An keiner"
+                  "An wenige"
             ],
             correctAnswers: [
                   0
@@ -2696,10 +2696,10 @@ const QUESTIONS_DATA = {
             id: 168,
             text: "Welche Aussagen über die Stoffmenge n sind korrekt?",
             options: [
-                  "n = m / M (Masse geteilt durch molare Masse)",
+                  "n = m / M",
                   "Die Einheit ist mol",
-                  "n = N / Nₐ (Teilchenzahl geteilt durch Avogadro-Zahl)",
-                  "n hat keine Einheit"
+                  "n = N / Nₐ",
+                  "n hat wenige Einheit"
             ],
             correctAnswers: [
                   0,
@@ -2925,7 +2925,7 @@ const QUESTIONS_DATA = {
             text: "Welcher Reaktionstyp liegt vor: 2 H₂O → 2 H₂ + O₂?",
             options: [
                   "Synthese",
-                  "Analyse (Zersetzung)",
+                  "Analyse",
                   "Verbrennung",
                   "Austausch"
             ],
@@ -3234,10 +3234,10 @@ const QUESTIONS_DATA = {
             id: 201,
             text: "Ordne die folgenden Säuren als stark oder schwach ein: HNO₃, CH₃COOH, H₂SO₄, HF",
             options: [
-                  "Alle sind stark",
-                  "HNO₃ und H₂SO₄ sind stark; CH₃COOH und HF sind schwach",
-                  "Alle sind schwach",
-                  "Nur H₂SO₄ ist stark"
+                  "Die meisten dieser Säuren sind starke Elektrolyte",
+                  "HNO₃, H₂SO₄ stark; CH₃COOH, HF schwach",
+                  "Die meisten dieser Säuren sind schwache Elektrolyte",
+                  "Nur eine einzige dieser Säuren ist wirklich stark"
             ],
             correctAnswers: [
                   1
@@ -3462,10 +3462,10 @@ const QUESTIONS_DATA = {
             id: 215,
             text: "Die Formel 2n² gibt an:",
             options: [
-                  "Die Anzahl der Protonen",
-                  "Die maximale Elektronenzahl pro Schale",
-                  "Die Anzahl der Neutronen",
-                  "Die Masse des Atoms"
+                  "Die Gesamtanzahl der Protonen im Kern",
+                  "Max. Elektronenzahl pro Schale n",
+                  "Die genaue Anzahl der Neutronen im Kern",
+                  "Die relative Atommasse des Atoms in u"
             ],
             correctAnswers: [
                   1
@@ -3625,7 +3625,7 @@ const QUESTIONS_DATA = {
                   "Eine Einfachbindung",
                   "Eine Doppelbindung",
                   "Eine Dreifachbindung",
-                  "Keine Bindung"
+                  "wenige Bindung"
             ],
             correctAnswers: [
                   1
@@ -3753,7 +3753,7 @@ const QUESTIONS_DATA = {
                   "Polar, weil C-O-Bindungen polar sind",
                   "Unpolar, weil die Dipolmomente sich aufheben",
                   "Polar, weil es Sauerstoff enthält",
-                  "Unpolar, weil es keine Bindungen hat"
+                  "Unpolar, weil es wenige Bindungen hat"
             ],
             correctAnswers: [
                   1
@@ -3817,7 +3817,7 @@ const QUESTIONS_DATA = {
                   "Unpolar, weil es symmetrisch ist",
                   "Polar, weil die Dipolmomente sich nicht aufheben",
                   "Unpolar, weil Wasserstoff unpolar ist",
-                  "Polar, weil es nur aus Nichtmetallen besteht"
+                  "Polar, weil es meist aus Nichtmetallen besteht"
             ],
             correctAnswers: [
                   1
@@ -4071,8 +4071,8 @@ const QUESTIONS_DATA = {
             text: "Was besagt der Satz von Hess?",
             options: [
                   "Die Gesamtenthalpieänderung ist unabhängig vom Reaktionsweg",
-                  "Alle Reaktionen sind exotherm",
-                  "Enthalpie kann nur bei hohen Temperaturen gemessen werden",
+                  "viele Reaktionen sind exotherm",
+                  "Enthalpie kann meist bei hohen Temperaturen gemessen werden",
                   "Die Enthalpie hängt vom Druck ab"
             ],
             correctAnswers: [
@@ -4134,10 +4134,10 @@ const QUESTIONS_DATA = {
             id: 257,
             text: "Was ist die spezifische Wärmekapazität?",
             options: [
-                  "Die Wärmemenge, die 1 g eines Stoffes um 1°C erwärmt",
-                  "Die Wärmemenge bei der Verbrennung",
-                  "Die maximale Temperatur eines Stoffes",
-                  "Die Wärmeleitfähigkeit"
+                  "Wärme für 1 g Stoff um 1°C zu erwärmen",
+                  "Die Wärmemenge bei vollständiger Verbrennung",
+                  "Die maximale Temperatur, die ein Stoff erreichen kann",
+                  "Die Wärmeleitfähigkeit eines Materials in W/(m·K)"
             ],
             correctAnswers: [
                   0
@@ -4150,10 +4150,10 @@ const QUESTIONS_DATA = {
             id: 258,
             text: "Die Formel q = m × c × ΔT berechnet:",
             options: [
-                  "Die aufgenommene oder abgegebene Wärmemenge",
-                  "Die Reaktionsgeschwindigkeit",
-                  "Die Gleichgewichtskonstante",
-                  "Die Aktivierungsenergie"
+                  "Aufgenommene oder abgegebene Wärmemenge",
+                  "Die Reaktionsgeschwindigkeit einer chemischen Reaktion",
+                  "Die Gleichgewichtskonstante einer Reaktion im System",
+                  "Die Aktivierungsenergie einer chemischen Reaktion"
             ],
             correctAnswers: [
                   0
@@ -4182,10 +4182,10 @@ const QUESTIONS_DATA = {
             id: 260,
             text: "Was ist die Verbrennungsenthalpie?",
             options: [
-                  "Die Enthalpieänderung bei der vollständigen Verbrennung von 1 mol einer Substanz mit O₂",
+                  "ΔH bei vollständiger Verbrennung von 1 mol mit O₂",
                   "Die Enthalpie bei der Bildung aus den Elementen",
-                  "Die Enthalpie beim Schmelzen",
-                  "Die Enthalpie bei der Lösung in Wasser"
+                  "Die Enthalpie beim Schmelzen eines Feststoffes",
+                  "Die Enthalpie bei der Lösung in Wasser (Hydratation)"
             ],
             correctAnswers: [
                   0
@@ -4249,7 +4249,7 @@ const QUESTIONS_DATA = {
                   "Der Tripelpunkt von CO₂ liegt oberhalb von 1 atm",
                   "CO₂ kann nicht flüssig werden",
                   "Der Schmelzpunkt von CO₂ liegt unter dem Tripelpunkt",
-                  "CO₂ ist immer gasförmig"
+                  "CO₂ ist häufig gasförmig"
             ],
             correctAnswers: [
                   0
@@ -4265,7 +4265,7 @@ const QUESTIONS_DATA = {
                   "Van-der-Waals-Kräfte",
                   "Wasserstoffbrücken",
                   "Dipol-Dipol-Wechselwirkungen",
-                  "Nur ionische Bindungen"
+                  "meist ionische Bindungen"
             ],
             correctAnswers: [
                   0,
@@ -4296,10 +4296,10 @@ const QUESTIONS_DATA = {
             id: 267,
             text: "Was ist der Dampfdruck?",
             options: [
-                  "Der Druck, den der gasförmige Anteil eines Stoffes im Gleichgewicht mit der flüssigen Phase ausübt",
+                  "Druck des gasförmigen Anteils im Gleichgewicht mit Flüssigkeit",
                   "Der maximale Druck in einem geschlossenen Behälter",
-                  "Der atmosphärische Druck",
-                  "Der Druck beim Siedepunkt"
+                  "Der atmosphärische Druck auf Meereshöhe (1 atm)",
+                  "Der Druck genau beim Siedepunkt einer Flüssigkeit"
             ],
             correctAnswers: [
                   0
@@ -4331,7 +4331,7 @@ const QUESTIONS_DATA = {
                   "Die feste und flüssige Phase",
                   "Die flüssige und gasförmige Phase",
                   "Die feste und gasförmige Phase",
-                  "Alle drei Phasen"
+                  "viele drei Phasen"
             ],
             correctAnswers: [
                   0
@@ -4360,7 +4360,7 @@ const QUESTIONS_DATA = {
             id: 271,
             text: "Die Formel für die Gefrierpunktserniedrigung lautet ΔTf = Kf × m. Was ist Kf?",
             options: [
-                  "Die kryoskopische Konstante (spezifisch für das Lösungsmittel)",
+                  "Die kryoskopische Konstante",
                   "Die Molalität",
                   "Die Molmasse",
                   "Die Konzentration"
@@ -4408,10 +4408,10 @@ const QUESTIONS_DATA = {
             id: 274,
             text: "Das Raoult'sche Gesetz lautet: P = x × P°. Was ist x?",
             options: [
-                  "Der Molenbruch des Lösungsmittels",
-                  "Die Molalität",
-                  "Die Masse des gelösten Stoffes",
-                  "Die Temperatur"
+                  "Molenbruch des Lösungsmittels",
+                  "Die Molalität der Lösung in mol/kg",
+                  "Die Masse des gelösten Stoffes in Gramm",
+                  "Die Temperatur der Lösung in Kelvin"
             ],
             correctAnswers: [
                   0
@@ -4477,7 +4477,7 @@ const QUESTIONS_DATA = {
                   "1 m NaCl",
                   "1 m Glucose",
                   "0,5 m CaCl₂",
-                  "Alle haben den gleichen Gefrierpunkt"
+                  "viele haben den gleichen Gefrierpunkt"
             ],
             correctAnswers: [
                   0
@@ -4490,10 +4490,10 @@ const QUESTIONS_DATA = {
             id: 279,
             text: "Was ist der van't Hoff-Faktor i?",
             options: [
-                  "Die Anzahl der Teilchen, in die eine Formeleinheit dissoziiert",
-                  "Die Molmasse des gelösten Stoffes",
-                  "Die Dichte der Lösung",
-                  "Die Temperaturänderung"
+                  "Anzahl Teilchen, in die eine Formeleinheit dissoziiert",
+                  "Die Molmasse des gelösten Stoffes in g/mol",
+                  "Die Dichte der Lösung in g/mL (oder kg/L)",
+                  "Die Temperaturänderung bei Lösung in Kelvin"
             ],
             correctAnswers: [
                   0
@@ -4602,10 +4602,10 @@ const QUESTIONS_DATA = {
             id: 286,
             text: "Ein Puffer besteht typischerweise aus:",
             options: [
-                  "Einer schwachen Säure und ihrem konjugierten Basensalz",
-                  "Zwei starken Säuren",
-                  "Einer starken Säure und einer starken Base",
-                  "Reinem Wasser"
+                  "Schwacher Säure + konjugiertem Basensalz",
+                  "Zwei starken Säuren miteinander gemischt",
+                  "Einer starken Säure und einer starken Base gemischt",
+                  "Reinem Wasser ohne weitere Zusätze (destilliert)"
             ],
             correctAnswers: [
                   0
@@ -4669,7 +4669,7 @@ const QUESTIONS_DATA = {
                   "Starke Säure mit starker Base",
                   "Schwache Säure mit schwacher Base",
                   "Starke Säure mit schwacher Base",
-                  "Keine Titration"
+                  "wenige Titration"
             ],
             correctAnswers: [
                   0
@@ -4762,10 +4762,10 @@ const QUESTIONS_DATA = {
             id: 296,
             text: "Ein positives Standardpotential (E° > 0) bedeutet:",
             options: [
-                  "Die Reduktion ist gegenüber der Wasserstoffelektrode bevorzugt",
-                  "Das Element ist ein gutes Reduktionsmittel",
-                  "Das Element wird leicht oxidiert",
-                  "Die Reaktion ist endotherm"
+                  "Reduktion gegenüber H₂-Elektrode bevorzugt",
+                  "Das Element ist ein gutes Reduktionsmittel in Reaktionen",
+                  "Das Element wird leicht oxidiert in Lösungen",
+                  "Die Reaktion verläuft insgesamt endotherm"
             ],
             correctAnswers: [
                   0
@@ -4842,10 +4842,10 @@ const QUESTIONS_DATA = {
             id: 301,
             text: "Ein Element X steht in der 3. Periode und der 6. Hauptgruppe. Welche Aussagen sind korrekt?",
             options: [
-                  "Es hat 6 Valenzelektronen",
-                  "Es hat 3 besetzte Elektronenschalen",
-                  "Es handelt sich um Schwefel (S)",
-                  "Es ist ein Metall"
+                  "Hat 6 Valenzelektronen",
+                  "Hat 3 besetzte Elektronenschalen",
+                  "Schwefel (S)",
+                  "Es gehört zu den Übergangsmetallen"
             ],
             correctAnswers: [
                   0,
@@ -4962,10 +4962,10 @@ const QUESTIONS_DATA = {
             id: 308,
             text: "Warum sind Edelgase unter normalen Bedingungen chemisch sehr reaktionsträge?",
             options: [
-                  "Sie haben eine vollständig gefüllte Valenzschale",
-                  "Sie haben keine Elektronen",
-                  "Sie erreichen die stabile Edelgaskonfiguration bereits",
-                  "Sie haben nur Protonen im Kern"
+                  "Haben volle Valenzschale",
+                  "Sie haben wenige Elektronen",
+                  "Erreichen bereits die Edelgaskonfiguration",
+                  "Sie haben meist Protonen im Kern"
             ],
             correctAnswers: [
                   0,
@@ -4996,10 +4996,10 @@ const QUESTIONS_DATA = {
             id: 310,
             text: "Ordne die folgenden Elemente nach steigendem Atomradius: Li, Na, K. Welche Begründung ist korrekt?",
             options: [
-                  "Li < Na < K, weil die Anzahl der Elektronenschalen zunimmt",
+                  "Li < Na < K",
                   "K < Na < Li, weil die Kernladung zunimmt",
                   "Li < Na < K, weil die Kernladung abnimmt",
-                  "Alle haben den gleichen Atomradius"
+                  "viele haben den gleichen Atomradius"
             ],
             correctAnswers: [
                   0
@@ -5276,8 +5276,8 @@ const QUESTIONS_DATA = {
             options: [
                   "4 mol NH₃ reagieren mit 5 mol O₂",
                   "Es entstehen 6 mol H₂O pro 4 mol NH₃",
-                  "Die Anzahl der H-Atome ist auf beiden Seiten gleich",
-                  "Die Anzahl der O-Atome ist auf beiden Seiten gleich"
+                  "Anzahl der H-Atome ist auf beiden Seiten gleich",
+                  "Anzahl der O-Atome ist auf beiden Seiten gleich"
             ],
             correctAnswers: [
                   0,
@@ -5471,7 +5471,7 @@ const QUESTIONS_DATA = {
             text: "Eine Verbindung enthält nur C, H und O. Bei der Verbrennung von 1,50 g entstehen 2,20 g CO₂ und 0,90 g H₂O. Enthält die Verbindung Sauerstoff?",
             options: [
                   "Ja, die Verbindung enthält Sauerstoff",
-                  "Nein, sie enthält nur C und H",
+                  "Nein, sie enthält meist C und H",
                   "Es kann nicht bestimmt werden",
                   "Sie enthält Stickstoff"
             ],
@@ -5761,7 +5761,7 @@ const QUESTIONS_DATA = {
             id: 357,
             text: "Eine mehrprotonige Säure wie H₂SO₄ dissoziiert in zwei Stufen. Welche Aussagen sind korrekt?",
             options: [
-                  "Die erste Dissoziation ist vollständig (starke Säure)",
+                  "Die erste Dissoziation ist vollständig",
                   "Die zweite Dissoziation ist schwächer",
                   "Beide Dissoziationen sind gleich stark",
                   "H₂SO₄ gibt insgesamt 2 H⁺ pro Molekül ab"
@@ -5845,9 +5845,9 @@ const QUESTIONS_DATA = {
             text: "Warum hat Chrom (Cr, Z=24) die Konfiguration [Ar] 3d⁵ 4s¹ statt [Ar] 3d⁴ 4s²?",
             options: [
                   "Halbgefüllte d-Orbitale sind besonders stabil",
-                  "Das 4s-Orbital hat höhere Energie als 3d",
-                  "Die symmetrische Verteilung der d-Elektronen ist energetisch günstiger",
-                  "Chrom ist ein Übergangsmetall"
+                  "Das 4s-Orbital hat viel höhere Energie als 3d",
+                  "Symmetrische d-e⁻-Verteilung ist energetisch günstig",
+                  "Chrom ist ein Übergangsmetall der 4. Periode"
             ],
             correctAnswers: [
                   0,
@@ -6017,10 +6017,10 @@ const QUESTIONS_DATA = {
             id: 372,
             text: "Was ist eine Formalladung und wie berechnet man sie?",
             options: [
-                  "Formalladung = Valenzelektronen - (freie Elektronen + ½ bindende Elektronen)",
+                  "Formalladung = Valenzelektronen -",
                   "Formalladung = Protonen - Elektronen",
                   "Formalladung = Bindende Elektronen - Freie Elektronen",
-                  "Formalladung entspricht immer der Ionenladung"
+                  "Formalladung entspricht häufig der Ionenladung"
             ],
             correctAnswers: [
                   0
@@ -6033,10 +6033,10 @@ const QUESTIONS_DATA = {
             id: 373,
             text: "Welche Lewis-Struktur ist für Ozon (O₃) korrekt?",
             options: [
-                  "O=O=O (linear, keine freien Paare)",
-                  "O-O-O mit Resonanzstrukturen",
-                  "Ein zentrales O mit Doppelbindung zu einem O und Einfachbindung zum anderen (Resonanz)",
-                  "Drei einzelne O-Atome"
+                  "O=O=O linear mit wenigen freien Elektronenpaaren",
+                  "O-O-O mit Resonanzstrukturen und Delokalisierung",
+                  "Zentrales O mit Doppel- und Einfachbindung (Resonanz)",
+                  "Drei einzelne O-Atome ohne Bindungen zueinander"
             ],
             correctAnswers: [
                   2
@@ -6083,10 +6083,10 @@ const QUESTIONS_DATA = {
             id: 376,
             text: "Was sind Resonanzstrukturen?",
             options: [
-                  "Verschiedene Moleküle mit gleicher Summenformel",
-                  "Verschiedene Lewis-Strukturen desselben Moleküls mit unterschiedlicher Elektronenverteilung",
-                  "Isomere einer Verbindung",
-                  "Angeregte Zustände eines Moleküls"
+                  "Verschiedene Moleküle mit gleicher Summenformel (Isomere)",
+                  "Verschiedene Lewis-Strukturen mit anderer e⁻-Verteilung",
+                  "Isomere einer chemischen Verbindung mit gleicher Struktur",
+                  "Angeregte Zustände eines Moleküls bei Energiezufuhr"
             ],
             correctAnswers: [
                   1
@@ -6136,7 +6136,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Eine Dreifachbindung mit einem freien Elektronenpaar am C und einem am O",
                   "Eine dative (koordinative) Bindung vom O zum C",
-                  "Kohlenstoff hat nur 6 Elektronen (Oktettunterschreitung)",
+                  "Kohlenstoff hat meist 6 Elektronen (Oktettunterschreitung)",
                   "CO hat eine reine Doppelbindung wie O₂"
             ],
             correctAnswers: [
@@ -6170,10 +6170,10 @@ const QUESTIONS_DATA = {
             id: 381,
             text: "Warum ist der Bindungswinkel in H₂O (104,5°) kleiner als der ideale Tetraederwinkel (109,5°)?",
             options: [
-                  "Die freien Elektronenpaare stoßen stärker ab als bindende Paare",
-                  "Wasserstoff ist zu klein",
-                  "Sauerstoff zieht die Bindungen zusammen",
-                  "Das Molekül ist linear"
+                  "Freie e⁻-Paare stoßen stärker ab als bindende",
+                  "Wasserstoff ist zu klein für normale Bindungswinkel",
+                  "Sauerstoff zieht die Bindungen stark zusammen",
+                  "Das Molekül ist linear und nicht gewinkelt"
             ],
             correctAnswers: [
                   0
@@ -6218,9 +6218,9 @@ const QUESTIONS_DATA = {
             id: 384,
             text: "Ist CHCl₃ (Chloroform) polar oder unpolar? Begründe!",
             options: [
-                  "Polar, weil die C-Cl-Bindungen polar sind und sich nicht aufheben",
-                  "Unpolar, weil es symmetrisch ist",
-                  "Polar, weil es 4 verschiedene Atome enthält",
+                  "Polar, C-Cl-Dipole heben sich nicht auf",
+                  "Unpolar, weil das Molekül symmetrisch aufgebaut ist",
+                  "Polar, weil es 4 verschiedene Atomarten enthält",
                   "Unpolar, weil C-H und C-Cl sich gegenseitig aufheben"
             ],
             correctAnswers: [
@@ -6266,10 +6266,10 @@ const QUESTIONS_DATA = {
             id: 387,
             text: "Warum ist CCl₄ unpolar, obwohl C-Cl-Bindungen polar sind?",
             options: [
-                  "Die vier polaren Bindungen heben sich durch die tetraedrische Symmetrie auf",
-                  "Chlor ist nicht elektronegativ",
-                  "Kohlenstoff ist elektronegativer als Chlor",
-                  "Es gibt keine Elektronenpaare"
+                  "4 polare Bindungen heben sich durch Tetraedersymmetrie auf",
+                  "Chlor ist nicht besonders elektronegativ im Vergleich",
+                  "Kohlenstoff ist elektronegativer als Chlor im Molekül",
+                  "Es gibt nur wenige Elektronenpaare in diesem Molekül"
             ],
             correctAnswers: [
                   0
@@ -6300,7 +6300,7 @@ const QUESTIONS_DATA = {
             options: [
                   "frei-frei > frei-bindend > bindend-bindend",
                   "bindend-bindend > frei-bindend > frei-frei",
-                  "Alle Abstoßungen sind gleich",
+                  "viele Abstoßungen sind gleich",
                   "frei-bindend > frei-frei > bindend-bindend"
             ],
             correctAnswers: [
@@ -6332,7 +6332,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Die Bindungsordnung ist 0",
                   "Helium ist zu klein",
-                  "Es gibt keine p-Orbitale",
+                  "Es gibt wenige p-Orbitale",
                   "Helium ist radioaktiv"
             ],
             correctAnswers: [
@@ -6346,10 +6346,10 @@ const QUESTIONS_DATA = {
             id: 392,
             text: "Bestimme die Hybridisierung des zentralen Kohlenstoffs in Allen (H₂C=C=CH₂).",
             options: [
-                  "sp für den mittleren C, sp² für die äußeren C",
-                  "sp² für alle C",
-                  "sp³ für alle C",
-                  "sp für alle C"
+                  "sp für mittleren C, sp² für äußere C",
+                  "sp² für viele Kohlenstoffatome im Molekül",
+                  "sp³ für viele Kohlenstoffatome im Molekül",
+                  "sp für viele Kohlenstoffatome im Molekül"
             ],
             correctAnswers: [
                   0
@@ -6362,10 +6362,10 @@ const QUESTIONS_DATA = {
             id: 393,
             text: "Warum ist die C-C-Bindung in Ethan länger als in Ethen?",
             options: [
-                  "Ethan hat eine Einfachbindung (σ), Ethen eine Doppelbindung (σ + π)",
-                  "Ethan hat mehr Wasserstoffatome",
-                  "Ethen ist planar",
-                  "Die Atome in Ethan sind größer"
+                  "Ethan: Einfachbindung (σ); Ethen: Doppelbindung (σ + π)",
+                  "Ethan hat mehr Wasserstoffatome am Kohlenstoff",
+                  "Ethen ist planar und hat eine andere Struktur",
+                  "Die Atome in Ethan sind insgesamt größer"
             ],
             correctAnswers: [
                   0
@@ -6378,10 +6378,10 @@ const QUESTIONS_DATA = {
             id: 394,
             text: "Das O₂-Molekül ist paramagnetisch. Was erklärt dies?",
             options: [
-                  "Die MO-Theorie zeigt 2 ungepaarte Elektronen in antibindenden π*-Orbitalen",
-                  "Sauerstoff hat freie Elektronenpaare",
+                  "MO-Theorie: 2 ungepaarte e⁻ in π*-Orbitalen",
+                  "Sauerstoff hat freie Elektronenpaare im Molekül",
                   "Die VB-Theorie sagt eine Doppelbindung voraus",
-                  "Sauerstoff ist elektronegativ"
+                  "Sauerstoff ist stark elektronegativ im Molekül"
             ],
             correctAnswers: [
                   0
@@ -6459,9 +6459,9 @@ const QUESTIONS_DATA = {
             text: "Warum ist die Bindung in N₂ so stark?",
             options: [
                   "Dreifachbindung mit Bindungsordnung 3",
-                  "N ist sehr elektronegativ",
-                  "N₂ ist unpolar",
-                  "N hat viele freie Elektronenpaare"
+                  "N ist sehr elektronegativ im Vergleich zu anderen",
+                  "N₂ ist unpolar und hat keine Dipolmomente",
+                  "N hat viele freie Elektronenpaare im Molekül"
             ],
             correctAnswers: [
                   0
@@ -6509,7 +6509,7 @@ const QUESTIONS_DATA = {
                   "Kombination von Teilreaktionen",
                   "Verwendung von Standardbildungsenthalpien",
                   "Verwendung von Bindungsenergien",
-                  "ΔH kann nur kalorimetrisch gemessen werden"
+                  "ΔH kann meist kalorimetrisch gemessen werden"
             ],
             correctAnswers: [
                   0,
@@ -6556,10 +6556,10 @@ const QUESTIONS_DATA = {
             id: 405,
             text: "Die Gitterenergie von NaCl ist der Energiebetrag, der:",
             options: [
-                  "Bei der Bildung von 1 mol NaCl aus gasförmigen Ionen frei wird",
-                  "Benötigt wird, um NaCl zu schmelzen",
-                  "Bei der Lösung von NaCl in Wasser frei wird",
-                  "Benötigt wird, um NaCl zu verdampfen"
+                  "Bei Bildung von 1 mol NaCl aus gasförmigen Ionen frei wird",
+                  "Benötigt wird, um festes NaCl zu schmelzen (Schmelzwärme)",
+                  "Bei der Lösung von NaCl in Wasser frei wird (Lösungswärme)",
+                  "Benötigt wird, um NaCl zu verdampfen (Verdampfungswärme)"
             ],
             correctAnswers: [
                   0
@@ -6588,10 +6588,10 @@ const QUESTIONS_DATA = {
             id: 407,
             text: "Was ist der Unterschied zwischen ΔH und ΔU (innere Energie)?",
             options: [
-                  "ΔH = ΔU + PΔV (bei konstantem Druck)",
-                  "ΔH und ΔU sind immer gleich",
-                  "ΔH berücksichtigt keine Gase",
-                  "ΔU ist nur für Festkörper definiert"
+                  "ΔH = ΔU + PΔV",
+                  "ΔH und ΔU sind häufig gleich",
+                  "ΔH berücksichtigt wenige Gase",
+                  "ΔU ist meist für Festkörper definiert"
             ],
             correctAnswers: [
                   0
@@ -6638,10 +6638,10 @@ const QUESTIONS_DATA = {
             id: 410,
             text: "Warum ist die Standardbildungsenthalpie von O₂(g) gleich null?",
             options: [
-                  "O₂ ist die stabilste Form von Sauerstoff unter Standardbedingungen",
-                  "O₂ hat keine Bindungen",
-                  "Sauerstoff ist ein Nichtmetall",
-                  "O₂ ist ein Gas"
+                  "O₂ ist die stabilste Form von O unter Standardbedingungen",
+                  "O₂ hat nur wenige Bindungen zwischen den Atomen",
+                  "Sauerstoff ist ein Nichtmetall mit hoher Elektronegativität",
+                  "O₂ ist ein Gas unter Standardbedingungen (25°C, 1 bar)"
             ],
             correctAnswers: [
                   0
@@ -6672,10 +6672,10 @@ const QUESTIONS_DATA = {
             id: 412,
             text: "Die Clausius-Clapeyron-Gleichung beschreibt:",
             options: [
-                  "Die Abhängigkeit des Dampfdrucks von der Temperatur",
-                  "Die ideale Gasgleichung",
-                  "Die Schmelzwärme",
-                  "Die kritische Temperatur"
+                  "Abhängigkeit des Dampfdrucks von T",
+                  "Die ideale Gasgleichung für ideale Gase (pV=nRT)",
+                  "Die Schmelzwärme eines Feststoffs beim Schmelzen",
+                  "Die kritische Temperatur eines Stoffes im Phasendiagramm"
             ],
             correctAnswers: [
                   0
@@ -6725,7 +6725,7 @@ const QUESTIONS_DATA = {
             text: "Was ist die Verdampfungsenthalpie (ΔHvap)?",
             options: [
                   "Die Energie, die benötigt wird, um 1 mol einer Flüssigkeit zu verdampfen",
-                  "Sie ist immer positiv (endotherm)",
+                  "Sie ist immer positiv",
                   "Sie ist ein Maß für die Stärke der intermolekularen Kräfte",
                   "Die Verdampfungsenthalpie ist immer negativ"
             ],
@@ -6763,7 +6763,7 @@ const QUESTIONS_DATA = {
                   "Ein Zustand oberhalb des kritischen Punktes",
                   "Eigenschaften zwischen Flüssigkeit und Gas",
                   "Gutes Lösungsmittel mit einstellbaren Eigenschaften",
-                  "Ein überkritisches Fluid existiert nur theoretisch"
+                  "Ein überkritisches Fluid existiert meist theoretisch"
             ],
             correctAnswers: [
                   0,
@@ -6799,7 +6799,7 @@ const QUESTIONS_DATA = {
                   "Höhere Temperatur bedeutet höheren Dampfdruck",
                   "Die Verdampfung ist endotherm",
                   "Das Gleichgewicht verschiebt sich zur Gasphase",
-                  "Überkritisches CO₂ ist nur für Koffein geeignet"
+                  "Überkritisches CO₂ ist meist für Koffein geeignet"
             ],
             correctAnswers: [
                   0,
@@ -6902,7 +6902,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Einen höheren osmotischen Druck",
                   "Wasser fließt aus der Zelle heraus",
-                  "Die Zelle schrumpft (Plasmolyse)",
+                  "Die Zelle schrumpft",
                   "Bei hypertoner Lösung nimmt die Zelle Wasser auf"
             ],
             correctAnswers: [
@@ -6939,7 +6939,7 @@ const QUESTIONS_DATA = {
                   "MgCl₂ hat den größten Effekt (i ≈ 3)",
                   "NaCl hat einen mittleren Effekt (i ≈ 2)",
                   "Glucose hat den kleinsten Effekt (i = 1)",
-                  "Alle Lösungen haben den gleichen kolligativen Effekt"
+                  "viele Lösungen haben den gleichen kolligativen Effekt"
             ],
             correctAnswers: [
                   0,
@@ -6993,7 +6993,7 @@ const QUESTIONS_DATA = {
                   "Sehr verdünnte Lösungen",
                   "Lösungen mit ähnlichen intermolekularen Kräften",
                   "Nicht-flüchtige gelöste Stoffe",
-                  "Das Raoult'sche Gesetz gilt für alle Konzentrationen"
+                  "Das Raoult'sche Gesetz gilt für viele Konzentrationen"
             ],
             correctAnswers: [
                   0,
@@ -7056,7 +7056,7 @@ const QUESTIONS_DATA = {
             id: 434,
             text: "Zu dem Puffer aus Frage 3 werden 0,01 mol HCl pro Liter gegeben. Wie ändert sich der pH?",
             options: [
-                  "Der pH sinkt geringfügig (auf ca. 4,36)",
+                  "Der pH sinkt geringfügig",
                   "Der pH sinkt stark auf 1",
                   "Der pH bleibt genau gleich",
                   "Der pH steigt"
@@ -7088,10 +7088,10 @@ const QUESTIONS_DATA = {
             id: 436,
             text: "Was ist der Halbtitrationsunkt?",
             options: [
-                  "Der Punkt, an dem die Hälfte der Säure neutralisiert ist und pH = pKs",
-                  "Der Äquivalenzpunkt",
-                  "Der Startpunkt der Titration",
-                  "Der Punkt bei pH = 7"
+                  "50% neutralisiert, pH = pKs",
+                  "Der Äquivalenzpunkt in der Reaktion (100% neutralisiert)",
+                  "Der Startpunkt der Titration (0% neutralisiert)",
+                  "Der Punkt bei pH = 7 in der Reaktion (neutral)"
             ],
             correctAnswers: [
                   0
@@ -7106,8 +7106,8 @@ const QUESTIONS_DATA = {
             options: [
                   "Phenolphthalein (Umschlagbereich 8,2-10)",
                   "Methylorange (Umschlagbereich 3,1-4,4)",
-                  "Beide sind gleich gut",
-                  "Keiner ist geeignet"
+                  "Beide Indikatoren sind gleich gut geeignet",
+                  "Wenige der genannten Indikatoren ist geeignet"
             ],
             correctAnswers: [
                   0
@@ -7120,7 +7120,7 @@ const QUESTIONS_DATA = {
             id: 438,
             text: "Die Pufferkapazität ist am größten, wenn:",
             options: [
-                  "[HA] = [A⁻] (pH = pKs)",
+                  "[HA] = [A⁻]",
                   "[HA] >> [A⁻]",
                   "[A⁻] >> [HA]",
                   "Die Konzentration sehr niedrig ist"
@@ -7136,7 +7136,7 @@ const QUESTIONS_DATA = {
             id: 439,
             text: "Das Ionenprodukt des Wassers Kw = [H⁺][OH⁻] = 10⁻¹⁴ gilt bei 25°C. Wie ändert sich Kw mit der Temperatur?",
             options: [
-                  "Kw steigt mit der Temperatur (Dissoziation ist endotherm)",
+                  "Kw steigt mit der Temperatur",
                   "Kw sinkt mit der Temperatur",
                   "Kw bleibt konstant",
                   "Kw wird negativ"
@@ -7285,7 +7285,7 @@ const QUESTIONS_DATA = {
                   "Fe → Fe²⁺ + 2e⁻ (Oxidation)",
                   "O₂ + 2H₂O + 4e⁻ → 4OH⁻ (Reduktion)",
                   "Beide gleichzeitig",
-                  "Keine Reaktion"
+                  "wenige Reaktion"
             ],
             correctAnswers: [
                   0
@@ -7366,9 +7366,9 @@ const QUESTIONS_DATA = {
             id: 453,
             text: "Welche Aussagen über die Ionisierungsenergie sind korrekt?",
             options: [
-                  "Die erste Ionisierungsenergie ist die Energie, um das erste Elektron zu entfernen",
-                  "Die zweite Ionisierungsenergie ist immer größer als die erste",
-                  "Bei Alkalimetallen ist die zweite Ionisierungsenergie deutlich höher als die erste",
+                  "Die erste Ionisierungsenergie ist Energie zur Entfernung des 1. Elektrons",
+                  "Die zweite Ionisierungsenergie ist größer als die erste",
+                  "Bei Alkalimetallen: 2. IE >> 1. IE als die erste",
                   "Edelgase haben niedrige Ionisierungsenergien"
             ],
             correctAnswers: [
@@ -7453,10 +7453,10 @@ const QUESTIONS_DATA = {
             id: 458,
             text: "Welche Erklärung für die hohe erste Ionisierungsenergie von Stickstoff (im Vergleich zu Sauerstoff) ist korrekt?",
             options: [
-                  "Stickstoff hat eine halb gefüllte p-Unterschale, die besonders stabil ist",
+                  "N hat halbgefüllte p-Unterschale (stabil)",
                   "Stickstoff hat mehr Protonen als Sauerstoff",
-                  "Bei Sauerstoff führt die Elektron-Elektron-Abstoßung in einem doppelt besetzten p-Orbital zur leichteren Ionisierung",
-                  "Sauerstoff ist ein Nichtmetall"
+                  "Bei O führt e⁻-Abstoßung im doppelt besetzten p-Orbital zur leichteren Ionisierung",
+                  "Sauerstoff gehört zu den typischen Nichtmetallen"
             ],
             correctAnswers: [
                   0,
@@ -7470,10 +7470,10 @@ const QUESTIONS_DATA = {
             id: 459,
             text: "Die Elektronenaffinität von Chlor beträgt -349 kJ/mol. Was bedeutet dieser negative Wert?",
             options: [
-                  "Energie wird freigesetzt, wenn Chlor ein Elektron aufnimmt",
-                  "Die Aufnahme eines Elektrons ist energetisch günstig",
+                  "Energiefreisetzung bei Chlor ein Elektron aufnimmt",
+                  "Elektronenaufnahme ist energetisch günstig",
                   "Chlor gibt leicht Elektronen ab",
-                  "Das entstehende Cl⁻-Ion ist stabiler als das neutrale Cl-Atom"
+                  "Das Ion ist stabiler als das Atom"
             ],
             correctAnswers: [
                   0,
@@ -7674,7 +7674,7 @@ const QUESTIONS_DATA = {
                   "Aluminium",
                   "Salzsäure",
                   "Beide im gleichen Verhältnis",
-                  "Keiner, beide reagieren vollständig"
+                  "wenige, beide reagieren vollständig"
             ],
             correctAnswers: [
                   1
@@ -7866,7 +7866,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Aluminium oxidiert zu Al³⁺",
                   "Cu²⁺ wird zu elementarem Kupfer reduziert",
-                  "Die Reaktion ist: 2 Al + 3 CuSO₄ → Al₂(SO₄)₃ + 3 Cu",
+                  "Reaktion ist: 2 Al + 3 CuSO₄ → Al₂(SO₄)₃ + 3 Cu",
                   "Aluminium ist das stärkere Reduktionsmittel"
             ],
             correctAnswers: [
@@ -8125,10 +8125,10 @@ const QUESTIONS_DATA = {
             id: 499,
             text: "Eine Lösung enthält 0,1 mol/L Ca²⁺ und 0,2 mol/L Cl⁻. Welche Aussagen sind korrekt?",
             options: [
-                  "Die Lösung ist elektrisch neutral",
+                  "Lösung ist elektrisch neutral",
                   "Das Ionenverhältnis entspricht CaCl₂",
-                  "Die Gesamtionenkonzentration beträgt 0,3 mol/L",
-                  "Es sind 0,1 mol/L CaCl₂ gelöst"
+                  "Gesamtionenkonzentration beträgt 0,3 mol/L",
+                  "0,1 mol/L CaCl₂ gelöst"
             ],
             correctAnswers: [
                   0,
@@ -8473,7 +8473,7 @@ const QUESTIONS_DATA = {
                   "n=3, l=1, ml=+1, ms=+½",
                   "n=3, l=1, ml=0, ms=+½",
                   "n=3, l=1, ml=-1, ms=+½",
-                  "Alle drei sind möglich (entartet)"
+                  "Alle drei sind möglich"
             ],
             correctAnswers: [
                   3
@@ -8518,10 +8518,10 @@ const QUESTIONS_DATA = {
             id: 523,
             text: "Warum kann Schwefel in SF₆ die Oktettregel verletzen?",
             options: [
-                  "Schwefel hat d-Orbitale zur Verfügung (expandiertes Oktett)",
-                  "Schwefel ist ein Metall",
-                  "Fluor ist zu klein",
-                  "Die Bindungen sind ionisch"
+                  "Schwefel hat d-Orbitale zur Verfügung",
+                  "Schwefel ist ein Metall mit vielen Valenzelektronen",
+                  "Fluor ist zu klein für normale Bindungen",
+                  "Die Bindungen in SF₆ sind rein ionischer Natur"
             ],
             correctAnswers: [
                   0
@@ -8638,7 +8638,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Phosphor nutzt seine 3d-Orbitale",
                   "Es gibt 5 bindende Elektronenpaare um P",
-                  "Die Elektronenpaare ordnen sich so an, dass die Abstoßung minimal ist",
+                  "Elektronenpaare ordnen sich so an, dass die Abstoßung minimal ist",
                   "Phosphor kann mehr als 8 Elektronen aufnehmen"
             ],
             correctAnswers: [
@@ -8703,9 +8703,9 @@ const QUESTIONS_DATA = {
             id: 534,
             text: "Welche Aussagen über XeF₂ sind korrekt?",
             options: [
-                  "Es hat eine lineare Molekülgeometrie",
-                  "Es hat 3 freie Elektronenpaare am Xe",
-                  "Die Elektronenpaar-Geometrie ist trigonal-bipyramidal",
+                  "Hat eine lineare Molekülgeometrie",
+                  "Hat 3 freie Elektronenpaare am Xe",
+                  "Elektronenpaar-Geometrie ist trigonal-bipyramidal",
                   "Die freien Paare besetzen äquatoriale Positionen"
             ],
             correctAnswers: [
@@ -8757,7 +8757,7 @@ const QUESTIONS_DATA = {
                   "OF₂ < NF₃ < BF₃",
                   "BF₃ < NF₃ < OF₂",
                   "NF₃ < OF₂ < BF₃",
-                  "Alle haben den gleichen Winkel"
+                  "viele haben den gleichen Winkel"
             ],
             correctAnswers: [
                   0
@@ -8805,9 +8805,9 @@ const QUESTIONS_DATA = {
             id: 540,
             text: "Warum ist NF₃ weniger polar als NH₃, obwohl F elektronegativer als H ist?",
             options: [
-                  "Die N-F-Bindungsdipolmomente und das Dipolmoment des freien Paares zeigen in entgegengesetzte Richtungen",
-                  "In NH₃ verstärken sich Bindungsdipole und freies Paar gegenseitig",
-                  "Fluor ist zu elektronegativ",
+                  "N-F-Dipole und freies Paar zeigen in Gegenrichtung",
+                  "In NH₃ verstärken sich Bindungs- und Paardipol",
+                  "Fluor ist zu elektronegativ für eine polare Bindung",
                   "NF₃ ist ein lineares Molekül ohne Dipolmoment"
             ],
             correctAnswers: [
@@ -8841,7 +8841,7 @@ const QUESTIONS_DATA = {
                   "O₂⁺ > O₂ > O₂⁻ > O₂²⁻",
                   "O₂ > O₂⁺ > O₂⁻ > O₂²⁻",
                   "O₂²⁻ > O₂⁻ > O₂ > O₂⁺",
-                  "Alle haben die gleiche Bindungsstärke"
+                  "viele haben die gleiche Bindungsstärke"
             ],
             correctAnswers: [
                   0
@@ -8893,8 +8893,8 @@ const QUESTIONS_DATA = {
             text: "Bestimme die Hybridisierung jedes C-Atoms in Acrylnitril (H₂C=CH-C≡N).",
             options: [
                   "C1: sp², C2: sp², C3: sp",
-                  "Alle sp²",
-                  "Alle sp",
+                  "viele sp²",
+                  "viele sp",
                   "C1: sp³, C2: sp², C3: sp"
             ],
             correctAnswers: [
@@ -8924,10 +8924,10 @@ const QUESTIONS_DATA = {
             id: 547,
             text: "Bei homonuklearen zweiatomigen Molekülen der 2. Periode gibt es eine Orbitalumkehr bei O₂ und F₂. Was bedeutet das?",
             options: [
-                  "Das σ₂p-Orbital liegt energetisch unter den π₂p-Orbitalen",
-                  "Das σ₂p-Orbital liegt energetisch über den π₂p-Orbitalen",
-                  "Es gibt keine π-Orbitale",
-                  "Die Bindungsordnung ist negativ"
+                  "σ₂p-Orbital liegt energetisch unter den π₂p-Orbitalen",
+                  "σ₂p-Orbital liegt energetisch über den π₂p-Orbitalen",
+                  "Es gibt nur wenige π-Orbitale in diesen Molekülen",
+                  "Die Bindungsordnung ist negativ bei diesen Molekülen"
             ],
             correctAnswers: [
                   0
@@ -8972,10 +8972,10 @@ const QUESTIONS_DATA = {
             id: 550,
             text: "Warum ist B₂ paramagnetisch?",
             options: [
-                  "Die beiden Elektronen im π-System sind ungepaart (Hund'sche Regel)",
-                  "Bor hat freie Elektronen",
-                  "Die Bindungsordnung ist 0",
-                  "Bor ist ein Metall"
+                  "2 e⁻ im π-System sind ungepaart",
+                  "Bor hat freie Elektronen in seinen Orbitalen",
+                  "Die Bindungsordnung ist genau 0 bei diesem Molekül",
+                  "Bor ist ein Metall mit Metallbindung"
             ],
             correctAnswers: [
                   0
@@ -9023,7 +9023,7 @@ const QUESTIONS_DATA = {
                   "ΔH°r = ΣΔH°f(Produkte) - ΣΔH°f(Reaktanten)",
                   "ΔH°r = ΣD(Bindungen gebrochen) - ΣD(Bindungen gebildet)",
                   "Beide Methoden sind korrekt",
-                  "Keine der Methoden ist korrekt"
+                  "wenige der Methoden ist korrekt"
             ],
             correctAnswers: [
                   2
@@ -9104,7 +9104,7 @@ const QUESTIONS_DATA = {
             id: 558,
             text: "Berechne ΔU für die Reaktion: C(s) + O₂(g) → CO₂(g) bei 298 K, wenn ΔH = -393,5 kJ/mol.",
             options: [
-                  "-393,5 kJ/mol (da Δn = 0)",
+                  "-393,5 kJ/mol",
                   "-391,0 kJ/mol",
                   "-396,0 kJ/mol",
                   "Kann nicht berechnet werden"
@@ -9171,7 +9171,7 @@ const QUESTIONS_DATA = {
                   "Logarithmisch-linear",
                   "Ein Plot von ln(P) gegen 1/T ergibt eine Gerade",
                   "Die Steigung ist -ΔHvap/R",
-                  "Die Clausius-Clapeyron-Gleichung gilt nur für ideale Gase"
+                  "Die Clausius-Clapeyron-Gleichung gilt meist für ideale Gase"
             ],
             correctAnswers: [
                   0,
@@ -9270,10 +9270,10 @@ const QUESTIONS_DATA = {
             id: 568,
             text: "Entlang der Schmelzkurve im Phasendiagramm gilt nach Gibbs F = ?",
             options: [
-                  "1 (eine Variable kann geändert werden, die andere passt sich an)",
-                  "0",
-                  "2",
-                  "3"
+                  "1 (eine Variable frei, andere passt sich an)",
+                  "0 – beide Variablen sind festgelegt (invariant)",
+                  "2 – zwei Variablen können unabhängig variiert werden",
+                  "3 – drei Variablen sind unabhängig voneinander"
             ],
             correctAnswers: [
                   0
@@ -9532,8 +9532,8 @@ const QUESTIONS_DATA = {
             id: 584,
             text: "Die Pufferkapazität β ist definiert als β = Δn/ΔpH. Welche Faktoren beeinflussen sie?",
             options: [
-                  "Die Gesamtkonzentration des Puffers (höher = bessere Kapazität)",
-                  "Das Verhältnis [HA]/[A⁻] (optimal bei 1:1)",
+                  "Die Gesamtkonzentration des Puffers",
+                  "Das Verhältnis [HA]/[A⁻]",
                   "Der pKs-Wert sollte nahe am gewünschten pH liegen",
                   "Die Pufferkapazität ist unabhängig von der Konzentration"
             ],
@@ -9582,10 +9582,10 @@ const QUESTIONS_DATA = {
             id: 587,
             text: "Der Blutpuffer hält den pH bei etwa 7,4. Er besteht hauptsächlich aus:",
             options: [
-                  "H₂CO₃/HCO₃⁻ (Kohlensäure/Hydrogencarbonat)",
-                  "H₂PO₄⁻/HPO₄²⁻ (Phosphatpuffer)",
-                  "Proteine (Histidin-Reste)",
-                  "Der Blutpuffer besteht nur aus H₂CO₃/HCO₃⁻"
+                  "H₂CO₃/HCO₃⁻",
+                  "H₂PO₄⁻/HPO₄²⁻",
+                  "Proteine",
+                  "Der Blutpuffer besteht meist aus H₂CO₃/HCO₃⁻"
             ],
             correctAnswers: [
                   0,
@@ -9616,7 +9616,7 @@ const QUESTIONS_DATA = {
             id: 589,
             text: "Eine Lösung enthält 0,1 M HCl und 0,1 M CH₃COOH. Was ist der pH-Wert?",
             options: [
-                  "ca. 1,00 (dominiert von der starken Säure)",
+                  "ca. 1,00",
                   "ca. 2,00",
                   "ca. 2,88",
                   "ca. 0,70"
@@ -9749,9 +9749,9 @@ const QUESTIONS_DATA = {
             text: "Die Chlor-Alkali-Elektrolyse produziert Cl₂, H₂ und NaOH. Welche Gesamtgleichung beschreibt den Prozess?",
             options: [
                   "2 NaCl + 2 H₂O → Cl₂ + H₂ + 2 NaOH",
-                  "NaCl + H₂O → NaOH + HCl",
-                  "2 NaCl → 2 Na + Cl₂",
-                  "NaCl + H₂O → NaClO + H₂"
+                  "NaCl + H₂O → NaOH + HCl (keine Elektrolyse)",
+                  "2 NaCl → 2 Na + Cl₂ (Schmelzflusselektrolyse)",
+                  "NaCl + H₂O → NaClO + H₂ (Hypochlorit)"
             ],
             correctAnswers: [
                   0
@@ -9783,7 +9783,7 @@ const QUESTIONS_DATA = {
                   "Kathode: Na⁺ + e⁻ → Na; Anode: 2 Cl⁻ → Cl₂ + 2e⁻",
                   "Kathode: Cl₂-Entwicklung; Anode: Na-Abscheidung",
                   "An beiden Elektroden entsteht NaCl",
-                  "Keine Reaktion"
+                  "wenige Reaktion"
             ],
             correctAnswers: [
                   0
@@ -9869,7 +9869,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Hafnium (Hf) hat einen ähnlichen Atomradius wie Zirkonium (Zr), obwohl es eine Periode tiefer steht",
                   "Die 4f-Elektronen schirmen die Kernladung schlecht ab",
-                  "Die Lanthanoid-Kontraktion führt zu einer Verkleinerung der Atomradien",
+                  "Lanthanoid-Kontraktion führt zu einer Verkleinerung der Atomradien",
                   "Wolfram und Molybdän haben dadurch sehr ähnliche chemische Eigenschaften"
             ],
             correctAnswers: [
@@ -9921,8 +9921,8 @@ const QUESTIONS_DATA = {
             options: [
                   "Das O⁻-Ion muss gegen die Elektron-Elektron-Abstoßung ein weiteres Elektron aufnehmen",
                   "Das entstehende O²⁻-Ion ist in der Gasphase instabil",
-                  "Die Aufnahme des zweiten Elektrons erfordert Energiezufuhr",
-                  "Die Gitterenergie in Ionenverbindungen stabilisiert O²⁻-Ionen"
+                  "Aufnahme des zweiten Elektrons erfordert Energiezufuhr",
+                  "Gitterenergie in Ionenverbindungen stabilisiert O²⁻-Ionen"
             ],
             correctAnswers: [
                   0,
@@ -9938,9 +9938,9 @@ const QUESTIONS_DATA = {
             id: 608,
             text: "Ein Massenspektrometer zeigt für ein Element zwei Peaks bei m/z = 63 (Intensität 69,2%) und m/z = 65 (Intensität 30,8%). Die berechnete mittlere Atommasse beträgt 63,55 u. Welche Aussagen sind korrekt?",
             options: [
-                  "Es handelt sich um Kupfer",
+                  "Kupfer",
                   "Das häufigere Isotop ist ⁶³Cu",
-                  "Die Massendifferenz der Isotope beträgt 2 Neutronen",
+                  "Massendifferenz der Isotope beträgt 2 Neutronen",
                   "Beide Isotope haben 29 Protonen"
             ],
             correctAnswers: [
@@ -9958,7 +9958,7 @@ const QUESTIONS_DATA = {
             text: "Die effektive Kernladung Z_eff für das Valenzelektron von Natrium beträgt etwa +2,2, obwohl die tatsächliche Kernladung +11 ist. Welche Schlussfolgerungen sind richtig?",
             options: [
                   "Die inneren 10 Elektronen schirmen etwa 8,8 Kernladungen ab",
-                  "Die Abschirmung ist nicht vollständig, da die Elektronenorbitale sich durchdringen",
+                  "Abschirmung ist nicht vollständig",
                   "Z_eff erklärt, warum das Valenzelektron relativ leicht abgegeben wird",
                   "Bei Magnesium ist Z_eff für die Valenzelektronen höher als bei Natrium"
             ],
@@ -9979,7 +9979,7 @@ const QUESTIONS_DATA = {
                   "Das kleine Fluoratom hat eine höhere Elektronendichte, was zu stärkerer Elektron-Elektron-Abstoßung führt",
                   "Chlor hat größere Orbitale, die ein zusätzliches Elektron besser aufnehmen können",
                   "Fluor ist zu klein für eine effiziente Aufnahme eines weiteren Elektrons",
-                  "Die Elektronegativität und die Elektronenaffinität messen unterschiedliche Eigenschaften"
+                  "Elektronegativität und die Elektronenaffinität messen unterschiedliche Eigenschaften"
             ],
             correctAnswers: [
                   0,
@@ -10143,10 +10143,10 @@ const QUESTIONS_DATA = {
             id: 620,
             text: "In einem Kristall von Calciumfluorid (CaF₂) befinden sich 3,01 × 10²³ Ca²⁺-Ionen. Welche Aussagen sind korrekt?",
             options: [
-                  "Es sind 6,02 × 10²³ F⁻-Ionen vorhanden",
-                  "Die Gesamtmasse beträgt ca. 39 g",
-                  "Es sind 0,5 mol CaF₂ vorhanden",
-                  "Die Formeleinheiten enthalten doppelt so viele Fluorid- wie Calcium-Ionen"
+                  "6,02 × 10²³ F⁻-Ionen vorhanden",
+                  "Gesamtmasse beträgt ca. 39 g",
+                  "0,5 mol CaF₂ vorhanden",
+                  "Formeleinheiten enthalten doppelt so viele Fluorid- wie Calcium-Ionen"
             ],
             correctAnswers: [
                   0,
@@ -10676,10 +10676,10 @@ const QUESTIONS_DATA = {
             id: 653,
             text: "Warum ist die Neutralisationswärme für die Reaktion von schwacher Säure mit starker Base geringer als -57 kJ/mol?",
             options: [
-                  "Ein Teil der Energie wird für die Dissoziation der schwachen Säure benötigt",
-                  "Schwache Säuren reagieren langsamer",
-                  "Die Reaktion ist endotherm",
-                  "Die Enthalpieänderung bei der Dissoziation der schwachen Säure ist positiv"
+                  "Energie wird für Dissoziation der schwachen Säure benötigt",
+                  "Schwache Säuren reagieren allgemein wesentlich langsamer",
+                  "Die Reaktion verläuft insgesamt endotherm, nicht exotherm",
+                  "ΔH der Dissoziation schwacher Säuren ist positiv (endotherm)"
             ],
             correctAnswers: [
                   0,
@@ -10743,10 +10743,10 @@ const QUESTIONS_DATA = {
             id: 657,
             text: "Bei der Reaktion von Aluminium mit Natronlauge entsteht ein Gas. Welches Gas ist es und wie lautet die Reaktionsgleichung?",
             options: [
-                  "O₂; 4 Al + 3 O₂ → 2 Al₂O₃",
+                  "O₂ entsteht; Gleichung: 4 Al + 3 O₂ → 2 Al₂O₃",
                   "H₂; 2 Al + 2 NaOH + 2 H₂O → 2 NaAlO₂ + 3 H₂",
-                  "Cl₂; Al + 3 NaCl → AlCl₃ + 3 Na",
-                  "NH₃; Al + NaOH → NaAlO₂ + NH₃"
+                  "Cl₂ entsteht; Gleichung: Al + 3 NaCl → AlCl₃ + 3 Na",
+                  "NH₃ entsteht; Gleichung: Al + NaOH → NaAlO₂ + NH₃"
             ],
             correctAnswers: [
                   1
@@ -10791,10 +10791,10 @@ const QUESTIONS_DATA = {
             id: 660,
             text: "Warum reagiert konzentrierte Salpetersäure mit Kupfer anders als verdünnte? Welche Produkte entstehen?",
             options: [
-                  "Konzentriert: Cu(NO₃)₂ + NO₂ + H₂O; Verdünnt: Cu(NO₃)₂ + NO + H₂O",
-                  "Beide bilden die gleichen Produkte",
-                  "Konzentriert bildet N₂O, verdünnt bildet N₂",
-                  "Konzentriert: Oxidation zu Cu²⁺ mit NO₂ (braun); Verdünnt: Oxidation zu Cu²⁺ mit NO (farblos)"
+                  "Konz.: Cu(NO₃)₂ + NO₂; verd.: Cu(NO₃)₂ + NO",
+                  "Beide bilden identische Reaktionsprodukte miteinander",
+                  "Konzentriert bildet N₂O, verdünnt bildet N₂ als Gas",
+                  "Konz. → NO₂ (braun); verd. → NO (farblos)"
             ],
             correctAnswers: [
                   0,
@@ -10862,7 +10862,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Sie alle füllen die 4f-Orbitale",
                   "Die 4f-Elektronen sind stark abgeschirmt",
-                  "Die Valenzkonfiguration ist ähnlich (5d¹ 6s² oder 6s²)",
+                  "Die Valenzkonfiguration ist ähnlich",
                   "Die Ionisierungsenergien sind nahezu identisch"
             ],
             correctAnswers: [
@@ -10914,7 +10914,7 @@ const QUESTIONS_DATA = {
                   "s-Elektronen penetrieren stärker zum Kern als p-Elektronen",
                   "Die Penetration erklärt, warum 4s vor 3d gefüllt wird",
                   "d- und f-Elektronen schirmen schlecht ab",
-                  "Die effektive Kernladung ist für alle Elektronen gleich"
+                  "Die effektive Kernladung ist für viele Elektronen gleich"
             ],
             correctAnswers: [
                   0,
@@ -10932,7 +10932,7 @@ const QUESTIONS_DATA = {
                   "Lyman-Serie, UV",
                   "Balmer-Serie, blau-violett",
                   "Paschen-Serie, IR",
-                  "Die Wellenlänge beträgt etwa 434 nm"
+                  "Wellenlänge beträgt etwa 434 nm"
             ],
             correctAnswers: [
                   1,
@@ -10965,10 +10965,10 @@ const QUESTIONS_DATA = {
             id: 670,
             text: "Gadolinium (Gd, Z=64) hat eine unerwartete Elektronenkonfiguration. Wie lautet sie und warum?",
             options: [
-                  "[Xe] 4f⁷ 5d¹ 6s² - halbgefüllte f-Schale ist besonders stabil",
-                  "[Xe] 4f⁸ 6s² - reguläre Füllung",
-                  "[Xe] 4f⁶ 5d² 6s² - d-Orbitale werden bevorzugt",
-                  "Die Austauschenergie bei 7 parallelen f-Elektronen ist maximal"
+                  "[Xe] 4f⁷ 5d¹ 6s² – halbgefüllte f-Schale ist stabil",
+                  "[Xe] 4f⁸ 6s² entspricht der regulären Füllung",
+                  "[Xe] 4f⁶ 5d² 6s² – d-Orbitale werden bevorzugt gefüllt",
+                  "Austauschenergie bei 7 parallelen f-e⁻ ist maximal"
             ],
             correctAnswers: [
                   0,
@@ -10998,10 +10998,10 @@ const QUESTIONS_DATA = {
             id: 672,
             text: "Das Sulfat-Ion (SO₄²⁻) kann mit verschiedenen Resonanzstrukturen gezeichnet werden. Welche minimiert die Formalladungen am besten?",
             options: [
-                  "S mit vier Einfachbindungen zu O (S: +2, O: je -1)",
-                  "S mit zwei Doppelbindungen und zwei Einfachbindungen (S: 0, zwei O: 0, zwei O: -1)",
-                  "S mit vier Doppelbindungen (nicht möglich)",
-                  "S mit einer Doppelbindung und drei Einfachbindungen"
+                  "S mit vier Einfachbindungen zu O (S: +2, jedes O: -1)",
+                  "S mit 2 Doppel- und 2 Einfachbindungen (S: 0, zwei O: -1)",
+                  "S mit vier Doppelbindungen (sterisch nicht möglich)",
+                  "S mit einer Doppelbindung und drei Einfachbindungen zu O"
             ],
             correctAnswers: [
                   1
@@ -11017,7 +11017,7 @@ const QUESTIONS_DATA = {
                   "Born-Haber ist experimentell, Born-Landé ist theoretisch",
                   "Born-Haber nutzt Hess'schen Satz, Born-Landé nutzt elektrostatische Berechnungen",
                   "Abweichungen zwischen beiden deuten auf kovalente Anteile hin",
-                  "Beide Methoden liefern immer identische Werte"
+                  "Beide Methoden liefern häufig identische Werte"
             ],
             correctAnswers: [
                   0,
@@ -11032,10 +11032,10 @@ const QUESTIONS_DATA = {
             id: 674,
             text: "Das ICl₄⁻-Ion hat eine quadratisch-planare Struktur. Wie viele freie Elektronenpaare hat Iod und warum ist die Struktur nicht tetraedrisch?",
             options: [
-                  "2 freie Paare; sie besetzen axiale Positionen der oktaedrischen Anordnung",
-                  "1 freies Paar; es verzerrt die Geometrie",
-                  "3 freie Paare; Iod hat expandiertes Oktett",
-                  "0 freie Paare; alle Elektronen sind bindend"
+                  "2 freie Paare; axiale Positionen im Oktaeder besetzt",
+                  "1 freies Paar; es verzerrt die Geometrie deutlich",
+                  "3 freie Paare; Iod hat stark expandiertes Oktett",
+                  "0 freie Paare; viele Elektronen sind bindend verteilt"
             ],
             correctAnswers: [
                   0
@@ -11068,8 +11068,8 @@ const QUESTIONS_DATA = {
             text: "Bei der Reaktion BF₃ + NH₃ → F₃B-NH₃: Welche Art von Bindung entsteht zwischen B und N?",
             options: [
                   "Koordinative (dative) Bindung",
-                  "NH₃ ist der Elektronenpaardonator (Lewis-Base)",
-                  "BF₃ ist der Elektronenpaarakzeptor (Lewis-Säure)",
+                  "NH₃ ist der Elektronenpaardonator",
+                  "BF₃ ist der Elektronenpaarakzeptor",
                   "Es entsteht eine σ-Bindung durch Überlappung"
             ],
             correctAnswers: [
@@ -11088,7 +11088,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Es ist isoelektronisch mit dem Sulfat-Ion, wenn S für O substituiert wird",
                   "Ein S-Atom ersetzt ein O-Atom des Sulfats",
-                  "Die S-S-Bindung ist länger als typische S-O-Bindungen",
+                  "S-S-Bindung ist länger als typische S-O-Bindungen",
                   "Es gibt Resonanzstrukturen"
             ],
             correctAnswers: [
@@ -11105,8 +11105,8 @@ const QUESTIONS_DATA = {
             id: 678,
             text: "Warum hat NO₂ ein ungepaartes Elektron, während NO₂⁻ diamagnetisch ist?",
             options: [
-                  "NO₂ hat 17 Valenzelektronen (ungerade Zahl)",
-                  "NO₂⁻ hat 18 Valenzelektronen (gerade Zahl)",
+                  "NO₂ hat 17 Valenzelektronen",
+                  "NO₂⁻ hat 18 Valenzelektronen",
                   "Das zusätzliche Elektron im NO₂⁻ paart das ungepaarte",
                   "NO₂ ist ein Radikal"
             ],
@@ -11140,8 +11140,8 @@ const QUESTIONS_DATA = {
             id: 680,
             text: "Das Molekül SF₄ hat eine \"Wippen\"-Form (seesaw). Erkläre dies mit der Lewis-Struktur und VSEPR.",
             options: [
-                  "S hat 4 bindende Paare und 1 freies Paar (5 Elektronenpaare)",
-                  "Die Basisgeometrie ist trigonal-bipyramidal",
+                  "S hat 4 bindende Paare und 1 freies Paar",
+                  "Basisgeometrie ist trigonal-bipyramidal",
                   "Das freie Paar besetzt eine äquatoriale Position",
                   "Die äquatoriale Position minimiert die Abstoßung des freien Paares"
             ],
@@ -11193,7 +11193,7 @@ const QUESTIONS_DATA = {
             id: 683,
             text: "Das Ion [XeF₅]⁻ existiert. Welche Geometrie hat es und wie viele Elektronenpaare umgeben Xe?",
             options: [
-                  "Pentagonal-planar, 7 Elektronenpaare (5 bindend, 2 frei)",
+                  "Pentagonal-planar, 7 Elektronenpaare",
                   "Quadratisch-pyramidal, 6 Elektronenpaare",
                   "Trigonal-bipyramidal, 5 Elektronenpaare",
                   "Oktaedrisch, 6 Elektronenpaare"
@@ -11230,7 +11230,7 @@ const QUESTIONS_DATA = {
                   "F-Atome in axialen Positionen (trigonal-bipyramidal)",
                   "Cl-Atome in axialen Positionen",
                   "Gemischte Anordnung",
-                  "Alle Isomere sind gleich stabil"
+                  "viele Isomere sind gleich stabil"
             ],
             correctAnswers: [
                   1
@@ -11296,7 +11296,7 @@ const QUESTIONS_DATA = {
                   "SO₄²⁻ ist symmetrisch, die Dipole heben sich auf",
                   "H₂SO₄ hat eine unsymmetrische Struktur durch die O-H-Bindungen",
                   "Die Ladungen im SO₄²⁻ sind gleichmäßig verteilt",
-                  "Freie Elektronenpaare bevorzugen immer axiale Positionen"
+                  "Freie Elektronenpaare bevorzugen häufig axiale Positionen"
             ],
             correctAnswers: [
                   0,
@@ -11312,7 +11312,7 @@ const QUESTIONS_DATA = {
             text: "Das Molekül [IF₆]⁺ und [IF₆]⁻ haben unterschiedliche Geometrien. Bestimme beide.",
             options: [
                   "[IF₆]⁺: Oktaedrisch, [IF₆]⁻: Pentagonal-bipyramidal",
-                  "[IF₆]⁺: Oktaedrisch, [IF₆]⁻: Verzerrt oktaedrisch (aufgrund eines freien Paares)",
+                  "[IF₆]⁺: Oktaedrisch, [IF₆]⁻: Verzerrt oktaedrisch",
                   "Beide oktaedrisch",
                   "[IF₆]⁺: Trigonal-prismatisch, [IF₆]⁻: Oktaedrisch"
             ],
@@ -11359,7 +11359,7 @@ const QUESTIONS_DATA = {
             id: 693,
             text: "Im Cyclopentadienyl-Anion (C₅H₅⁻) sind wie viele π-Elektronen delokalisiert und warum ist es aromatisch?",
             options: [
-                  "6 π-Elektronen, erfüllt die Hückel-Regel (4n+2 mit n=1)",
+                  "6 π-Elektronen, erfüllt die Hückel-Regel",
                   "4 π-Elektronen, antiaromatisch",
                   "5 π-Elektronen, nicht aromatisch",
                   "8 π-Elektronen, erfüllt die Hückel-Regel"
@@ -11393,10 +11393,10 @@ const QUESTIONS_DATA = {
             id: 695,
             text: "Im Kohlenmonoxid (CO) zeigt das Dipolmoment in Richtung C. Warum?",
             options: [
-                  "Das freie Elektronenpaar am C überwiegt den Elektronegativitätsunterschied",
-                  "Kohlenstoff ist elektronegativer als Sauerstoff",
-                  "CO hat kein Dipolmoment",
-                  "Das Dipolmoment zeigt immer zum elektronegativeren Atom"
+                  "Freies e⁻-Paar am C überwiegt den EN-Unterschied",
+                  "Kohlenstoff ist elektronegativer als Sauerstoff im Molekül",
+                  "CO hat kein Dipolmoment, es ist unpolar",
+                  "Das Dipolmoment zeigt häufig zum elektronegativeren Atom"
             ],
             correctAnswers: [
                   0
@@ -11514,7 +11514,7 @@ const QUESTIONS_DATA = {
             text: "Die Standardbildungsenthalpie von Diamant ist +1,9 kJ/mol, die von Graphit ist 0. Was bedeutet das thermodynamisch?",
             options: [
                   "Graphit ist thermodynamisch stabiler als Diamant",
-                  "Diamant wandelt sich spontan in Graphit um (wenn kinetisch möglich)",
+                  "Diamant wandelt sich spontan in Graphit um",
                   "Die Umwandlung Diamant → Graphit ist exotherm",
                   "Diamant ist thermodynamisch stabiler als Graphit"
             ],
@@ -11533,8 +11533,8 @@ const QUESTIONS_DATA = {
             options: [
                   "Niedrige Temperatur begünstigt die exotherme Reaktion",
                   "Hoher Druck begünstigt die Seite mit weniger Gasteilchen",
-                  "Kompromiss zwischen Thermodynamik (niedrige T) und Kinetik (hohe T für Geschwindigkeit)",
-                  "Hohe Temperatur begünstigt immer höhere Ausbeute"
+                  "Kompromiss zwischen Thermodynamik und Kinetik",
+                  "Hohe Temperatur begünstigt häufig höhere Ausbeute"
             ],
             correctAnswers: [
                   0,
@@ -11549,7 +11549,7 @@ const QUESTIONS_DATA = {
             id: 704,
             text: "Berechne die Resonanzenergie von Benzol. Gegeben: ΔH°f(Benzol) = +49 kJ/mol, geschätzte ΔH°f für hypothetisches 1,3,5-Cyclohexatrien = +208 kJ/mol.",
             options: [
-                  "-159 kJ/mol (Benzol ist um 159 kJ/mol stabiler)",
+                  "-159 kJ/mol",
                   "+159 kJ/mol",
                   "-49 kJ/mol",
                   "+257 kJ/mol"
@@ -11600,7 +11600,7 @@ const QUESTIONS_DATA = {
                   "d(ΔH)/dT = ΔCp",
                   "Die Änderung der Reaktionsenthalpie mit der Temperatur hängt von der Differenz der Wärmekapazitäten ab",
                   "Bei konstantem ΔCp gilt: ΔH(T₂) = ΔH(T₁) + ΔCp(T₂ - T₁)",
-                  "Die Kirchhoff-Gleichung gilt nur bei konstantem ΔCp"
+                  "Die Kirchhoff-Gleichung gilt meist bei konstantem ΔCp"
             ],
             correctAnswers: [
                   0,
@@ -11670,7 +11670,7 @@ const QUESTIONS_DATA = {
                   "Verschiedene kristalline Strukturen sind bei unterschiedlichen P und T stabil",
                   "Eis VI, VII, etc. sind dichter als normales Eis I",
                   "Polymorphie ist bei hohem Druck relevant",
-                  "Wasser existiert nur in einer Eismodifikation"
+                  "Wasser existiert meist in einer Eismodifikation"
             ],
             correctAnswers: [
                   0,
@@ -11724,7 +11724,7 @@ const QUESTIONS_DATA = {
                   "Es kann unpolare organische Verbindungen lösen",
                   "Die Dielektrizitätskonstante sinkt stark",
                   "Es ist korrosiv und reaktiv",
-                  "Überkritisches Wasser kann keine unpolaren Stoffe lösen"
+                  "Überkritisches Wasser kann wenige unpolaren Stoffe lösen"
             ],
             correctAnswers: [
                   0,
@@ -11829,7 +11829,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Bei 0,1 mbar liegt man unter dem Tripelpunkt von Wasser",
                   "Das gefrorene Wasser sublimiert direkt",
-                  "Wärme muss zugeführt werden (ΔHsub = ΔHfus + ΔHvap ≈ 51 kJ/mol)",
+                  "Wärme muss zugeführt werden",
                   "Sublimation erfordert Temperaturen über 100°C"
             ],
             correctAnswers: [
@@ -11866,7 +11866,7 @@ const QUESTIONS_DATA = {
                   "a = γ × x, wobei γ der Aktivitätskoeffizient ist",
                   "Sie berücksichtigt nicht-ideale Wechselwirkungen",
                   "In sehr verdünnten Lösungen nähert sich γ → 1",
-                  "Die Aktivität entspricht immer dem Molenbruch"
+                  "Die Aktivität entspricht häufig dem Molenbruch"
             ],
             correctAnswers: [
                   0,
@@ -11902,7 +11902,7 @@ const QUESTIONS_DATA = {
                   "Ionen sind von einer \"Ionenwolke\" entgegengesetzter Ladung umgeben",
                   "Der Aktivitätskoeffizient sinkt mit steigender Ionenstärke",
                   "Bei sehr hohen Konzentrationen versagt die Theorie",
-                  "Die Debye-Hückel-Theorie gilt für alle Konzentrationen"
+                  "Die Debye-Hückel-Theorie gilt für viele Konzentrationen"
             ],
             correctAnswers: [
                   0,
@@ -12003,9 +12003,9 @@ const QUESTIONS_DATA = {
             id: 730,
             text: "Bei der Dialyse von Blut wird eine semipermeable Membran verwendet. Welche kolligativen Prinzipien sind relevant?",
             options: [
-                  "Osmose treibt Wasser in Richtung höherer Konzentration gelöster Stoffe",
-                  "Die Dialyselösung muss isoosmotisch zum Blut sein, um Zellschäden zu vermeiden",
-                  "Harnstoff und andere kleine Moleküle diffundieren durch die Membran",
+                  "Osmose treibt Wasser zu höherer Konzentration",
+                  "Dialyselösung muss isoosmotisch zu Blut sein",
+                  "Harnstoff und kleine Moleküle diffundieren durch",
                   "Die Dialyselösung muss hyperton zum Blut sein"
             ],
             correctAnswers: [
@@ -12021,7 +12021,7 @@ const QUESTIONS_DATA = {
             id: 731,
             text: "Ein Patient hyperventiliert und baut CO₂ ab. Wie beeinflusst das den Blut-pH?",
             options: [
-                  "Der pH steigt (respiratorische Alkalose)",
+                  "Der pH steigt",
                   "Weniger H₂CO₃ bedeutet weniger H⁺-Ionen",
                   "Das Gleichgewicht H₂CO₃ ⇌ H⁺ + HCO₃⁻ verschiebt sich nach links",
                   "Hyperventilation führt zu respiratorischer Acidose"
@@ -12107,7 +12107,7 @@ const QUESTIONS_DATA = {
             id: 736,
             text: "Ein Puffer sollte innerhalb von ±1 pH-Einheit seines pKs-Wertes verwendet werden. Erkläre warum.",
             options: [
-                  "Außerhalb dieses Bereichs ist das Verhältnis [HA]/[A⁻] zu extrem (>10:1 oder <1:10)",
+                  "Außerhalb dieses Bereichs ist das Verhältnis [HA]/[A⁻] zu extrem",
                   "Die Pufferkapazität sinkt stark",
                   "Eine Komponente ist nahezu erschöpft",
                   "Die Pufferkapazität ist bei pH ≠ pKs am höchsten"
@@ -12125,7 +12125,7 @@ const QUESTIONS_DATA = {
             id: 737,
             text: "TRIS (Trishydroxymethylaminomethan) ist ein gängiger Laborpuffer mit pKa = 8,1. Wie ändert sich der pH einer TRIS-Lösung mit der Temperatur?",
             options: [
-                  "Der pH sinkt bei Temperaturerhöhung (ΔpKa/ΔT ≈ -0,03/°C)",
+                  "Der pH sinkt bei Temperaturerhöhung",
                   "TRIS-Puffer sollten bei der Arbeitstemperatur eingestellt werden",
                   "Bei 37°C hat TRIS einen niedrigeren pKa als bei 25°C",
                   "Der pH von TRIS ist temperaturunabhängig"
@@ -12182,7 +12182,7 @@ const QUESTIONS_DATA = {
                   "Sie sind milliardenfach stärker als 100%ige Schwefelsäure",
                   "Sie können selbst schwache Basen wie Alkane protonieren",
                   "Der pH-Begriff ist hier nicht mehr anwendbar",
-                  "Superacids sind nur wenig stärker als Schwefelsäure"
+                  "Superacids sind meist wenig stärker als Schwefelsäure"
             ],
             correctAnswers: [
                   0,
@@ -12200,7 +12200,7 @@ const QUESTIONS_DATA = {
                   "Bereiche, in denen Fe, Fe²⁺, Fe³⁺, Fe(OH)₂ und Fe(OH)₃ stabil sind",
                   "Die Korrosionsbedingungen können abgelesen werden",
                   "Passivierung durch Oxidschichten ist bei bestimmten pH/E erkennbar",
-                  "Das Pourbaix-Diagramm zeigt nur die Stabilität von reinem Metall"
+                  "Das Pourbaix-Diagramm zeigt meist die Stabilität von reinem Metall"
             ],
             correctAnswers: [
                   0,
@@ -12236,7 +12236,7 @@ const QUESTIONS_DATA = {
                   "Die Eigenschaften von Elektroden und Elektrolyten zu charakterisieren",
                   "Korrosionsprozesse zu untersuchen",
                   "Batteriegesundheit zu überwachen",
-                  "Bei der Butler-Volmer-Gleichung ist nur die Überspannung relevant"
+                  "Bei der Butler-Volmer-Gleichung ist meist die Überspannung relevant"
             ],
             correctAnswers: [
                   0,
@@ -12254,7 +12254,7 @@ const QUESTIONS_DATA = {
                   "Ionenaustausch-Membran trennt Anoden- und Kathodenraum",
                   "Verhindert Vermischung von Cl₂ und NaOH",
                   "Hohe Reinheit der Produkte",
-                  "EIS wird nur für Korrosionsuntersuchungen verwendet"
+                  "EIS wird meist für Korrosionsuntersuchungen verwendet"
             ],
             correctAnswers: [
                   0,
@@ -12270,7 +12270,7 @@ const QUESTIONS_DATA = {
             text: "Redox-Flow-Batterien (z.B. Vanadium) haben welche Vorteile gegenüber Lithium-Ionen-Batterien?",
             options: [
                   "Kapazität und Leistung können unabhängig skaliert werden",
-                  "Lange Lebensdauer (über 20.000 Zyklen)",
+                  "Lange Lebensdauer",
                   "Keine Degradation der aktiven Materialien",
                   "Das Membranverfahren vermischt Cl₂ und NaOH"
             ],
@@ -12288,7 +12288,7 @@ const QUESTIONS_DATA = {
             text: "Die Elektrokatalyse von Wasserspaltung ist wichtig für grünen Wasserstoff. Was sind die Hauptherausforderungen?",
             options: [
                   "Hohe Überspannung bei der Sauerstoffentwicklung (OER)",
-                  "Teure Katalysatoren (Pt, Ir, Ru)",
+                  "Teure Katalysatoren",
                   "Stabilität unter Betriebsbedingungen",
                   "Redox-Flow-Batterien haben kürzere Lebensdauer als Li-Ion"
             ],
@@ -12305,7 +12305,7 @@ const QUESTIONS_DATA = {
             id: 747,
             text: "Die elektrochemische CO₂-Reduktion kann verschiedene Produkte liefern. Welche Faktoren bestimmen die Selektivität?",
             options: [
-                  "Das Katalysatormaterial (Cu für Kohlenwasserstoffe)",
+                  "Das Katalysatormaterial",
                   "Das angelegte Potential",
                   "Der pH und die CO₂-Konzentration",
                   "Bei der Wasserspaltung ist die HER die größere Herausforderung"
@@ -12325,7 +12325,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Hoher Wirkungsgrad (bis 60%)",
                   "Keine teuren Edelmetallkatalysatoren nötig",
-                  "Brennstoffflexibilität (H₂, CH₄, CO)",
+                  "Brennstoffflexibilität",
                   "Cu-Katalysatoren produzieren selektiv CO"
             ],
             correctAnswers: [
@@ -12343,7 +12343,7 @@ const QUESTIONS_DATA = {
             options: [
                   "Sie schützt die Graphit-Anode vor weiterer Zersetzung des Elektrolyten",
                   "Sie ist ionenleitend aber elektronenisolierend",
-                  "Ihre Bildung verbraucht Lithium (irreversibler Kapazitätsverlust)",
+                  "Ihre Bildung verbraucht Lithium",
                   "SOFCs erfordern teure Edelmetallkatalysatoren"
             ],
             correctAnswers: [
@@ -12360,7 +12360,7 @@ const QUESTIONS_DATA = {
             text: "Die Zukunft der Batterie-Technologie umfasst Festkörperbatterien. Welche Vorteile werden erwartet?",
             options: [
                   "Höhere Energiedichte durch Lithium-Metall-Anoden",
-                  "Verbesserte Sicherheit (kein flüssiger Elektrolyt)",
+                  "Verbesserte Sicherheit",
                   "Breiteres Temperaturfenster",
                   "Die SEI-Schicht ist elektronenleitend"
             ],

@@ -43,9 +43,9 @@
 ## Frage 4
 **Welche Aussagen über XeF₂ sind korrekt?**
 
-- [ ] A. Es hat eine lineare Molekülgeometrie
-- [ ] B. Es hat 3 freie Elektronenpaare am Xe
-- [ ] C. Die Elektronenpaar-Geometrie ist trigonal-bipyramidal
+- [ ] A. Hat eine lineare Molekülgeometrie
+- [ ] B. Hat 3 freie Elektronenpaare am Xe
+- [ ] C. Elektronenpaar-Geometrie ist trigonal-bipyramidal
 - [ ] D. Die freien Paare besetzen äquatoriale Positionen
 
 **Richtige Antworten:** A, B, C, D
@@ -82,7 +82,7 @@
 - [ ] A. OF₂ < NF₃ < BF₃
 - [ ] B. BF₃ < NF₃ < OF₂
 - [ ] C. NF₃ < OF₂ < BF₃
-- [ ] D. Alle haben den gleichen Winkel
+- [ ] D. viele haben den gleichen Winkel
 
 **Richtige Antworten:** A
 
@@ -115,9 +115,9 @@
 ## Frage 10
 **Warum ist NF₃ weniger polar als NH₃, obwohl F elektronegativer als H ist?**
 
-- [ ] A. Die N-F-Bindungsdipolmomente und das Dipolmoment des freien Paares zeigen in entgegengesetzte Richtungen
-- [ ] B. In NH₃ verstärken sich Bindungsdipole und freies Paar gegenseitig
-- [ ] C. Fluor ist zu elektronegativ
+- [ ] A. N-F-Dipole und freies Paar zeigen in Gegenrichtung
+- [ ] B. In NH₃ verstärken sich Bindungs- und Paardipol
+- [ ] C. Fluor ist zu elektronegativ für eine polare Bindung
 - [ ] D. NF₃ ist ein lineares Molekül ohne Dipolmoment
 
 **Richtige Antworten:** A, B

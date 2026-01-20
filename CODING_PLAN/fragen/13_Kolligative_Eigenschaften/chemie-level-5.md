@@ -22,7 +22,7 @@
 - [ ] A. a = γ × x, wobei γ der Aktivitätskoeffizient ist
 - [ ] B. Sie berücksichtigt nicht-ideale Wechselwirkungen
 - [ ] C. In sehr verdünnten Lösungen nähert sich γ → 1
-- [ ] D. Die Aktivität entspricht immer dem Molenbruch
+- [ ] D. Die Aktivität entspricht häufig dem Molenbruch
 
 **Richtige Antworten:** A, B, C
 
@@ -46,7 +46,7 @@
 - [ ] A. Ionen sind von einer "Ionenwolke" entgegengesetzter Ladung umgeben
 - [ ] B. Der Aktivitätskoeffizient sinkt mit steigender Ionenstärke
 - [ ] C. Bei sehr hohen Konzentrationen versagt die Theorie
-- [ ] D. Die Debye-Hückel-Theorie gilt für alle Konzentrationen
+- [ ] D. Die Debye-Hückel-Theorie gilt für viele Konzentrationen
 
 **Richtige Antworten:** A, B, C
 
@@ -115,9 +115,9 @@
 ## Frage 10
 **Bei der Dialyse von Blut wird eine semipermeable Membran verwendet. Welche kolligativen Prinzipien sind relevant?**
 
-- [ ] A. Osmose treibt Wasser in Richtung höherer Konzentration gelöster Stoffe
-- [ ] B. Die Dialyselösung muss isoosmotisch zum Blut sein, um Zellschäden zu vermeiden
-- [ ] C. Harnstoff und andere kleine Moleküle diffundieren durch die Membran
+- [ ] A. Osmose treibt Wasser zu höherer Konzentration
+- [ ] B. Dialyselösung muss isoosmotisch zu Blut sein
+- [ ] C. Harnstoff und kleine Moleküle diffundieren durch
 - [ ] D. Die Dialyselösung muss hyperton zum Blut sein
 
 **Richtige Antworten:** A, B, C

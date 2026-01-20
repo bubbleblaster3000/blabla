@@ -7,10 +7,10 @@
 ## Frage 1
 **Was beschreibt die Valenzbindungstheorie (VB-Theorie)?**
 
-- [ ] A. Die Überlappung von Atomorbitalen zur Bildung von Bindungen
-- [ ] B. Die Bewegung von Elektronen in Bändern
-- [ ] C. Die Abstoßung von Elektronenpaaren
-- [ ] D. Die Ionisierung von Atomen
+- [ ] A. Überlappung von Atomorbitalen bildet Bindungen
+- [ ] B. Die Bewegung von Elektronen in Bändern im Kristall
+- [ ] C. Die Abstoßung von Elektronenpaaren zueinander
+- [ ] D. Die Ionisierung von Atomen zu geladenen Ionen
 
 **Richtige Antworten:** A
 
@@ -19,10 +19,10 @@
 ## Frage 2
 **Was ist Hybridisierung?**
 
-- [ ] A. Die Mischung von Atomorbitalen zu neuen, gleichwertigen Orbitalen
-- [ ] B. Die Trennung von Elektronen
-- [ ] C. Die Bildung von Ionen
-- [ ] D. Die Überlappung von Molekülorbitalen
+- [ ] A. Mischung von Atomorbitalen zu neuen Orbitalen
+- [ ] B. Die Trennung von Elektronen in verschiedene Schalen
+- [ ] C. Die Bildung von Ionen durch Elektronentransfer
+- [ ] D. Die Überlappung von Molekülorbitalen im Molekül
 
 **Richtige Antworten:** A
 
@@ -44,9 +44,9 @@
 **Was ist eine σ-Bindung (Sigma-Bindung)?**
 
 - [ ] A. Eine Bindung durch seitliche Orbitalüberlappung
-- [ ] B. Eine Bindung durch Überlappung entlang der Bindungsachse
-- [ ] C. Eine ionische Bindung
-- [ ] D. Eine Wasserstoffbrücke
+- [ ] B. Bindung durch Überlappung entlang der Achse
+- [ ] C. Eine ionische Bindung durch Elektronenübertragung
+- [ ] D. Eine Wasserstoffbrücke zwischen Molekülen
 
 **Richtige Antworten:** B
 
@@ -69,7 +69,7 @@
 
 - [ ] A. Elektronen befinden sich in Orbitalen, die das gesamte Molekül umfassen
 - [ ] B. Elektronen bleiben an ihren ursprünglichen Atomen
-- [ ] C. Nur ionische Bindungen können beschrieben werden
+- [ ] C. meist ionische Bindungen können beschrieben werden
 - [ ] D. Hybridorbitale sind die einzige Möglichkeit
 
 **Richtige Antworten:** A
@@ -80,9 +80,9 @@
 **Was ist ein bindendes Molekülorbital?**
 
 - [ ] A. Ein Orbital mit höherer Energie als die Atomorbitale
-- [ ] B. Ein Orbital mit niedrigerer Energie als die Atomorbitale
-- [ ] C. Ein Orbital ohne Elektronen
-- [ ] D. Ein Orbital nur für Ionen
+- [ ] B. Orbital mit niedrigerer Energie als Atomorbitale
+- [ ] C. Ein Orbital ohne Elektronen in einem Molekül
+- [ ] D. Ein Orbital meistens für Ionen charakteristisch
 
 **Richtige Antworten:** B
 
@@ -93,7 +93,7 @@
 
 - [ ] A. Ein Orbital mit niedrigerer Energie als die Atomorbitale
 - [ ] B. Ein Orbital mit höherer Energie als die Atomorbitale
-- [ ] C. Ein Orbital, das nur Protonen enthält
+- [ ] C. Ein Orbital, das meist Protonen enthält
 - [ ] D. Ein Hybridorbital
 
 **Richtige Antworten:** B

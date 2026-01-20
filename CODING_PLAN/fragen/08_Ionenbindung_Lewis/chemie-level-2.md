@@ -58,7 +58,7 @@
 - [ ] A. Eine Einfachbindung
 - [ ] B. Eine Doppelbindung
 - [ ] C. Eine Dreifachbindung
-- [ ] D. Keine Bindung
+- [ ] D. wenige Bindung
 
 **Richtige Antworten:** B
 

@@ -19,9 +19,9 @@
 **Warum hat Chrom (Cr, Z=24) die Konfiguration [Ar] 3d⁵ 4s¹ statt [Ar] 3d⁴ 4s²?**
 
 - [ ] A. Halbgefüllte d-Orbitale sind besonders stabil
-- [ ] B. Das 4s-Orbital hat höhere Energie als 3d
-- [ ] C. Die symmetrische Verteilung der d-Elektronen ist energetisch günstiger
-- [ ] D. Chrom ist ein Übergangsmetall
+- [ ] B. Das 4s-Orbital hat viel höhere Energie als 3d
+- [ ] C. Symmetrische d-e⁻-Verteilung ist energetisch günstig
+- [ ] D. Chrom ist ein Übergangsmetall der 4. Periode
 
 **Richtige Antworten:** A, C
 

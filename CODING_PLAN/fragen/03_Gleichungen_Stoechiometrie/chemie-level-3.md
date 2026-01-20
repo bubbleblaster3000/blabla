@@ -81,8 +81,8 @@
 
 - [ ] A. 4 mol NH₃ reagieren mit 5 mol O₂
 - [ ] B. Es entstehen 6 mol H₂O pro 4 mol NH₃
-- [ ] C. Die Anzahl der H-Atome ist auf beiden Seiten gleich
-- [ ] D. Die Anzahl der O-Atome ist auf beiden Seiten gleich
+- [ ] C. Anzahl der H-Atome ist auf beiden Seiten gleich
+- [ ] D. Anzahl der O-Atome ist auf beiden Seiten gleich
 
 **Richtige Antworten:** A, B, C, D
 

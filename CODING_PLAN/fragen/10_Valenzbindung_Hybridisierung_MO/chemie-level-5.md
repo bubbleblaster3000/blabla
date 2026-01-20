@@ -31,7 +31,7 @@
 ## Frage 3
 **Im Cyclopentadienyl-Anion (C₅H₅⁻) sind wie viele π-Elektronen delokalisiert und warum ist es aromatisch?**
 
-- [ ] A. 6 π-Elektronen, erfüllt die Hückel-Regel (4n+2 mit n=1)
+- [ ] A. 6 π-Elektronen, erfüllt die Hückel-Regel
 - [ ] B. 4 π-Elektronen, antiaromatisch
 - [ ] C. 5 π-Elektronen, nicht aromatisch
 - [ ] D. 8 π-Elektronen, erfüllt die Hückel-Regel
@@ -55,10 +55,10 @@
 ## Frage 5
 **Im Kohlenmonoxid (CO) zeigt das Dipolmoment in Richtung C. Warum?**
 
-- [ ] A. Das freie Elektronenpaar am C überwiegt den Elektronegativitätsunterschied
-- [ ] B. Kohlenstoff ist elektronegativer als Sauerstoff
-- [ ] C. CO hat kein Dipolmoment
-- [ ] D. Das Dipolmoment zeigt immer zum elektronegativeren Atom
+- [ ] A. Freies e⁻-Paar am C überwiegt den EN-Unterschied
+- [ ] B. Kohlenstoff ist elektronegativer als Sauerstoff im Molekül
+- [ ] C. CO hat kein Dipolmoment, es ist unpolar
+- [ ] D. Das Dipolmoment zeigt häufig zum elektronegativeren Atom
 
 **Richtige Antworten:** A
 

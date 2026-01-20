@@ -45,7 +45,7 @@
 - [ ] A. Der Tripelpunkt von CO₂ liegt oberhalb von 1 atm
 - [ ] B. CO₂ kann nicht flüssig werden
 - [ ] C. Der Schmelzpunkt von CO₂ liegt unter dem Tripelpunkt
-- [ ] D. CO₂ ist immer gasförmig
+- [ ] D. CO₂ ist häufig gasförmig
 
 **Richtige Antworten:** A
 
@@ -57,7 +57,7 @@
 - [ ] A. Van-der-Waals-Kräfte
 - [ ] B. Wasserstoffbrücken
 - [ ] C. Dipol-Dipol-Wechselwirkungen
-- [ ] D. Nur ionische Bindungen
+- [ ] D. meist ionische Bindungen
 
 **Richtige Antworten:** A, B, C
 
@@ -78,10 +78,10 @@
 ## Frage 7
 **Was ist der Dampfdruck?**
 
-- [ ] A. Der Druck, den der gasförmige Anteil eines Stoffes im Gleichgewicht mit der flüssigen Phase ausübt
+- [ ] A. Druck des gasförmigen Anteils im Gleichgewicht mit Flüssigkeit
 - [ ] B. Der maximale Druck in einem geschlossenen Behälter
-- [ ] C. Der atmosphärische Druck
-- [ ] D. Der Druck beim Siedepunkt
+- [ ] C. Der atmosphärische Druck auf Meereshöhe (1 atm)
+- [ ] D. Der Druck genau beim Siedepunkt einer Flüssigkeit
 
 **Richtige Antworten:** A
 
@@ -105,7 +105,7 @@
 - [ ] A. Die feste und flüssige Phase
 - [ ] B. Die flüssige und gasförmige Phase
 - [ ] C. Die feste und gasförmige Phase
-- [ ] D. Alle drei Phasen
+- [ ] D. viele drei Phasen
 
 **Richtige Antworten:** A
 

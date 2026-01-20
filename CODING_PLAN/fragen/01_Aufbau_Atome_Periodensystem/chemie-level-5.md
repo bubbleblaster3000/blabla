@@ -45,7 +45,7 @@
 
 - [ ] A. Hafnium (Hf) hat einen ähnlichen Atomradius wie Zirkonium (Zr), obwohl es eine Periode tiefer steht
 - [ ] B. Die 4f-Elektronen schirmen die Kernladung schlecht ab
-- [ ] C. Die Lanthanoid-Kontraktion führt zu einer Verkleinerung der Atomradien
+- [ ] C. Lanthanoid-Kontraktion führt zu einer Verkleinerung der Atomradien
 - [ ] D. Wolfram und Molybdän haben dadurch sehr ähnliche chemische Eigenschaften
 
 **Richtige Antworten:** A, B, C, D
@@ -81,8 +81,8 @@
 
 - [ ] A. Das O⁻-Ion muss gegen die Elektron-Elektron-Abstoßung ein weiteres Elektron aufnehmen
 - [ ] B. Das entstehende O²⁻-Ion ist in der Gasphase instabil
-- [ ] C. Die Aufnahme des zweiten Elektrons erfordert Energiezufuhr
-- [ ] D. Die Gitterenergie in Ionenverbindungen stabilisiert O²⁻-Ionen
+- [ ] C. Aufnahme des zweiten Elektrons erfordert Energiezufuhr
+- [ ] D. Gitterenergie in Ionenverbindungen stabilisiert O²⁻-Ionen
 
 **Richtige Antworten:** A, B, C, D
 
@@ -91,9 +91,9 @@
 ## Frage 8
 **Ein Massenspektrometer zeigt für ein Element zwei Peaks bei m/z = 63 (Intensität 69,2%) und m/z = 65 (Intensität 30,8%). Die berechnete mittlere Atommasse beträgt 63,55 u. Welche Aussagen sind korrekt?**
 
-- [ ] A. Es handelt sich um Kupfer
+- [ ] A. Kupfer
 - [ ] B. Das häufigere Isotop ist ⁶³Cu
-- [ ] C. Die Massendifferenz der Isotope beträgt 2 Neutronen
+- [ ] C. Massendifferenz der Isotope beträgt 2 Neutronen
 - [ ] D. Beide Isotope haben 29 Protonen
 
 **Richtige Antworten:** A, B, C, D
@@ -104,7 +104,7 @@
 **Die effektive Kernladung Z_eff für das Valenzelektron von Natrium beträgt etwa +2,2, obwohl die tatsächliche Kernladung +11 ist. Welche Schlussfolgerungen sind richtig?**
 
 - [ ] A. Die inneren 10 Elektronen schirmen etwa 8,8 Kernladungen ab
-- [ ] B. Die Abschirmung ist nicht vollständig, da die Elektronenorbitale sich durchdringen
+- [ ] B. Abschirmung ist nicht vollständig
 - [ ] C. Z_eff erklärt, warum das Valenzelektron relativ leicht abgegeben wird
 - [ ] D. Bei Magnesium ist Z_eff für die Valenzelektronen höher als bei Natrium
 
@@ -118,7 +118,7 @@
 - [ ] A. Das kleine Fluoratom hat eine höhere Elektronendichte, was zu stärkerer Elektron-Elektron-Abstoßung führt
 - [ ] B. Chlor hat größere Orbitale, die ein zusätzliches Elektron besser aufnehmen können
 - [ ] C. Fluor ist zu klein für eine effiziente Aufnahme eines weiteren Elektrons
-- [ ] D. Die Elektronegativität und die Elektronenaffinität messen unterschiedliche Eigenschaften
+- [ ] D. Elektronegativität und die Elektronenaffinität messen unterschiedliche Eigenschaften
 
 **Richtige Antworten:** A, B, C, D
 

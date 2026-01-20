@@ -103,10 +103,10 @@
 ## Frage 9
 **Eine Lösung enthält 0,1 mol/L Ca²⁺ und 0,2 mol/L Cl⁻. Welche Aussagen sind korrekt?**
 
-- [ ] A. Die Lösung ist elektrisch neutral
+- [ ] A. Lösung ist elektrisch neutral
 - [ ] B. Das Ionenverhältnis entspricht CaCl₂
-- [ ] C. Die Gesamtionenkonzentration beträgt 0,3 mol/L
-- [ ] D. Es sind 0,1 mol/L CaCl₂ gelöst
+- [ ] C. Gesamtionenkonzentration beträgt 0,3 mol/L
+- [ ] D. 0,1 mol/L CaCl₂ gelöst
 
 **Richtige Antworten:** A, B, C, D
 

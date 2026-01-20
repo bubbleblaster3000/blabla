@@ -20,7 +20,7 @@
 **Die Standardbildungsenthalpie von Diamant ist +1,9 kJ/mol, die von Graphit ist 0. Was bedeutet das thermodynamisch?**
 
 - [ ] A. Graphit ist thermodynamisch stabiler als Diamant
-- [ ] B. Diamant wandelt sich spontan in Graphit um (wenn kinetisch möglich)
+- [ ] B. Diamant wandelt sich spontan in Graphit um
 - [ ] C. Die Umwandlung Diamant → Graphit ist exotherm
 - [ ] D. Diamant ist thermodynamisch stabiler als Graphit
 
@@ -33,8 +33,8 @@
 
 - [ ] A. Niedrige Temperatur begünstigt die exotherme Reaktion
 - [ ] B. Hoher Druck begünstigt die Seite mit weniger Gasteilchen
-- [ ] C. Kompromiss zwischen Thermodynamik (niedrige T) und Kinetik (hohe T für Geschwindigkeit)
-- [ ] D. Hohe Temperatur begünstigt immer höhere Ausbeute
+- [ ] C. Kompromiss zwischen Thermodynamik und Kinetik
+- [ ] D. Hohe Temperatur begünstigt häufig höhere Ausbeute
 
 **Richtige Antworten:** A, B, C
 
@@ -43,7 +43,7 @@
 ## Frage 4
 **Berechne die Resonanzenergie von Benzol. Gegeben: ΔH°f(Benzol) = +49 kJ/mol, geschätzte ΔH°f für hypothetisches 1,3,5-Cyclohexatrien = +208 kJ/mol.**
 
-- [ ] A. -159 kJ/mol (Benzol ist um 159 kJ/mol stabiler)
+- [ ] A. -159 kJ/mol
 - [ ] B. +159 kJ/mol
 - [ ] C. -49 kJ/mol
 - [ ] D. +257 kJ/mol
@@ -82,7 +82,7 @@
 - [ ] A. d(ΔH)/dT = ΔCp
 - [ ] B. Die Änderung der Reaktionsenthalpie mit der Temperatur hängt von der Differenz der Wärmekapazitäten ab
 - [ ] C. Bei konstantem ΔCp gilt: ΔH(T₂) = ΔH(T₁) + ΔCp(T₂ - T₁)
-- [ ] D. Die Kirchhoff-Gleichung gilt nur bei konstantem ΔCp
+- [ ] D. Die Kirchhoff-Gleichung gilt meist bei konstantem ΔCp
 
 **Richtige Antworten:** A, B, C
 

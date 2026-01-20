@@ -115,10 +115,10 @@
 ## Frage 10
 **In einem Kristall von Calciumfluorid (CaF₂) befinden sich 3,01 × 10²³ Ca²⁺-Ionen. Welche Aussagen sind korrekt?**
 
-- [ ] A. Es sind 6,02 × 10²³ F⁻-Ionen vorhanden
-- [ ] B. Die Gesamtmasse beträgt ca. 39 g
-- [ ] C. Es sind 0,5 mol CaF₂ vorhanden
-- [ ] D. Die Formeleinheiten enthalten doppelt so viele Fluorid- wie Calcium-Ionen
+- [ ] A. 6,02 × 10²³ F⁻-Ionen vorhanden
+- [ ] B. Gesamtmasse beträgt ca. 39 g
+- [ ] C. 0,5 mol CaF₂ vorhanden
+- [ ] D. Formeleinheiten enthalten doppelt so viele Fluorid- wie Calcium-Ionen
 
 **Richtige Antworten:** A, B, C, D
 

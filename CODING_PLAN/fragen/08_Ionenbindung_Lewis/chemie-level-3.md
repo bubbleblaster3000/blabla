@@ -19,10 +19,10 @@
 ## Frage 2
 **Was ist eine Formalladung und wie berechnet man sie?**
 
-- [ ] A. Formalladung = Valenzelektronen - (freie Elektronen + ½ bindende Elektronen)
+- [ ] A. Formalladung = Valenzelektronen -
 - [ ] B. Formalladung = Protonen - Elektronen
 - [ ] C. Formalladung = Bindende Elektronen - Freie Elektronen
-- [ ] D. Formalladung entspricht immer der Ionenladung
+- [ ] D. Formalladung entspricht häufig der Ionenladung
 
 **Richtige Antworten:** A
 
@@ -31,10 +31,10 @@
 ## Frage 3
 **Welche Lewis-Struktur ist für Ozon (O₃) korrekt?**
 
-- [ ] A. O=O=O (linear, keine freien Paare)
-- [ ] B. O-O-O mit Resonanzstrukturen
-- [ ] C. Ein zentrales O mit Doppelbindung zu einem O und Einfachbindung zum anderen (Resonanz)
-- [ ] D. Drei einzelne O-Atome
+- [ ] A. O=O=O linear mit wenigen freien Elektronenpaaren
+- [ ] B. O-O-O mit Resonanzstrukturen und Delokalisierung
+- [ ] C. Zentrales O mit Doppel- und Einfachbindung (Resonanz)
+- [ ] D. Drei einzelne O-Atome ohne Bindungen zueinander
 
 **Richtige Antworten:** C
 
@@ -67,10 +67,10 @@
 ## Frage 6
 **Was sind Resonanzstrukturen?**
 
-- [ ] A. Verschiedene Moleküle mit gleicher Summenformel
-- [ ] B. Verschiedene Lewis-Strukturen desselben Moleküls mit unterschiedlicher Elektronenverteilung
-- [ ] C. Isomere einer Verbindung
-- [ ] D. Angeregte Zustände eines Moleküls
+- [ ] A. Verschiedene Moleküle mit gleicher Summenformel (Isomere)
+- [ ] B. Verschiedene Lewis-Strukturen mit anderer e⁻-Verteilung
+- [ ] C. Isomere einer chemischen Verbindung mit gleicher Struktur
+- [ ] D. Angeregte Zustände eines Moleküls bei Energiezufuhr
 
 **Richtige Antworten:** B
 
@@ -105,7 +105,7 @@
 
 - [ ] A. Eine Dreifachbindung mit einem freien Elektronenpaar am C und einem am O
 - [ ] B. Eine dative (koordinative) Bindung vom O zum C
-- [ ] C. Kohlenstoff hat nur 6 Elektronen (Oktettunterschreitung)
+- [ ] C. Kohlenstoff hat meist 6 Elektronen (Oktettunterschreitung)
 - [ ] D. CO hat eine reine Doppelbindung wie O₂
 
 **Richtige Antworten:** A, B

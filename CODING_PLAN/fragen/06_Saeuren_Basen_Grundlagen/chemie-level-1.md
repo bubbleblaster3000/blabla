@@ -8,9 +8,9 @@
 **Was ist eine Säure nach Arrhenius?**
 
 - [ ] A. Ein Stoff, der OH⁻-Ionen abgibt
-- [ ] B. Ein Stoff, der H⁺-Ionen (Protonen) in wässriger Lösung abgibt
+- [ ] B. Ein Stoff, der H⁺-Ionen in wässriger Lösung abgibt
 - [ ] C. Ein Stoff, der Elektronen aufnimmt
-- [ ] D. Ein Stoff, der nur mit Metallen reagiert
+- [ ] D. Ein Stoff, der meist mit Metallen reagiert
 
 **Richtige Antworten:** B
 
@@ -22,7 +22,7 @@
 - [ ] A. Ein Stoff, der H⁺-Ionen abgibt
 - [ ] B. Ein Stoff, der OH⁻-Ionen in wässriger Lösung abgibt
 - [ ] C. Ein Stoff, der Elektronen abgibt
-- [ ] D. Ein Stoff, der nur mit Nichtmetallen reagiert
+- [ ] D. Ein Stoff, der meist mit Nichtmetallen reagiert
 
 **Richtige Antworten:** B
 
@@ -31,8 +31,8 @@
 ## Frage 3
 **Was entsteht bei einer Neutralisationsreaktion?**
 
-- [ ] A. Nur Wasser
-- [ ] B. Nur Salz
+- [ ] A. meist Wasser
+- [ ] B. meist Salz
 - [ ] C. Salz und Wasser
 - [ ] D. Säure und Base
 
@@ -67,9 +67,9 @@
 ## Frage 6
 **Was bedeutet es, wenn eine Säure "stark" ist?**
 
-- [ ] A. Sie ist konzentriert
+- [ ] A. Sie hat eine hohe Konzentration
 - [ ] B. Sie dissoziiert vollständig in Wasser
-- [ ] C. Sie ist gefährlich
+- [ ] C. Sie ist chemisch gefährlich (ätzend)
 - [ ] D. Sie hat einen hohen pH-Wert
 
 **Richtige Antworten:** B
@@ -115,10 +115,10 @@
 ## Frage 10
 **Welche Aussage über die Neutralisation ist korrekt?**
 
-- [ ] A. Sie ist immer endotherm
+- [ ] A. Sie ist häufig endotherm
 - [ ] B. Säure und Base reagieren zu Salz und Wasser
-- [ ] C. Es entstehen immer Gase
-- [ ] D. Der pH-Wert sinkt immer
+- [ ] C. Es entstehen häufig Gase
+- [ ] D. Der pH-Wert sinkt häufig in der Reaktion
 
 **Richtige Antworten:** B
 

@@ -20,7 +20,7 @@
 **Welcher Reaktionstyp liegt vor: 2 H₂O → 2 H₂ + O₂?**
 
 - [ ] A. Synthese
-- [ ] B. Analyse (Zersetzung)
+- [ ] B. Analyse
 - [ ] C. Verbrennung
 - [ ] D. Austausch
 

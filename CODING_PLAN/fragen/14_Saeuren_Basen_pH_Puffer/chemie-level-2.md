@@ -67,10 +67,10 @@
 ## Frage 6
 **Ein Puffer besteht typischerweise aus:**
 
-- [ ] A. Einer schwachen Säure und ihrem konjugierten Basensalz
-- [ ] B. Zwei starken Säuren
-- [ ] C. Einer starken Säure und einer starken Base
-- [ ] D. Reinem Wasser
+- [ ] A. Schwacher Säure + konjugiertem Basensalz
+- [ ] B. Zwei starken Säuren miteinander gemischt
+- [ ] C. Einer starken Säure und einer starken Base gemischt
+- [ ] D. Reinem Wasser ohne weitere Zusätze (destilliert)
 
 **Richtige Antworten:** A
 
@@ -118,7 +118,7 @@
 - [ ] A. Starke Säure mit starker Base
 - [ ] B. Schwache Säure mit schwacher Base
 - [ ] C. Starke Säure mit schwacher Base
-- [ ] D. Keine Titration
+- [ ] D. wenige Titration
 
 **Richtige Antworten:** A
 

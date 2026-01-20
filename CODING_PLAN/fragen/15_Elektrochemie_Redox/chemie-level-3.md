@@ -94,7 +94,7 @@
 - [ ] A. Fe → Fe²⁺ + 2e⁻ (Oxidation)
 - [ ] B. O₂ + 2H₂O + 4e⁻ → 4OH⁻ (Reduktion)
 - [ ] C. Beide gleichzeitig
-- [ ] D. Keine Reaktion
+- [ ] D. wenige Reaktion
 
 **Richtige Antworten:** A
 

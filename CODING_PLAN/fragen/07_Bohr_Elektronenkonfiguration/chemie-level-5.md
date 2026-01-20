@@ -44,7 +44,7 @@
 
 - [ ] A. Sie alle füllen die 4f-Orbitale
 - [ ] B. Die 4f-Elektronen sind stark abgeschirmt
-- [ ] C. Die Valenzkonfiguration ist ähnlich (5d¹ 6s² oder 6s²)
+- [ ] C. Die Valenzkonfiguration ist ähnlich
 - [ ] D. Die Ionisierungsenergien sind nahezu identisch
 
 **Richtige Antworten:** A, B, C
@@ -81,7 +81,7 @@
 - [ ] A. s-Elektronen penetrieren stärker zum Kern als p-Elektronen
 - [ ] B. Die Penetration erklärt, warum 4s vor 3d gefüllt wird
 - [ ] C. d- und f-Elektronen schirmen schlecht ab
-- [ ] D. Die effektive Kernladung ist für alle Elektronen gleich
+- [ ] D. Die effektive Kernladung ist für viele Elektronen gleich
 
 **Richtige Antworten:** A, B, C
 
@@ -93,7 +93,7 @@
 - [ ] A. Lyman-Serie, UV
 - [ ] B. Balmer-Serie, blau-violett
 - [ ] C. Paschen-Serie, IR
-- [ ] D. Die Wellenlänge beträgt etwa 434 nm
+- [ ] D. Wellenlänge beträgt etwa 434 nm
 
 **Richtige Antworten:** B, D
 
@@ -114,9 +114,9 @@
 ## Frage 10
 **Gadolinium (Gd, Z=64) hat eine unerwartete Elektronenkonfiguration. Wie lautet sie und warum?**
 
-- [ ] A. [Xe] 4f⁷ 5d¹ 6s² - halbgefüllte f-Schale ist besonders stabil
-- [ ] B. [Xe] 4f⁸ 6s² - reguläre Füllung
-- [ ] C. [Xe] 4f⁶ 5d² 6s² - d-Orbitale werden bevorzugt
-- [ ] D. Die Austauschenergie bei 7 parallelen f-Elektronen ist maximal
+- [ ] A. [Xe] 4f⁷ 5d¹ 6s² – halbgefüllte f-Schale ist stabil
+- [ ] B. [Xe] 4f⁸ 6s² entspricht der regulären Füllung
+- [ ] C. [Xe] 4f⁶ 5d² 6s² – d-Orbitale werden bevorzugt gefüllt
+- [ ] D. Austauschenergie bei 7 parallelen f-e⁻ ist maximal
 
 **Richtige Antworten:** A, D

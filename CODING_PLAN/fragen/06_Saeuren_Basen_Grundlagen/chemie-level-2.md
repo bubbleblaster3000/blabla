@@ -7,10 +7,10 @@
 ## Frage 1
 **Ordne die folgenden Säuren als stark oder schwach ein: HNO₃, CH₃COOH, H₂SO₄, HF**
 
-- [ ] A. Alle sind stark
-- [ ] B. HNO₃ und H₂SO₄ sind stark; CH₃COOH und HF sind schwach
-- [ ] C. Alle sind schwach
-- [ ] D. Nur H₂SO₄ ist stark
+- [ ] A. Die meisten dieser Säuren sind starke Elektrolyte
+- [ ] B. HNO₃, H₂SO₄ stark; CH₃COOH, HF schwach
+- [ ] C. Die meisten dieser Säuren sind schwache Elektrolyte
+- [ ] D. Nur eine einzige dieser Säuren ist wirklich stark
 
 **Richtige Antworten:** B
 

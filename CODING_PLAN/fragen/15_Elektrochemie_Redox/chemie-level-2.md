@@ -67,10 +67,10 @@
 ## Frage 6
 **Ein positives Standardpotential (E° > 0) bedeutet:**
 
-- [ ] A. Die Reduktion ist gegenüber der Wasserstoffelektrode bevorzugt
-- [ ] B. Das Element ist ein gutes Reduktionsmittel
-- [ ] C. Das Element wird leicht oxidiert
-- [ ] D. Die Reaktion ist endotherm
+- [ ] A. Reduktion gegenüber H₂-Elektrode bevorzugt
+- [ ] B. Das Element ist ein gutes Reduktionsmittel in Reaktionen
+- [ ] C. Das Element wird leicht oxidiert in Lösungen
+- [ ] D. Die Reaktion verläuft insgesamt endotherm
 
 **Richtige Antworten:** A
 

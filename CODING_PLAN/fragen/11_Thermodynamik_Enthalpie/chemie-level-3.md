@@ -23,7 +23,7 @@
 - [ ] A. Kombination von Teilreaktionen
 - [ ] B. Verwendung von Standardbildungsenthalpien
 - [ ] C. Verwendung von Bindungsenergien
-- [ ] D. ΔH kann nur kalorimetrisch gemessen werden
+- [ ] D. ΔH kann meist kalorimetrisch gemessen werden
 
 **Richtige Antworten:** A, B, C
 
@@ -57,10 +57,10 @@
 ## Frage 5
 **Die Gitterenergie von NaCl ist der Energiebetrag, der:**
 
-- [ ] A. Bei der Bildung von 1 mol NaCl aus gasförmigen Ionen frei wird
-- [ ] B. Benötigt wird, um NaCl zu schmelzen
-- [ ] C. Bei der Lösung von NaCl in Wasser frei wird
-- [ ] D. Benötigt wird, um NaCl zu verdampfen
+- [ ] A. Bei Bildung von 1 mol NaCl aus gasförmigen Ionen frei wird
+- [ ] B. Benötigt wird, um festes NaCl zu schmelzen (Schmelzwärme)
+- [ ] C. Bei der Lösung von NaCl in Wasser frei wird (Lösungswärme)
+- [ ] D. Benötigt wird, um NaCl zu verdampfen (Verdampfungswärme)
 
 **Richtige Antworten:** A
 
@@ -81,10 +81,10 @@
 ## Frage 7
 **Was ist der Unterschied zwischen ΔH und ΔU (innere Energie)?**
 
-- [ ] A. ΔH = ΔU + PΔV (bei konstantem Druck)
-- [ ] B. ΔH und ΔU sind immer gleich
-- [ ] C. ΔH berücksichtigt keine Gase
-- [ ] D. ΔU ist nur für Festkörper definiert
+- [ ] A. ΔH = ΔU + PΔV
+- [ ] B. ΔH und ΔU sind häufig gleich
+- [ ] C. ΔH berücksichtigt wenige Gase
+- [ ] D. ΔU ist meist für Festkörper definiert
 
 **Richtige Antworten:** A
 
@@ -117,10 +117,10 @@
 ## Frage 10
 **Warum ist die Standardbildungsenthalpie von O₂(g) gleich null?**
 
-- [ ] A. O₂ ist die stabilste Form von Sauerstoff unter Standardbedingungen
-- [ ] B. O₂ hat keine Bindungen
-- [ ] C. Sauerstoff ist ein Nichtmetall
-- [ ] D. O₂ ist ein Gas
+- [ ] A. O₂ ist die stabilste Form von O unter Standardbedingungen
+- [ ] B. O₂ hat nur wenige Bindungen zwischen den Atomen
+- [ ] C. Sauerstoff ist ein Nichtmetall mit hoher Elektronegativität
+- [ ] D. O₂ ist ein Gas unter Standardbedingungen (25°C, 1 bar)
 
 **Richtige Antworten:** A
 

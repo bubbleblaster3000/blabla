@@ -6,10 +6,10 @@
 ## Frage 1
 **Was beschreibt das Bohr-Modell des Atoms?**
 
-- [ ] A. Elektronen bewegen sich auf festen Bahnen (Schalen) um den Kern
-- [ ] B. Elektronen bewegen sich zufällig um den Kern
-- [ ] C. Protonen kreisen um den Kern
-- [ ] D. Der Kern besteht nur aus Elektronen
+- [ ] A. e⁻ bewegen sich auf festen Schalen um den Kern
+- [ ] B. Elektronen bewegen sich völlig zufällig um den Kern
+- [ ] C. Protonen kreisen auf Bahnen um den Atomkern
+- [ ] D. Der Kern besteht hauptsächlich aus Elektronen
 
 **Richtige Antworten:** A
 
@@ -42,10 +42,10 @@
 ## Frage 4
 **Was sind Valenzelektronen?**
 
-- [ ] A. Elektronen im Atomkern
-- [ ] B. Elektronen in der äußersten besetzten Schale
-- [ ] C. Alle Elektronen eines Atoms
-- [ ] D. Elektronen, die negativ geladen sind
+- [ ] A. Elektronen, die sich direkt im Atomkern befinden
+- [ ] B. e⁻ in der äußersten besetzten Schale
+- [ ] C. Viele Elektronen eines Atoms gleichzeitig betrachtet
+- [ ] D. Elektronen, die eine negative Ladung tragen
 
 **Richtige Antworten:** B
 
@@ -54,10 +54,10 @@
 ## Frage 5
 **Was besagt das Pauli-Prinzip?**
 
-- [ ] A. Elektronen füllen zuerst die niedrigsten Energieniveaus
-- [ ] B. Jedes Orbital kann maximal 2 Elektronen mit entgegengesetztem Spin enthalten
-- [ ] C. Elektronen besetzen Orbitale zuerst einzeln
-- [ ] D. Alle Elektronen haben den gleichen Spin
+- [ ] A. Elektronen füllen zuerst die niedrigsten Energieniveaus auf
+- [ ] B. Max. 2 e⁻ pro Orbital mit entgegengesetztem Spin
+- [ ] C. Elektronen besetzen Orbitale zuerst einzeln, dann paarweise
+- [ ] D. Viele Elektronen können den gleichen Spin besitzen
 
 **Richtige Antworten:** B
 
@@ -69,7 +69,7 @@
 - [ ] A. Elektronen paaren sich sofort in Orbitalen
 - [ ] B. Orbitale gleicher Energie werden zuerst einzeln besetzt
 - [ ] C. Die K-Schale wird zuerst gefüllt
-- [ ] D. Jedes Orbital kann nur ein Elektron aufnehmen
+- [ ] D. Jedes Orbital kann meist ein Elektron aufnehmen
 
 **Richtige Antworten:** B
 
@@ -78,10 +78,10 @@
 ## Frage 7
 **Was ist ein Orbital?**
 
-- [ ] A. Eine feste Kreisbahn des Elektrons
-- [ ] B. Ein Raumbereich mit hoher Aufenthaltswahrscheinlichkeit für Elektronen
-- [ ] C. Der Atomkern
-- [ ] D. Eine Elektronenschale
+- [ ] A. Eine feste Kreisbahn des Elektrons um den Kern
+- [ ] B. Raumbereich hoher Aufenthaltswahrscheinlichkeit für e⁻
+- [ ] C. Der Atomkern mit seinen Protonen und Neutronen
+- [ ] D. Eine Elektronenschale im Bohr-Modell des Atoms
 
 **Richtige Antworten:** B
 
@@ -114,9 +114,9 @@
 ## Frage 10
 **Was besagt das Aufbauprinzip?**
 
-- [ ] A. Elektronen füllen zuerst die Orbitale mit niedrigster Energie
-- [ ] B. Elektronen füllen zuerst die äußeren Schalen
-- [ ] C. Alle Orbitale werden gleichzeitig gefüllt
-- [ ] D. Nur s-Orbitale werden besetzt
+- [ ] A. e⁻ füllen zuerst Orbitale niedrigster Energie
+- [ ] B. Elektronen füllen zuerst die äußeren Schalen auf
+- [ ] C. Viele Orbitale werden gleichzeitig mit Elektronen gefüllt
+- [ ] D. Meistens werden nur s-Orbitale mit Elektronen besetzt
 
 **Richtige Antworten:** A

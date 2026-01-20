@@ -21,7 +21,7 @@
 - [ ] A. Logarithmisch-linear
 - [ ] B. Ein Plot von ln(P) gegen 1/T ergibt eine Gerade
 - [ ] C. Die Steigung ist -ΔHvap/R
-- [ ] D. Die Clausius-Clapeyron-Gleichung gilt nur für ideale Gase
+- [ ] D. Die Clausius-Clapeyron-Gleichung gilt meist für ideale Gase
 
 **Richtige Antworten:** A, B, C
 
@@ -90,10 +90,10 @@
 ## Frage 8
 **Entlang der Schmelzkurve im Phasendiagramm gilt nach Gibbs F = ?**
 
-- [ ] A. 1 (eine Variable kann geändert werden, die andere passt sich an)
-- [ ] B. 0
-- [ ] C. 2
-- [ ] D. 3
+- [ ] A. 1 (eine Variable frei, andere passt sich an)
+- [ ] B. 0 – beide Variablen sind festgelegt (invariant)
+- [ ] C. 2 – zwei Variablen können unabhängig variiert werden
+- [ ] D. 3 – drei Variablen sind unabhängig voneinander
 
 **Richtige Antworten:** A
 

@@ -54,10 +54,10 @@
 ## Frage 5
 **Die Formel 2n² gibt an:**
 
-- [ ] A. Die Anzahl der Protonen
-- [ ] B. Die maximale Elektronenzahl pro Schale
-- [ ] C. Die Anzahl der Neutronen
-- [ ] D. Die Masse des Atoms
+- [ ] A. Die Gesamtanzahl der Protonen im Kern
+- [ ] B. Max. Elektronenzahl pro Schale n
+- [ ] C. Die genaue Anzahl der Neutronen im Kern
+- [ ] D. Die relative Atommasse des Atoms in u
 
 **Richtige Antworten:** B
 

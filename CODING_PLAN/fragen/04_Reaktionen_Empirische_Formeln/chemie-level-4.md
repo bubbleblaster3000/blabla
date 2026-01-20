@@ -33,7 +33,7 @@
 
 - [ ] A. Aluminium oxidiert zu Al³⁺
 - [ ] B. Cu²⁺ wird zu elementarem Kupfer reduziert
-- [ ] C. Die Reaktion ist: 2 Al + 3 CuSO₄ → Al₂(SO₄)₃ + 3 Cu
+- [ ] C. Reaktion ist: 2 Al + 3 CuSO₄ → Al₂(SO₄)₃ + 3 Cu
 - [ ] D. Aluminium ist das stärkere Reduktionsmittel
 
 **Richtige Antworten:** A, B, C, D

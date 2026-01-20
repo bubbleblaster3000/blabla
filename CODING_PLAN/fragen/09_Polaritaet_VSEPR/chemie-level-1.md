@@ -8,9 +8,9 @@
 **Was ist Elektronegativität?**
 
 - [ ] A. Die Fähigkeit eines Atoms, Elektronen abzugeben
-- [ ] B. Die Fähigkeit eines Atoms, Bindungselektronen anzuziehen
-- [ ] C. Die Anzahl der Valenzelektronen
-- [ ] D. Die Größe eines Atoms
+- [ ] B. Fähigkeit, Bindungselektronen anzuziehen
+- [ ] C. Die Anzahl der Valenzelektronen eines Atoms
+- [ ] D. Die Größe eines Atoms in Picometern (pm)
 
 **Richtige Antworten:** B
 
@@ -31,10 +31,10 @@
 ## Frage 3
 **Was ist eine polare Bindung?**
 
-- [ ] A. Eine Bindung zwischen gleichen Atomen
-- [ ] B. Eine Bindung mit ungleicher Elektronenverteilung
-- [ ] C. Eine ionische Bindung
-- [ ] D. Eine Bindung ohne Elektronen
+- [ ] A. Eine Bindung zwischen gleichen Atomen ohne EN-Unterschied
+- [ ] B. Bindung mit ungleicher Elektronenverteilung
+- [ ] C. Eine ionische Bindung mit vollständiger Übertragung
+- [ ] D. Eine Bindung ohne beteiligte Elektronen
 
 **Richtige Antworten:** B
 
@@ -67,10 +67,10 @@
 ## Frage 6
 **Was besagt das VSEPR-Modell?**
 
-- [ ] A. Elektronenpaare stoßen sich ab und ordnen sich so an, dass die Abstoßung minimal ist
-- [ ] B. Elektronen ziehen sich an
-- [ ] C. Alle Moleküle sind linear
-- [ ] D. Bindungen sind immer gleich lang
+- [ ] A. e⁻-Paare stoßen sich ab und minimieren Abstoßung
+- [ ] B. Elektronen ziehen sich gegenseitig an im Molekül
+- [ ] C. Viele Moleküle haben eine lineare Geometrie
+- [ ] D. Bindungen sind häufig gleich lang im Molekül
 
 **Richtige Antworten:** A
 
@@ -103,10 +103,10 @@
 ## Frage 9
 **Was ist eine unpolare Bindung?**
 
-- [ ] A. Eine Bindung zwischen Atomen mit großem EN-Unterschied
-- [ ] B. Eine Bindung zwischen gleichen oder ähnlichen Atomen
-- [ ] C. Eine ionische Bindung
-- [ ] D. Eine koordinative Bindung
+- [ ] A. Bindung zwischen Atomen mit großem EN-Unterschied
+- [ ] B. Bindung zwischen gleichen oder ähnlichen Atomen
+- [ ] C. Eine ionische Bindung mit vollständiger Übertragung
+- [ ] D. Eine koordinative Bindung vom Donor zum Akzeptor
 
 **Richtige Antworten:** B
 

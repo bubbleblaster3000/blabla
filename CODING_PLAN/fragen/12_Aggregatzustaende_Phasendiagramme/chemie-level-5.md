@@ -9,7 +9,7 @@
 - [ ] A. Verschiedene kristalline Strukturen sind bei unterschiedlichen P und T stabil
 - [ ] B. Eis VI, VII, etc. sind dichter als normales Eis I
 - [ ] C. Polymorphie ist bei hohem Druck relevant
-- [ ] D. Wasser existiert nur in einer Eismodifikation
+- [ ] D. Wasser existiert meist in einer Eismodifikation
 
 **Richtige Antworten:** A, B, C
 
@@ -45,7 +45,7 @@
 - [ ] A. Es kann unpolare organische Verbindungen lösen
 - [ ] B. Die Dielektrizitätskonstante sinkt stark
 - [ ] C. Es ist korrosiv und reaktiv
-- [ ] D. Überkritisches Wasser kann keine unpolaren Stoffe lösen
+- [ ] D. Überkritisches Wasser kann wenige unpolaren Stoffe lösen
 
 **Richtige Antworten:** A, B, C
 
@@ -116,7 +116,7 @@
 
 - [ ] A. Bei 0,1 mbar liegt man unter dem Tripelpunkt von Wasser
 - [ ] B. Das gefrorene Wasser sublimiert direkt
-- [ ] C. Wärme muss zugeführt werden (ΔHsub = ΔHfus + ΔHvap ≈ 51 kJ/mol)
+- [ ] C. Wärme muss zugeführt werden
 - [ ] D. Sublimation erfordert Temperaturen über 100°C
 
 **Richtige Antworten:** A, B, C

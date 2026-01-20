@@ -9,7 +9,7 @@
 
 - [ ] A. Die Bindungsordnung ist 0
 - [ ] B. Helium ist zu klein
-- [ ] C. Es gibt keine p-Orbitale
+- [ ] C. Es gibt wenige p-Orbitale
 - [ ] D. Helium ist radioaktiv
 
 **Richtige Antworten:** A
@@ -19,10 +19,10 @@
 ## Frage 2
 **Bestimme die Hybridisierung des zentralen Kohlenstoffs in Allen (H₂C=C=CH₂).**
 
-- [ ] A. sp für den mittleren C, sp² für die äußeren C
-- [ ] B. sp² für alle C
-- [ ] C. sp³ für alle C
-- [ ] D. sp für alle C
+- [ ] A. sp für mittleren C, sp² für äußere C
+- [ ] B. sp² für viele Kohlenstoffatome im Molekül
+- [ ] C. sp³ für viele Kohlenstoffatome im Molekül
+- [ ] D. sp für viele Kohlenstoffatome im Molekül
 
 **Richtige Antworten:** A
 
@@ -31,10 +31,10 @@
 ## Frage 3
 **Warum ist die C-C-Bindung in Ethan länger als in Ethen?**
 
-- [ ] A. Ethan hat eine Einfachbindung (σ), Ethen eine Doppelbindung (σ + π)
-- [ ] B. Ethan hat mehr Wasserstoffatome
-- [ ] C. Ethen ist planar
-- [ ] D. Die Atome in Ethan sind größer
+- [ ] A. Ethan: Einfachbindung (σ); Ethen: Doppelbindung (σ + π)
+- [ ] B. Ethan hat mehr Wasserstoffatome am Kohlenstoff
+- [ ] C. Ethen ist planar und hat eine andere Struktur
+- [ ] D. Die Atome in Ethan sind insgesamt größer
 
 **Richtige Antworten:** A
 
@@ -43,10 +43,10 @@
 ## Frage 4
 **Das O₂-Molekül ist paramagnetisch. Was erklärt dies?**
 
-- [ ] A. Die MO-Theorie zeigt 2 ungepaarte Elektronen in antibindenden π*-Orbitalen
-- [ ] B. Sauerstoff hat freie Elektronenpaare
+- [ ] A. MO-Theorie: 2 ungepaarte e⁻ in π*-Orbitalen
+- [ ] B. Sauerstoff hat freie Elektronenpaare im Molekül
 - [ ] C. Die VB-Theorie sagt eine Doppelbindung voraus
-- [ ] D. Sauerstoff ist elektronegativ
+- [ ] D. Sauerstoff ist stark elektronegativ im Molekül
 
 **Richtige Antworten:** A
 
@@ -104,9 +104,9 @@
 **Warum ist die Bindung in N₂ so stark?**
 
 - [ ] A. Dreifachbindung mit Bindungsordnung 3
-- [ ] B. N ist sehr elektronegativ
-- [ ] C. N₂ ist unpolar
-- [ ] D. N hat viele freie Elektronenpaare
+- [ ] B. N ist sehr elektronegativ im Vergleich zu anderen
+- [ ] C. N₂ ist unpolar und hat keine Dipolmomente
+- [ ] D. N hat viele freie Elektronenpaare im Molekül
 
 **Richtige Antworten:** A
 

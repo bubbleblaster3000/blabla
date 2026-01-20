@@ -104,7 +104,7 @@
 **Eine Verbindung enthält nur C, H und O. Bei der Verbrennung von 1,50 g entstehen 2,20 g CO₂ und 0,90 g H₂O. Enthält die Verbindung Sauerstoff?**
 
 - [ ] A. Ja, die Verbindung enthält Sauerstoff
-- [ ] B. Nein, sie enthält nur C und H
+- [ ] B. Nein, sie enthält meist C und H
 - [ ] C. Es kann nicht bestimmt werden
 - [ ] D. Sie enthält Stickstoff
 

@@ -31,7 +31,7 @@
 ## Frage 3
 **Das Ion [XeF₅]⁻ existiert. Welche Geometrie hat es und wie viele Elektronenpaare umgeben Xe?**
 
-- [ ] A. Pentagonal-planar, 7 Elektronenpaare (5 bindend, 2 frei)
+- [ ] A. Pentagonal-planar, 7 Elektronenpaare
 - [ ] B. Quadratisch-pyramidal, 6 Elektronenpaare
 - [ ] C. Trigonal-bipyramidal, 5 Elektronenpaare
 - [ ] D. Oktaedrisch, 6 Elektronenpaare
@@ -58,7 +58,7 @@
 - [ ] A. F-Atome in axialen Positionen (trigonal-bipyramidal)
 - [ ] B. Cl-Atome in axialen Positionen
 - [ ] C. Gemischte Anordnung
-- [ ] D. Alle Isomere sind gleich stabil
+- [ ] D. viele Isomere sind gleich stabil
 
 **Richtige Antworten:** B
 
@@ -106,7 +106,7 @@
 - [ ] A. SO₄²⁻ ist symmetrisch, die Dipole heben sich auf
 - [ ] B. H₂SO₄ hat eine unsymmetrische Struktur durch die O-H-Bindungen
 - [ ] C. Die Ladungen im SO₄²⁻ sind gleichmäßig verteilt
-- [ ] D. Freie Elektronenpaare bevorzugen immer axiale Positionen
+- [ ] D. Freie Elektronenpaare bevorzugen häufig axiale Positionen
 
 **Richtige Antworten:** A, B, C
 
@@ -116,7 +116,7 @@
 **Das Molekül [IF₆]⁺ und [IF₆]⁻ haben unterschiedliche Geometrien. Bestimme beide.**
 
 - [ ] A. [IF₆]⁺: Oktaedrisch, [IF₆]⁻: Pentagonal-bipyramidal
-- [ ] B. [IF₆]⁺: Oktaedrisch, [IF₆]⁻: Verzerrt oktaedrisch (aufgrund eines freien Paares)
+- [ ] B. [IF₆]⁺: Oktaedrisch, [IF₆]⁻: Verzerrt oktaedrisch
 - [ ] C. Beide oktaedrisch
 - [ ] D. [IF₆]⁺: Trigonal-prismatisch, [IF₆]⁻: Oktaedrisch
 

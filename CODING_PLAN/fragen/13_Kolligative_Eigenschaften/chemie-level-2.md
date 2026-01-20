@@ -7,7 +7,7 @@
 ## Frage 1
 **Die Formel für die Gefrierpunktserniedrigung lautet ΔTf = Kf × m. Was ist Kf?**
 
-- [ ] A. Die kryoskopische Konstante (spezifisch für das Lösungsmittel)
+- [ ] A. Die kryoskopische Konstante
 - [ ] B. Die Molalität
 - [ ] C. Die Molmasse
 - [ ] D. Die Konzentration
@@ -43,10 +43,10 @@
 ## Frage 4
 **Das Raoult'sche Gesetz lautet: P = x × P°. Was ist x?**
 
-- [ ] A. Der Molenbruch des Lösungsmittels
-- [ ] B. Die Molalität
-- [ ] C. Die Masse des gelösten Stoffes
-- [ ] D. Die Temperatur
+- [ ] A. Molenbruch des Lösungsmittels
+- [ ] B. Die Molalität der Lösung in mol/kg
+- [ ] C. Die Masse des gelösten Stoffes in Gramm
+- [ ] D. Die Temperatur der Lösung in Kelvin
 
 **Richtige Antworten:** A
 
@@ -94,7 +94,7 @@
 - [ ] A. 1 m NaCl
 - [ ] B. 1 m Glucose
 - [ ] C. 0,5 m CaCl₂
-- [ ] D. Alle haben den gleichen Gefrierpunkt
+- [ ] D. viele haben den gleichen Gefrierpunkt
 
 **Richtige Antworten:** A
 
@@ -103,10 +103,10 @@
 ## Frage 9
 **Was ist der van't Hoff-Faktor i?**
 
-- [ ] A. Die Anzahl der Teilchen, in die eine Formeleinheit dissoziiert
-- [ ] B. Die Molmasse des gelösten Stoffes
-- [ ] C. Die Dichte der Lösung
-- [ ] D. Die Temperaturänderung
+- [ ] A. Anzahl Teilchen, in die eine Formeleinheit dissoziiert
+- [ ] B. Die Molmasse des gelösten Stoffes in g/mol
+- [ ] C. Die Dichte der Lösung in g/mL (oder kg/L)
+- [ ] D. Die Temperaturänderung bei Lösung in Kelvin
 
 **Richtige Antworten:** A
 

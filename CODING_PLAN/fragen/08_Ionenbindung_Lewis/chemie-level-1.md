@@ -7,10 +7,10 @@
 ## Frage 1
 **Was ist eine ionische Bindung?**
 
-- [ ] A. Eine Bindung durch Elektronenpaarteilung
-- [ ] B. Eine Bindung durch Elektronenübertragung zwischen Metall und Nichtmetall
-- [ ] C. Eine Bindung zwischen zwei Nichtmetallen
-- [ ] D. Eine schwache Anziehung zwischen Molekülen
+- [ ] A. Eine Bindung durch Elektronenpaarteilung im Molekül
+- [ ] B. Bindung durch e⁻-Übertragung (Metall → Nichtmetall)
+- [ ] C. Eine Bindung zwischen zwei Nichtmetallen direkt
+- [ ] D. Eine schwache Anziehung zwischen verschiedenen Molekülen
 
 **Richtige Antworten:** B
 
@@ -19,10 +19,10 @@
 ## Frage 2
 **Was passiert bei der Bildung einer Ionenbindung?**
 
-- [ ] A. Elektronen werden zwischen Atomen geteilt
-- [ ] B. Elektronen werden von einem Atom auf ein anderes übertragen
-- [ ] C. Protonen werden ausgetauscht
-- [ ] D. Neutronen werden geteilt
+- [ ] A. Elektronen werden zwischen den Atomen geteilt
+- [ ] B. e⁻ werden von einem Atom auf ein anderes übertragen
+- [ ] C. Protonen werden zwischen Atomen ausgetauscht
+- [ ] D. Neutronen werden zwischen Atomen geteilt
 
 **Richtige Antworten:** B
 
@@ -31,10 +31,10 @@
 ## Frage 3
 **Was zeigt eine Lewis-Struktur?**
 
-- [ ] A. Nur die Protonen eines Atoms
-- [ ] B. Die Valenzelektronen und Bindungen eines Moleküls
-- [ ] C. Die Masse eines Moleküls
-- [ ] D. Die Kernladung eines Atoms
+- [ ] A. Meistens die Protonen eines Atoms im Kern
+- [ ] B. Valenzelektronen und Bindungen im Molekül
+- [ ] C. Die Masse eines Moleküls in Gramm pro Mol
+- [ ] D. Die Kernladung eines Atoms in Protonenzahl
 
 **Richtige Antworten:** B
 
@@ -56,7 +56,7 @@
 **Was besagt die Oktettregel?**
 
 - [ ] A. Atome streben 8 Protonen an
-- [ ] B. Atome streben 8 Valenzelektronen an (Edelgaskonfiguration)
+- [ ] B. Atome streben 8 Valenzelektronen an
 - [ ] C. Jedes Orbital enthält 8 Elektronen
 - [ ] D. Jedes Molekül hat 8 Atome
 
@@ -67,10 +67,10 @@
 ## Frage 6
 **Was ist ein bindendes Elektronenpaar?**
 
-- [ ] A. Ein Elektronenpaar, das zwischen zwei Atomen geteilt wird
-- [ ] B. Ein Elektronenpaar, das nur an einem Atom sitzt
-- [ ] C. Ein einzelnes Elektron
-- [ ] D. Ein Protonenpaar
+- [ ] A. e⁻-Paar, das zwischen zwei Atomen geteilt wird
+- [ ] B. Ein Elektronenpaar, das meistens an einem Atom sitzt
+- [ ] C. Ein einzelnes Elektron ohne Bindungspartner
+- [ ] D. Ein Protonenpaar im Kern eines Atoms
 
 **Richtige Antworten:** A
 
@@ -79,10 +79,10 @@
 ## Frage 7
 **Was ist ein freies Elektronenpaar (nichtbindendes Elektronenpaar)?**
 
-- [ ] A. Ein Elektronenpaar, das an der Bindung beteiligt ist
-- [ ] B. Ein Elektronenpaar, das nur an einem Atom lokalisiert ist
-- [ ] C. Ein positiv geladenes Teilchen
-- [ ] D. Ein Elektron ohne Partner
+- [ ] A. Ein Elektronenpaar, das direkt an der Bindung beteiligt ist
+- [ ] B. Ein e⁻-Paar, das nur an einem Atom lokalisiert ist
+- [ ] C. Ein positiv geladenes Teilchen im Atomkern
+- [ ] D. Ein Elektron ohne Partner in einem Orbital
 
 **Richtige Antworten:** B
 

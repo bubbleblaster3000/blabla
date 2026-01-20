@@ -7,10 +7,10 @@
 ## Frage 1
 **Warum ist der Bindungswinkel in H₂O (104,5°) kleiner als der ideale Tetraederwinkel (109,5°)?**
 
-- [ ] A. Die freien Elektronenpaare stoßen stärker ab als bindende Paare
-- [ ] B. Wasserstoff ist zu klein
-- [ ] C. Sauerstoff zieht die Bindungen zusammen
-- [ ] D. Das Molekül ist linear
+- [ ] A. Freie e⁻-Paare stoßen stärker ab als bindende
+- [ ] B. Wasserstoff ist zu klein für normale Bindungswinkel
+- [ ] C. Sauerstoff zieht die Bindungen stark zusammen
+- [ ] D. Das Molekül ist linear und nicht gewinkelt
 
 **Richtige Antworten:** A
 
@@ -43,9 +43,9 @@
 ## Frage 4
 **Ist CHCl₃ (Chloroform) polar oder unpolar? Begründe!**
 
-- [ ] A. Polar, weil die C-Cl-Bindungen polar sind und sich nicht aufheben
-- [ ] B. Unpolar, weil es symmetrisch ist
-- [ ] C. Polar, weil es 4 verschiedene Atome enthält
+- [ ] A. Polar, C-Cl-Dipole heben sich nicht auf
+- [ ] B. Unpolar, weil das Molekül symmetrisch aufgebaut ist
+- [ ] C. Polar, weil es 4 verschiedene Atomarten enthält
 - [ ] D. Unpolar, weil C-H und C-Cl sich gegenseitig aufheben
 
 **Richtige Antworten:** A
@@ -79,10 +79,10 @@
 ## Frage 7
 **Warum ist CCl₄ unpolar, obwohl C-Cl-Bindungen polar sind?**
 
-- [ ] A. Die vier polaren Bindungen heben sich durch die tetraedrische Symmetrie auf
-- [ ] B. Chlor ist nicht elektronegativ
-- [ ] C. Kohlenstoff ist elektronegativer als Chlor
-- [ ] D. Es gibt keine Elektronenpaare
+- [ ] A. 4 polare Bindungen heben sich durch Tetraedersymmetrie auf
+- [ ] B. Chlor ist nicht besonders elektronegativ im Vergleich
+- [ ] C. Kohlenstoff ist elektronegativer als Chlor im Molekül
+- [ ] D. Es gibt nur wenige Elektronenpaare in diesem Molekül
 
 **Richtige Antworten:** A
 
@@ -105,7 +105,7 @@
 
 - [ ] A. frei-frei > frei-bindend > bindend-bindend
 - [ ] B. bindend-bindend > frei-bindend > frei-frei
-- [ ] C. Alle Abstoßungen sind gleich
+- [ ] C. viele Abstoßungen sind gleich
 - [ ] D. frei-bindend > frei-frei > bindend-bindend
 
 **Richtige Antworten:** A

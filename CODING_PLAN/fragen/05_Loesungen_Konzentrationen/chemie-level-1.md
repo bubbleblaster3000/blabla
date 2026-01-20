@@ -8,9 +8,9 @@
 **Was ist ein Lösungsmittel?**
 
 - [ ] A. Der Stoff, der in geringerer Menge vorliegt
-- [ ] B. Der Stoff, der in größerer Menge vorliegt und andere Stoffe löst
-- [ ] C. Der Stoff, der ausfällt
-- [ ] D. Der Stoff, der nicht reagiert
+- [ ] B. Stoff in größerer Menge, der löst
+- [ ] C. Der Stoff, der als Feststoff ausfällt
+- [ ] D. Der Stoff, der chemisch nicht reagiert
 
 **Richtige Antworten:** B
 
@@ -20,9 +20,9 @@
 **Was ist der gelöste Stoff?**
 
 - [ ] A. Der Stoff, der andere Stoffe löst
-- [ ] B. Der Stoff, der in geringerer Menge im Lösungsmittel gelöst ist
-- [ ] C. Der Niederschlag
-- [ ] D. Das Lösungsmittel selbst
+- [ ] B. In geringerer Menge gelöster Stoff
+- [ ] C. Der ausgefallene Niederschlag
+- [ ] D. Das verwendete Lösungsmittel selbst
 
 **Richtige Antworten:** B
 
@@ -56,7 +56,7 @@
 **Was ist eine gesättigte Lösung?**
 
 - [ ] A. Eine Lösung ohne gelösten Stoff
-- [ ] B. Eine Lösung, die die maximale Menge an gelöstem Stoff enthält
+- [ ] B. Lösung mit max. gelöster Stoffmenge
 - [ ] C. Eine verdünnte Lösung
 - [ ] D. Eine überhitzte Lösung
 
@@ -68,7 +68,7 @@
 **Was bedeutet Löslichkeit?**
 
 - [ ] A. Die Geschwindigkeit des Lösevorgangs
-- [ ] B. Die maximale Menge eines Stoffes, die sich in einem Lösungsmittel löst
+- [ ] B. Max. lösbare Stoffmenge
 - [ ] C. Die Temperatur, bei der sich ein Stoff löst
 - [ ] D. Die Farbe der Lösung
 
@@ -79,10 +79,10 @@
 ## Frage 7
 **Was versteht man unter Verdünnung?**
 
-- [ ] A. Zugabe von mehr gelöstem Stoff
-- [ ] B. Zugabe von Lösungsmittel zur Verringerung der Konzentration
-- [ ] C. Erhitzen der Lösung
-- [ ] D. Filtrieren der Lösung
+- [ ] A. Zugabe von mehr gelöstem Stoff zur Lösung
+- [ ] B. Lösungsmittelzugabe senkt die Konzentration
+- [ ] C. Erhitzen der Lösung zur Temperaturerhöhung
+- [ ] D. Filtrieren der Lösung zur Feststoffabtrennung
 
 **Richtige Antworten:** B
 
@@ -91,10 +91,10 @@
 ## Frage 8
 **Was ist der Massenanteil (w)?**
 
-- [ ] A. Masse des gelösten Stoffes geteilt durch Gesamtmasse der Lösung
-- [ ] B. Stoffmenge des gelösten Stoffes pro Liter
-- [ ] C. Volumen des gelösten Stoffes pro Volumen der Lösung
-- [ ] D. Molare Masse des gelösten Stoffes
+- [ ] A. m(Stoff) / m(Lösung) – dimensionslos
+- [ ] B. Stoffmenge des gelösten Stoffes pro Liter Lösung
+- [ ] C. Volumen des gelösten Stoffes pro Gesamtvolumen
+- [ ] D. Molare Masse des gelösten Stoffes in g/mol
 
 **Richtige Antworten:** A
 
@@ -103,10 +103,10 @@
 ## Frage 9
 **Was ist eine übersättigte Lösung?**
 
-- [ ] A. Eine Lösung mit weniger gelöstem Stoff als möglich
-- [ ] B. Eine Lösung, die mehr gelösten Stoff enthält, als der Sättigung entspricht
-- [ ] C. Eine stark verdünnte Lösung
-- [ ] D. Eine Lösung bei 0°C
+- [ ] A. Eine Lösung mit weniger gelöstem Stoff als der Sättigung entspricht
+- [ ] B. Mehr gelöster Stoff als bei Sättigung möglich
+- [ ] C. Eine stark verdünnte Lösung ohne Sättigungsgrenze
+- [ ] D. Eine Lösung, die auf Gefrierpunkt gekühlt wurde
 
 **Richtige Antworten:** B
 
@@ -115,9 +115,9 @@
 ## Frage 10
 **Welche Aussage über Wasser als Lösungsmittel ist korrekt?**
 
-- [ ] A. Wasser löst nur unpolare Stoffe
+- [ ] A. Wasser löst meist unpolare Stoffe
 - [ ] B. Wasser ist ein polares Lösungsmittel
-- [ ] C. Wasser löst keine Salze
+- [ ] C. Wasser löst wenige Salze
 - [ ] D. Wasser ist unpolar
 
 **Richtige Antworten:** B

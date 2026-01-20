@@ -31,10 +31,10 @@
 ## Frage 3
 **Warum kann Schwefel in SF₆ die Oktettregel verletzen?**
 
-- [ ] A. Schwefel hat d-Orbitale zur Verfügung (expandiertes Oktett)
-- [ ] B. Schwefel ist ein Metall
-- [ ] C. Fluor ist zu klein
-- [ ] D. Die Bindungen sind ionisch
+- [ ] A. Schwefel hat d-Orbitale zur Verfügung
+- [ ] B. Schwefel ist ein Metall mit vielen Valenzelektronen
+- [ ] C. Fluor ist zu klein für normale Bindungen
+- [ ] D. Die Bindungen in SF₆ sind rein ionischer Natur
 
 **Richtige Antworten:** A
 
@@ -117,7 +117,7 @@
 
 - [ ] A. Phosphor nutzt seine 3d-Orbitale
 - [ ] B. Es gibt 5 bindende Elektronenpaare um P
-- [ ] C. Die Elektronenpaare ordnen sich so an, dass die Abstoßung minimal ist
+- [ ] C. Elektronenpaare ordnen sich so an, dass die Abstoßung minimal ist
 - [ ] D. Phosphor kann mehr als 8 Elektronen aufnehmen
 
 **Richtige Antworten:** A, B, C, D

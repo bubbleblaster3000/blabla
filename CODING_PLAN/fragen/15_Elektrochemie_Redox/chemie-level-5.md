@@ -10,7 +10,7 @@
 - [ ] A. Bereiche, in denen Fe, Fe²⁺, Fe³⁺, Fe(OH)₂ und Fe(OH)₃ stabil sind
 - [ ] B. Die Korrosionsbedingungen können abgelesen werden
 - [ ] C. Passivierung durch Oxidschichten ist bei bestimmten pH/E erkennbar
-- [ ] D. Das Pourbaix-Diagramm zeigt nur die Stabilität von reinem Metall
+- [ ] D. Das Pourbaix-Diagramm zeigt meist die Stabilität von reinem Metall
 
 **Richtige Antworten:** A, B, C
 
@@ -34,7 +34,7 @@
 - [ ] A. Die Eigenschaften von Elektroden und Elektrolyten zu charakterisieren
 - [ ] B. Korrosionsprozesse zu untersuchen
 - [ ] C. Batteriegesundheit zu überwachen
-- [ ] D. Bei der Butler-Volmer-Gleichung ist nur die Überspannung relevant
+- [ ] D. Bei der Butler-Volmer-Gleichung ist meist die Überspannung relevant
 
 **Richtige Antworten:** A, B, C
 
@@ -46,7 +46,7 @@
 - [ ] A. Ionenaustausch-Membran trennt Anoden- und Kathodenraum
 - [ ] B. Verhindert Vermischung von Cl₂ und NaOH
 - [ ] C. Hohe Reinheit der Produkte
-- [ ] D. EIS wird nur für Korrosionsuntersuchungen verwendet
+- [ ] D. EIS wird meist für Korrosionsuntersuchungen verwendet
 
 **Richtige Antworten:** A, B, C
 
@@ -56,7 +56,7 @@
 **Redox-Flow-Batterien (z.B. Vanadium) haben welche Vorteile gegenüber Lithium-Ionen-Batterien?**
 
 - [ ] A. Kapazität und Leistung können unabhängig skaliert werden
-- [ ] B. Lange Lebensdauer (über 20.000 Zyklen)
+- [ ] B. Lange Lebensdauer
 - [ ] C. Keine Degradation der aktiven Materialien
 - [ ] D. Das Membranverfahren vermischt Cl₂ und NaOH
 
@@ -68,7 +68,7 @@
 **Die Elektrokatalyse von Wasserspaltung ist wichtig für grünen Wasserstoff. Was sind die Hauptherausforderungen?**
 
 - [ ] A. Hohe Überspannung bei der Sauerstoffentwicklung (OER)
-- [ ] B. Teure Katalysatoren (Pt, Ir, Ru)
+- [ ] B. Teure Katalysatoren
 - [ ] C. Stabilität unter Betriebsbedingungen
 - [ ] D. Redox-Flow-Batterien haben kürzere Lebensdauer als Li-Ion
 
@@ -79,7 +79,7 @@
 ## Frage 7
 **Die elektrochemische CO₂-Reduktion kann verschiedene Produkte liefern. Welche Faktoren bestimmen die Selektivität?**
 
-- [ ] A. Das Katalysatormaterial (Cu für Kohlenwasserstoffe)
+- [ ] A. Das Katalysatormaterial
 - [ ] B. Das angelegte Potential
 - [ ] C. Der pH und die CO₂-Konzentration
 - [ ] D. Bei der Wasserspaltung ist die HER die größere Herausforderung
@@ -93,7 +93,7 @@
 
 - [ ] A. Hoher Wirkungsgrad (bis 60%)
 - [ ] B. Keine teuren Edelmetallkatalysatoren nötig
-- [ ] C. Brennstoffflexibilität (H₂, CH₄, CO)
+- [ ] C. Brennstoffflexibilität
 - [ ] D. Cu-Katalysatoren produzieren selektiv CO
 
 **Richtige Antworten:** A, B, C
@@ -105,7 +105,7 @@
 
 - [ ] A. Sie schützt die Graphit-Anode vor weiterer Zersetzung des Elektrolyten
 - [ ] B. Sie ist ionenleitend aber elektronenisolierend
-- [ ] C. Ihre Bildung verbraucht Lithium (irreversibler Kapazitätsverlust)
+- [ ] C. Ihre Bildung verbraucht Lithium
 - [ ] D. SOFCs erfordern teure Edelmetallkatalysatoren
 
 **Richtige Antworten:** A, B, C
@@ -116,7 +116,7 @@
 **Die Zukunft der Batterie-Technologie umfasst Festkörperbatterien. Welche Vorteile werden erwartet?**
 
 - [ ] A. Höhere Energiedichte durch Lithium-Metall-Anoden
-- [ ] B. Verbesserte Sicherheit (kein flüssiger Elektrolyt)
+- [ ] B. Verbesserte Sicherheit
 - [ ] C. Breiteres Temperaturfenster
 - [ ] D. Die SEI-Schicht ist elektronenleitend
 

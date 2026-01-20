@@ -8,9 +8,9 @@
 **Was ist eine Synthesereaktion?**
 
 - [ ] A. Eine Reaktion, bei der ein Stoff in mehrere zerfällt
-- [ ] B. Eine Reaktion, bei der mehrere Stoffe zu einem Produkt reagieren
+- [ ] B. Synthese: mehrere Stoffe → ein Produkt
 - [ ] C. Eine Reaktion zwischen Säure und Base
-- [ ] D. Eine Reaktion mit Sauerstoff
+- [ ] D. Eine Reaktion mit Sauerstoff (Oxidation)
 
 **Richtige Antworten:** B
 
@@ -32,7 +32,7 @@
 **Was versteht man unter einer Summenformel?**
 
 - [ ] A. Die räumliche Anordnung der Atome
-- [ ] B. Die Anzahl und Art der Atome in einem Molekül
+- [ ] B. Anzahl und Art der Atome in einem Molekül
 - [ ] C. Die Bindungen zwischen den Atomen
 - [ ] D. Die Masse des Moleküls
 
@@ -55,10 +55,10 @@
 ## Frage 5
 **Was ist eine Verbrennungsreaktion?**
 
-- [ ] A. Eine Reaktion mit Wasser
-- [ ] B. Eine Reaktion mit Sauerstoff unter Freisetzung von Energie
+- [ ] A. Eine Reaktion mit Wasser (Hydrolyse)
+- [ ] B. Verbrennung (exotherme Oxidation)
 - [ ] C. Eine Reaktion ohne Energieänderung
-- [ ] D. Eine Reaktion mit Stickstoff
+- [ ] D. Eine Reaktion mit elementarem Stickstoff
 
 **Richtige Antworten:** B
 
@@ -80,9 +80,9 @@
 **Was ist eine Doppel-Austauschreaktion (Metathese)?**
 
 - [ ] A. Ein Element ersetzt ein anderes
-- [ ] B. Zwei Verbindungen tauschen gegenseitig Bestandteile aus
-- [ ] C. Ein Stoff verbrennt
-- [ ] D. Ein Molekül zerfällt
+- [ ] B. Doppelte Umsetzung (Ionentausch)
+- [ ] C. Ein Stoff verbrennt (Oxidation)
+- [ ] D. Ein Molekül zerfällt in Atome
 
 **Richtige Antworten:** B
 
@@ -104,8 +104,8 @@
 **Was ist eine Fällungsreaktion?**
 
 - [ ] A. Eine Reaktion, bei der ein Gas entsteht
-- [ ] B. Eine Reaktion, bei der ein schwerlöslicher Feststoff ausfällt
-- [ ] C. Eine Reaktion mit Säuren
+- [ ] B. Fällungsreaktion (Niederschlag)
+- [ ] C. Eine Reaktion mit Säuren (Neutralisation)
 - [ ] D. Eine Reaktion bei hohen Temperaturen
 
 **Richtige Antworten:** B
@@ -115,10 +115,10 @@
 ## Frage 10
 **Was unterscheidet die Molekülformel von der empirischen Formel?**
 
-- [ ] A. Die Molekülformel zeigt das tatsächliche Verhältnis, die empirische das kleinste
-- [ ] B. Die Molekülformel zeigt die tatsächliche Atomanzahl, die empirische das kleinste ganzzahlige Verhältnis
-- [ ] C. Es gibt keinen Unterschied
-- [ ] D. Die empirische Formel zeigt mehr Atome
+- [ ] A. Die Molekülformel zeigt das tatsächliche Verhältnis
+- [ ] B. Molekülformel = echte Anzahl; Empirisch = kleinstes Verhältnis
+- [ ] C. Es besteht kein wesentlicher Unterschied
+- [ ] D. Die empirische Formel zeigt immer mehr Atome
 
 **Richtige Antworten:** B
 

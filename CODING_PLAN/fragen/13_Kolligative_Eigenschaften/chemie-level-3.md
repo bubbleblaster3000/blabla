@@ -57,7 +57,7 @@
 
 - [ ] A. Einen höheren osmotischen Druck
 - [ ] B. Wasser fließt aus der Zelle heraus
-- [ ] C. Die Zelle schrumpft (Plasmolyse)
+- [ ] C. Die Zelle schrumpft
 - [ ] D. Bei hypertoner Lösung nimmt die Zelle Wasser auf
 
 **Richtige Antworten:** A, B, C
@@ -82,7 +82,7 @@
 - [ ] A. MgCl₂ hat den größten Effekt (i ≈ 3)
 - [ ] B. NaCl hat einen mittleren Effekt (i ≈ 2)
 - [ ] C. Glucose hat den kleinsten Effekt (i = 1)
-- [ ] D. Alle Lösungen haben den gleichen kolligativen Effekt
+- [ ] D. viele Lösungen haben den gleichen kolligativen Effekt
 
 **Richtige Antworten:** A, B, C
 
@@ -118,7 +118,7 @@
 - [ ] A. Sehr verdünnte Lösungen
 - [ ] B. Lösungen mit ähnlichen intermolekularen Kräften
 - [ ] C. Nicht-flüchtige gelöste Stoffe
-- [ ] D. Das Raoult'sche Gesetz gilt für alle Konzentrationen
+- [ ] D. Das Raoult'sche Gesetz gilt für viele Konzentrationen
 
 **Richtige Antworten:** A, B, C
 

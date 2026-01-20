@@ -19,10 +19,10 @@
 ## Frage 2
 **Was ist Enthalpie (H)?**
 
-- [ ] A. Die Wärmeenergie eines Systems bei konstantem Druck
-- [ ] B. Die Temperatur einer Reaktion
-- [ ] C. Die Masse der Reaktanten
-- [ ] D. Die Konzentration der Produkte
+- [ ] A. Wärmeenergie bei konstantem Druck
+- [ ] B. Die Temperatur einer chemischen Reaktion
+- [ ] C. Die Masse der Reaktanten in einer Reaktion
+- [ ] D. Die Konzentration der Produkte einer Reaktion
 
 **Richtige Antworten:** A
 
@@ -44,7 +44,7 @@
 **Was bedeutet ΔH > 0?**
 
 - [ ] A. Die Reaktion ist exotherm
-- [ ] B. Die Reaktion ist endotherm (nimmt Wärme auf)
+- [ ] B. Die Reaktion ist endotherm
 - [ ] C. Die Reaktion ist spontan
 - [ ] D. Die Reaktion ist reversibel
 
@@ -55,10 +55,10 @@
 ## Frage 5
 **Was ist die Standardbildungsenthalpie?**
 
-- [ ] A. Die Enthalpieänderung bei der Bildung von 1 mol einer Verbindung aus den Elementen unter Standardbedingungen
-- [ ] B. Die Enthalpie bei 0 K
-- [ ] C. Die Wärme bei der Verbrennung
-- [ ] D. Die Energie zur Trennung aller Bindungen
+- [ ] A. ΔH bei Bildung von 1 mol aus Elementen (Standardbed.)
+- [ ] B. Die Enthalpie eines Systems bei 0 K (absoluter Nullpunkt)
+- [ ] C. Die Wärme bei der vollständigen Verbrennung eines Stoffes
+- [ ] D. Die Energie zur Trennung aller Bindungen im Molekül
 
 **Richtige Antworten:** A
 
@@ -67,7 +67,7 @@
 ## Frage 6
 **Was sind Standardbedingungen in der Thermodynamik?**
 
-- [ ] A. 25°C (298 K) und 1 bar (oder 1 atm)
+- [ ] A. 25°C (298 K) und 1 bar
 - [ ] B. 0°C und 1 atm
 - [ ] C. 100°C und 1 bar
 - [ ] D. Beliebige Temperatur und Druck
@@ -115,9 +115,9 @@
 ## Frage 10
 **Was ist die Reaktionsenthalpie (ΔHᵣ)?**
 
-- [ ] A. Die Summe der Enthalpien der Produkte minus der Summe der Enthalpien der Reaktanten
-- [ ] B. Die Temperaturänderung während der Reaktion
-- [ ] C. Die Aktivierungsenergie der Reaktion
+- [ ] A. ΣH(Produkte) − ΣH(Reaktanten)
+- [ ] B. Die Temperaturänderung während der chemischen Reaktion
+- [ ] C. Die Aktivierungsenergie einer chemischen Reaktion
 - [ ] D. Die Masse der Produkte minus der Masse der Reaktanten
 
 **Richtige Antworten:** A

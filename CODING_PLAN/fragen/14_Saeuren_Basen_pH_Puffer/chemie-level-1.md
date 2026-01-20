@@ -7,10 +7,10 @@
 ## Frage 1
 **Was ist der pH-Wert?**
 
-- [ ] A. Der negative dekadische Logarithmus der Wasserstoffionenkonzentration
-- [ ] B. Die Konzentration von OH⁻-Ionen
-- [ ] C. Die Stärke einer Base
-- [ ] D. Die Temperatur einer Lösung
+- [ ] A. -log₁₀[H⁺] (negativer dekadischer Logarithmus)
+- [ ] B. Die Konzentration von OH⁻-Ionen in der Lösung
+- [ ] C. Die Stärke einer Base auf einer Skala gemessen
+- [ ] D. Die Temperatur einer Lösung in Grad Celsius
 
 **Richtige Antworten:** A
 
@@ -31,10 +31,10 @@
 ## Frage 3
 **Was ist ein Puffer?**
 
-- [ ] A. Eine Lösung, die den pH-Wert bei Zugabe von Säure oder Base stabilisiert
-- [ ] B. Eine konzentrierte Säure
-- [ ] C. Eine Lösung ohne Ionen
-- [ ] D. Reines Wasser
+- [ ] A. Lösung, die pH bei Säure-/Basenzugabe stabilisiert
+- [ ] B. Eine konzentrierte Säure mit hoher Molarität
+- [ ] C. Eine Lösung ohne gelöste Ionen (destilliert)
+- [ ] D. Reines Wasser ohne Zusätze (H₂O)
 
 **Richtige Antworten:** A
 
@@ -43,10 +43,10 @@
 ## Frage 4
 **Was ist der pOH-Wert?**
 
-- [ ] A. Der negative dekadische Logarithmus der Hydroxidionenkonzentration
-- [ ] B. Der pH-Wert einer Base
-- [ ] C. Die Konzentration von H⁺-Ionen
-- [ ] D. Das Produkt von pH und pKs
+- [ ] A. -log₁₀[OH⁻] (negativer dekadischer Logarithmus)
+- [ ] B. Der pH-Wert einer Base auf der Skala von 0-14
+- [ ] C. Die Konzentration von H⁺-Ionen in einer Lösung
+- [ ] D. Das Produkt von pH und pKs einer Säure
 
 **Richtige Antworten:** A
 
@@ -67,9 +67,9 @@
 ## Frage 6
 **Woraus besteht ein typischer Puffer?**
 
-- [ ] A. Aus einer schwachen Säure und ihrem konjugierten Salz
-- [ ] B. Aus zwei starken Säuren
-- [ ] C. Nur aus reinem Wasser
+- [ ] A. Schwache Säure + konjugiertes Salz (z.B. CH₃COOH/CH₃COONa)
+- [ ] B. Aus zwei starken Säuren miteinander gemischt
+- [ ] C. Meistens aus reinem destilliertem Wasser
 - [ ] D. Aus einer starken Base und einer starken Säure
 
 **Richtige Antworten:** A
@@ -79,10 +79,10 @@
 ## Frage 7
 **Was ist der pKs-Wert?**
 
-- [ ] A. Der negative dekadische Logarithmus der Säurekonstante
-- [ ] B. Der pH-Wert einer Säure
-- [ ] C. Die Konzentration einer Säure
-- [ ] D. Die Masse einer Säure
+- [ ] A. -log₁₀(Ks) – Maß für Säurestärke
+- [ ] B. Der pH-Wert einer Säure in wässriger Lösung
+- [ ] C. Die Konzentration einer Säure in mol/L (Molarität)
+- [ ] D. Die Masse einer Säure in Gramm pro Liter
 
 **Richtige Antworten:** A
 
@@ -91,10 +91,10 @@
 ## Frage 8
 **Was ist eine Titration?**
 
-- [ ] A. Eine Methode zur Bestimmung der Konzentration durch Zugabe einer Reagenzlösung bekannter Konzentration
-- [ ] B. Eine Methode zur Messung der Temperatur
-- [ ] C. Eine Methode zur Bestimmung der Farbe
-- [ ] D. Eine Methode zur Messung des Volumens
+- [ ] A. Konzentrationsbestimmung durch Reagenzzugabe
+- [ ] B. Eine Methode zur Messung der Temperatur einer Lösung
+- [ ] C. Eine Methode zur Bestimmung der Farbe einer Lösung
+- [ ] D. Eine Methode zur Messung des Volumens einer Flüssigkeit
 
 **Richtige Antworten:** A
 
@@ -103,10 +103,10 @@
 ## Frage 9
 **Was ist der Äquivalenzpunkt einer Titration?**
 
-- [ ] A. Der Punkt, an dem stöchiometrisch äquivalente Mengen von Säure und Base reagiert haben
-- [ ] B. Der Startpunkt der Titration
+- [ ] A. Stöchiometrisch äquivalente Mengen haben reagiert
+- [ ] B. Der Startpunkt der Titration (Beginn der Zugabe)
 - [ ] C. Der Punkt, an dem die Lösung farblos wird
-- [ ] D. Der pH-Wert 7
+- [ ] D. Der pH-Wert 7 in der Reaktion (neutral)
 
 **Richtige Antworten:** A
 
@@ -115,10 +115,10 @@
 ## Frage 10
 **Was ist ein Indikator?**
 
-- [ ] A. Ein Stoff, der seine Farbe je nach pH-Wert ändert
-- [ ] B. Ein Katalysator
-- [ ] C. Ein Puffer
-- [ ] D. Eine starke Base
+- [ ] A. Stoff, der Farbe je nach pH-Wert ändert
+- [ ] B. Ein Katalysator, der Reaktionen beschleunigt
+- [ ] C. Ein Puffer, der den pH-Wert stabilisiert
+- [ ] D. Eine starke Base mit hoher Konzentration
 
 **Richtige Antworten:** A
 

@@ -80,9 +80,9 @@
 **Die Chlor-Alkali-Elektrolyse produziert Cl₂, H₂ und NaOH. Welche Gesamtgleichung beschreibt den Prozess?**
 
 - [ ] A. 2 NaCl + 2 H₂O → Cl₂ + H₂ + 2 NaOH
-- [ ] B. NaCl + H₂O → NaOH + HCl
-- [ ] C. 2 NaCl → 2 Na + Cl₂
-- [ ] D. NaCl + H₂O → NaClO + H₂
+- [ ] B. NaCl + H₂O → NaOH + HCl (keine Elektrolyse)
+- [ ] C. 2 NaCl → 2 Na + Cl₂ (Schmelzflusselektrolyse)
+- [ ] D. NaCl + H₂O → NaClO + H₂ (Hypochlorit)
 
 **Richtige Antworten:** A
 
@@ -106,7 +106,7 @@
 - [ ] A. Kathode: Na⁺ + e⁻ → Na; Anode: 2 Cl⁻ → Cl₂ + 2e⁻
 - [ ] B. Kathode: Cl₂-Entwicklung; Anode: Na-Abscheidung
 - [ ] C. An beiden Elektroden entsteht NaCl
-- [ ] D. Keine Reaktion
+- [ ] D. wenige Reaktion
 
 **Richtige Antworten:** A
 
